@@ -1,0 +1,1555 @@
+T-Edition Spells/Techniques (EX unique ones are at the bottom)
+
+
+                Fire: [MP:   4] [Effect Power:  18] [Accuracy: 170]
+* elements: Fire
+* targeting: defaults to enemies, allow multi-target, can move cursor
+runicable, re-target if victim is dead
+
+            Blizzard: [MP:   5] [Effect Power:  19] [Accuracy: 170]
+* elements: Ice
+* targeting: defaults to enemies, allow multi-target, can move cursor
+runicable, re-target if victim is dead
+
+             Thunder: [MP:   6] [Effect Power:  17] [Accuracy: 170]
+* elements: Thunder
+* targeting: defaults to enemies, allow multi-target, can move cursor
+runicable, re-target if victim is dead
+
+              Poison: [MP:   8] [Effect Power:  22] [Accuracy: 155]
+* elements: Water
+* Causes statuses: poison
+* targeting: defaults to enemies, allow multi-target, can move cursor
+inverse damage on undead, runicable, re-target if victim is dead
+
+               Drain: [MP:  16] [Effect Power:  28] [Accuracy: 150]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can move cursor
+inverse damage on undead, runicable, re-target if victim is dead, draining
+
+               Sleep: [MP:   7] [Effect Power:   0] [Accuracy: 120]
+* targeting: defaults to enemies, can move cursor
+runicable, miss if status immune
+
+                Fira: [MP:  30] [Effect Power:  50] [Accuracy: 170]
+* elements: Fire
+* targeting: defaults to enemies, allow multi-target, can move cursor
+runicable, re-target if victim is dead
+
+            Blizzara: [MP:  31] [Effect Power:  52] [Accuracy: 170]
+* elements: Ice
+* targeting: defaults to enemies, allow multi-target, can move cursor
+runicable, re-target if victim is dead
+
+            Thundara: [MP:  32] [Effect Power:  51] [Accuracy: 170]
+* elements: Thunder
+* targeting: defaults to enemies, allow multi-target, can move cursor
+runicable, re-target if victim is dead
+
+               Break: [MP:  36] [Effect Power:  46] [Accuracy: 150]
+* elements: Earth
+* Causes statuses: petrify
+* targeting: defaults to enemies, can move cursor
+runicable, re-target if victim is dead
+
+                Toad: [MP:  15] [Effect Power:   0] [Accuracy: 112]
+* targeting: defaults to enemies, can move cursor
+usable out of combat, toggle status, miss if status immune
+
+                 Bio: [MP:  42] [Effect Power:  53] [Accuracy: 150]
+* elements: Darkness
+* Causes statuses: disease
+* targeting: defaults to enemies, allow multi-target, can move cursor
+inverse damage on undead, runicable, re-target if victim is dead
+
+              Firaga: [MP:  71] [Effect Power:  86] [Accuracy: 170]
+* elements: Fire
+* targeting: defaults to enemies, allow multi-target, can move cursor
+runicable, re-target if victim is dead
+
+            Blizzaga: [MP:  72] [Effect Power:  87] [Accuracy: 170]
+* elements: Ice
+* targeting: defaults to enemies, allow multi-target, can move cursor
+runicable, re-target if victim is dead
+
+            Thundaga: [MP:  73] [Effect Power:  85] [Accuracy: 170]
+* elements: Thunder
+* targeting: defaults to enemies, allow multi-target, can move cursor
+runicable, re-target if victim is dead
+
+              Dispel: [MP:  36] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: defaults to enemies, allow multi-target, can move cursor
+reflect-piercing, runicable, undodgeable
+
+               Death: [MP:  44] [Effect Power:   0] [Accuracy: 111]
+* [Special effect: 0x35 <Group instant death>]
+* targeting: defaults to enemies, can move cursor
+miss vs. death immune, runicable, re-target if victim is dead, stamina evasion, miss if status immune
+
+                Rasp: [MP:  24] [Effect Power:  15] [Accuracy: 170]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can move cursor
+runicable, re-target if victim is dead, deals mp damage
+
+               Quake: [MP:  90] [Effect Power:  82] [Accuracy: Perfect (170)]
+* [Special effect: 0x25 <No effect on Floating targets >]
+* elements: Earth
+* targeting: select all or select both groups
+ignore defense, random target, reflect-piercing, undodgeable
+
+               Flood: [MP:  81] [Effect Power: 112] [Accuracy: Perfect (170)]
+* elements: Water
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, undodgeable
+
+             Scourge: [MP:  82] [Effect Power:  94] [Accuracy: 170]
+* elements: Darkness
+* Causes statuses: disease, poison
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+inverse damage on undead, runicable, re-target if victim is dead, [time magic anim??]
+
+               Aspir: [MP:  10] [Effect Power:   5] [Accuracy: 170]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can move cursor
+inverse damage on undead, reflect-piercing, runicable, re-target if victim is dead, deals mp damage, draining
+
+               Flare: [MP:  99] [Effect Power:  66] [Accuracy: 170]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can move cursor
+ignore defense, runicable, re-target if victim is dead
+
+              Ultima: [MP: 140] [Effect Power: 122] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+ignore defense, reflect-piercing, runicable, re-target if victim is dead, undodgeable
+
+                Slow: [MP:  10] [Effect Power:   0] [Accuracy: 150]
+* targeting: defaults to enemies, can move cursor
+runicable, miss if status immune
+
+               Haste: [MP:  12] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can move cursor
+runicable, undodgeable
+
+                Stop: [MP:  24] [Effect Power:   0] [Accuracy: 120]
+* targeting: defaults to enemies, can move cursor
+runicable, miss if status immune
+
+            Teleport: [MP:  20] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x18 <Teleport>]
+random target, reflect-piercing, usable out of combat, [time magic anim??], undodgeable
+
+               Regen: [MP:  15] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can't switch sides, can move cursor
+inverse damage on undead, runicable, undodgeable
+
+               Float: [MP:  31] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: allow multi-target, can move cursor
+reflect-piercing, runicable, usable out of combat, undodgeable
+
+             Gravity: [MP:  43] [Effect Power:   8] [Accuracy: 150]
+* elements: Non-Elemental
+* Causes statuses: nearFatal
+* targeting: defaults to enemies, allow multi-target, can move cursor
+don't split damage, reflect-piercing, runicable, re-target if victim is dead, stamina evasion, fraction damage (/16), miss if status immune
+
+              X-Zone: [MP:  61] [Effect Power:   0] [Accuracy:  95]
+* [Special effect: 0x23 <Instant death without counter activating (Warp effect)>]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+miss vs. death immune, reflect-piercing, re-target if victim is dead, stamina evasion, miss if status immune
+
+               Comet: [MP:  52] [Effect Power:  58] [Accuracy: 150]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can move cursor
+reflect-piercing, runicable, re-target if victim is dead
+
+              Slowga: [MP:  41] [Effect Power:   0] [Accuracy: 150]
+* targeting: defaults to enemies, select single group, allow multi-target, can move cursor
+runicable, miss if status immune
+
+             Hastega: [MP:  48] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: select single group, allow multi-target, can move cursor
+runicable, undodgeable
+
+              Meteor: [MP: 220] [Effect Power:  36] [Accuracy: Perfect (150)]
+* [Special effect: 0x4e <2-4 attacks>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can move cursor
+ignore defense, random target, reflect-piercing, re-target if victim is dead, undodgeable
+
+                Cure: [MP:   5] [Effect Power:  10] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: allow multi-target, can move cursor
+inverse damage on undead, ignore defense, runicable, usable out of combat, undodgeable, healing
+
+               Libra: [MP:   3] [Effect Power:   0] [Accuracy: 222]
+* [Special effect: 0x10 <Scan>]
+* targeting: defaults to enemies, can move cursor
+
+             Poisona: [MP:   3] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can't switch sides, can move cursor
+reflect-piercing, runicable, usable out of combat, undodgeable
+
+             Silence: [MP:  14] [Effect Power:   0] [Accuracy: 120]
+* targeting: defaults to enemies, allow multi-target, can move cursor
+runicable, miss if status immune
+
+             Protect: [MP:  20] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can move cursor
+runicable, undodgeable
+
+               Shell: [MP:  22] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can move cursor
+runicable, undodgeable
+
+                Cura: [MP:  22] [Effect Power:  28] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: allow multi-target, can move cursor
+inverse damage on undead, ignore defense, runicable, usable out of combat, undodgeable, healing
+
+             Berserk: [MP:  18] [Effect Power:   0] [Accuracy: 170]
+* targeting: can move cursor
+runicable, miss if status immune
+
+             Confuse: [MP:  15] [Effect Power:   0] [Accuracy: 114]
+* targeting: defaults to enemies, allow multi-target, can move cursor
+runicable, miss if status immune
+
+               Raise: [MP:  30] [Effect Power:   4] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Removes statuses: dead
+* targeting: can move cursor
+inverse damage on undead, ignore defense, dead targets only, reflect-piercing, runicable, usable out of combat, undodgeable, healing, fraction damage (/16)
+
+               Esuna: [MP:  28] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can't switch sides, can move cursor
+reflect-piercing, runicable, usable out of combat, undodgeable
+
+              Vanish: [MP:  23] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can move cursor
+reflect-piercing, runicable, usable out of combat, toggle status, undodgeable
+
+              Curaga: [MP:  46] [Effect Power:  66] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: allow multi-target, can move cursor
+inverse damage on undead, ignore defense, runicable, usable out of combat, undodgeable, healing
+
+             Reflect: [MP:  33] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can move cursor
+runicable, undodgeable
+
+               Blink: [MP:  65] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can move cursor
+runicable, undodgeable
+
+               Arise: [MP:  90] [Effect Power:  16] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Removes statuses: dead
+* targeting: can move cursor
+inverse damage on undead, ignore defense, dead targets only, reflect-piercing, runicable, usable out of combat, undodgeable, healing, fraction damage (/16)
+
+             Tornado: [MP: 105] [Effect Power:  15] [Accuracy: 130]
+* elements: Non-Elemental
+* Causes statuses: nearFatal
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, random target, reflect-piercing, stamina evasion, fraction damage (/16), miss if status immune
+
+                Holy: [MP:  92] [Effect Power: 104] [Accuracy: 170]
+* elements: Holy
+* targeting: defaults to enemies, can move cursor
+runicable, re-target if victim is dead
+
+       Judgment Bolt: [MP:  75] [Effect Power:  64] [Accuracy: Perfect (0)]
+* elements: Thunder
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, undodgeable
+
+            Hellfire: [MP:  76] [Effect Power:  64] [Accuracy: Perfect (0)]
+* elements: Fire
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, undodgeable
+
+        Diamond Dust: [MP:  77] [Effect Power:  64] [Accuracy: Perfect (0)]
+* elements: Ice
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, undodgeable
+
+        Silent Voice: [MP:  62] [Effect Power:  52] [Accuracy: Perfect (0)]
+* [Special effect: 0x28 <Randomly triggered from specified status error (Duplicate?)>]
+* elements: Wind
+* Causes statuses: mute
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, undodgeable
+
+        Earth's Fury: [MP:  98] [Effect Power:  88] [Accuracy: Perfect (0)]
+* [Special effect: 0x25 <No effect on Floating targets >]
+* elements: Earth
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, undodgeable
+
+           Demon Eye: [MP:  66] [Effect Power:  55] [Accuracy: 160]
+* elements: Darkness
+* Causes statuses: petrify
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, stamina evasion
+
+          Chaos Wave: [MP:  81] [Effect Power:  72] [Accuracy: Perfect (0)]
+* [Special effect: 0x04 <Damage to humans >]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, undodgeable
+
+          Tidal Wave: [MP: 150] [Effect Power: 128] [Accuracy: Perfect (0)]
+* elements: Water
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, undodgeable
+
+            Cat Rain: [MP:  60] [Effect Power:  50] [Accuracy: 145]
+* elements: Holy
+* Causes statuses: disease, blind
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing
+
+      Radiant Breath: [MP: 115] [Effect Power:  91] [Accuracy: Perfect (0)]
+* elements: Holy, Water
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, undodgeable
+
+        Tri-Disaster: [MP: 121] [Effect Power: 110] [Accuracy: Perfect (0)]
+* elements: Ice, Fire, Thunder
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, undodgeable
+
+         Zantetsuken: [MP: 108] [Effect Power:   0] [Accuracy: 145]
+* [Special effect: 0x23 <Instant death without counter activating (Warp effect)>]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+miss vs. death immune, reflect-piercing, stamina evasion, miss if status immune
+
+      Perfect Ultima: [MP: 250] [Effect Power: 156] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, ignore defense, reflect-piercing, undodgeable
+
+          Mega Flare: [MP: 162] [Effect Power: 118] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, ignore defense, reflect-piercing, undodgeable
+
+      Dark Messenger: [MP:  92] [Effect Power:  3] [Accuracy: 135]
+* elements: Non-Elemental
+* Causes statuses: nearFatal
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, fraction damage (/4), miss if status immune
+
+          Armageddon: [MP: 136] [Effect Power: 190] [Accuracy: Perfect (0)]
+* [Special effect: 0x24 <Crusader use (No effect?)>]
+* elements: Non-Elemental
+* targeting: select all or select both groups
+don't split damage, ignore defense, reflect-piercing, undodgeable
+
+       Metamorphosis: [MP:  30] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x12 <Ragnarok effect >]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, undodgeable
+
+           Holy Aura: [MP:  42] [Effect Power:  12] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: regen
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, inverse damage on undead, ignore defense, reflect-piercing, undodgeable, healing
+
+       Space Barrier: [MP:  45] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, undodgeable
+
+          Ruby Light: [MP:  58] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, undodgeable
+
+        Ghostly Veil: [MP:  62] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, undodgeable
+
+      Angel Feathers: [MP:  55] [Effect Power:  44] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, inverse damage on undead, ignore defense, reflect-piercing, undodgeable, healing
+
+        Earthen Wall: [MP:  88] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x11 <Golem effect>]
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, undodgeable
+
+        Healing Horn: [MP:  66] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, undodgeable
+
+        Lunatic High: [MP:  42] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, undodgeable
+
+       Queen's Aegis: [MP: 101] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x3b <Randomly triggered from a specified status error (Only one?)>]
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, undodgeable
+
+   Flames of Rebirth: [MP: 131] [Effect Power:  10] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Removes statuses: dead
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups
+inverse damage on undead, ignore defense, dead targets only, reflect-piercing, undodgeable, healing, fraction damage (/16)
+
+        Flame Scroll: [MP:   0] [Effect Power:  80] [Accuracy: Perfect (0)]
+* [Special effect: 0x28 <Randomly triggered from specified status error (Duplicate?)>]
+* elements: Fire
+* Causes statuses: blind
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, undodgeable
+
+        Water Scroll: [MP:   0] [Effect Power:  80] [Accuracy: Perfect (0)]
+* [Special effect: 0x28 <Randomly triggered from specified status error (Duplicate?)>]
+* elements: Water
+* Causes statuses: mute
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, undodgeable
+
+      Thunder Scroll: [MP:   0] [Effect Power:  80] [Accuracy: Perfect (0)]
+* [Special effect: 0x28 <Randomly triggered from specified status error (Duplicate?)>]
+* elements: Thunder
+* Causes statuses: slow
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, undodgeable
+
+           Snowstorm: [MP:   0] [Effect Power:  71] [Accuracy: Perfect (0)]
+* elements: Ice
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+         Tachi: Fang: [MP:   0] [Effect Power: 120] [Accuracy: 130]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, physical damage, reflect-piercing, re-target if victim is dead
+
+          Tachi: Sky: [MP:   0] [Effect Power:  56] [Accuracy: Perfect (0)]
+* [Special effect: 0x3c <Counter Attack (Bushido: Sky effect)>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+        Tachi: Tiger: [MP:   0] [Effect Power:   1] [Accuracy: 100]
+* [Special effect: 0x3d <HP missing damage (Revenge Blast effect)>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, physical damage, reflect-piercing, re-target if victim is dead
+
+        Tachi: Dance: [MP:   0] [Effect Power:  62] [Accuracy: Perfect (0)]
+* [Special effect: 0x32 <4 consecutive attacks>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+physical damage, reflect-piercing, re-target if victim is dead, undodgeable
+
+       Tachi: Dragon: [MP:   0] [Effect Power:  28] [Accuracy: Perfect (130)]
+* [Special effect: 0x36 <HP & MP Absorption>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+inverse damage on undead, ignore defense, reflect-piercing, re-target if victim is dead, deals mp damage, draining, undodgeable
+
+         Tachi: Snow: [MP:   0] [Effect Power:  49] [Accuracy: 140]
+* elements: Ice, Wind
+* Causes statuses: mute
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, reflect-piercing, re-target if victim is dead
+
+         Tachi: Moon: [MP:   0] [Effect Power: 108] [Accuracy: 120]
+* [Special effect: 0x3f <All target attack (Bushido: Moon effect)>]
+* elements: Non-Elemental
+* Causes statuses: stop
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, auto-confirm
+don't split damage, physical damage, random target, reflect-piercing, re-target if victim is dead
+
+       Tachi: Flower: [MP:   0] [Effect Power:  42] [Accuracy: Perfect (0)]
+* [Special effect: 0x32 <4 consecutive attacks>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, physical damage, reflect-piercing, re-target if victim is dead, undodgeable
+
+              Pummel: [MP:   0] [Effect Power:  98] [Accuracy: 130]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, physical damage, reflect-piercing, re-target if victim is dead
+
+         Aura Cannon: [MP:   0] [Effect Power:  68] [Accuracy: Perfect (0)]
+* elements: Holy
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+reflect-piercing, re-target if victim is dead, undodgeable
+
+              Suplex: [MP:   0] [Effect Power: 142] [Accuracy:  80]
+* [Special effect: 0x30 <Random target? (Suplex)>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, physical damage, reflect-piercing, re-target if victim is dead
+
+       Phoenix Dance: [MP:   0] [Effect Power:  40] [Accuracy: Perfect (0)]
+* elements: Fire
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, auto-confirm
+don't split damage, random target, reflect-piercing, re-target if victim is dead, undodgeable
+
+              Chakra: [MP:   0] [Effect Power:   1] [Accuracy: Perfect (0)]
+* [Special effect: 0x15 <Chakra effect>]
+* elements: Non-Elemental
+* Removes statuses: poison
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+inverse damage on undead, ignore defense, random target, reflect-piercing, re-target if victim is dead, undodgeable, healing
+
+         Vacuum Wave: [MP:   0] [Effect Power:  75] [Accuracy: Perfect (0)]
+* [Special effect: 0x08 <Flying attack property>]
+* elements: Wind
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, auto-confirm
+don't split damage, random target, reflect-piercing, re-target if victim is dead, undodgeable
+
+          Tiger Rush: [MP:   0] [Effect Power:  69] [Accuracy: 100]
+* [Special effect: 0x14 <3 consecutive attacks>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, physical damage, reflect-piercing
+
+        Phantom Rush: [MP:   0] [Effect Power: 168] [Accuracy: 150]
+* [Special effect: 0x02 <The more HP=more damage (Ultima Weapon effect)>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, physical damage, reflect-piercing, re-target if victim is dead
+
+          Wind Slash: [MP:   0] [Effect Power:  44] [Accuracy: Perfect (0)]
+* elements: Wind
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+don't split damage, random target, reflect-piercing, undodgeable
+
+             Sunbath: [MP:   0] [Effect Power:  42] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Removes statuses: frozen
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+inverse damage on undead, ignore defense, random target, reflect-piercing, undodgeable, healing
+
+          Leaf Swirl: [MP:   0] [Effect Power:  50] [Accuracy: Perfect (0)]
+* [Special effect: 0x08 <Flying attack property>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+don't split damage, random target, reflect-piercing, undodgeable
+
+         Forest Bath: [MP:   0] [Effect Power:   1] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Removes statuses: confusion, mute, slow, disease, stop, sleep, poison, blind, petrify
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+don't split damage, ignore defense, reflect-piercing, deals mp damage, undodgeable, healing
+
+           Sandstorm: [MP:   0] [Effect Power:  45] [Accuracy: 130]
+* elements: Earth, Wind
+* Causes statuses: blind
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+don't split damage, random target, reflect-piercing
+
+             Antlion: [MP:   0] [Effect Power:   0] [Accuracy: 110]
+* [Special effect: 0x23 <Instant death without counter activating (Warp effect)>]
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+miss vs. death immune, reflect-piercing, re-target if victim is dead, stamina evasion, miss if status immune
+
+            Elf Fire: [MP:   0] [Effect Power:  72] [Accuracy: Perfect (0)]
+* elements: Fire
+* Causes statuses: confusion
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+reflect-piercing, re-target if victim is dead, undodgeable
+
+               Ghost: [MP:   0] [Effect Power:  25] [Accuracy: 140]
+* [Special effect: 0x36 <HP & MP Absorption>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+inverse damage on undead, reflect-piercing, re-target if victim is dead, deals mp damage, draining
+
+      Cliff Collapse: [MP:   0] [Effect Power:  65] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+            Shamshir: [MP:   0] [Effect Power:  10] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: nearFatal
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+reflect-piercing, re-target if victim is dead, undodgeable, fraction damage (/16), miss if status immune
+
+             El Nino: [MP:   0] [Effect Power:  52] [Accuracy: Perfect (0)]
+* elements: Fire, Water
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+don't split damage, random target, reflect-piercing, undodgeable
+
+              Plasma: [MP:   0] [Effect Power:  70] [Accuracy: Perfect (0)]
+* elements: Thunder, Wind
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+reflect-piercing, re-target if victim is dead, undodgeable
+
+        Shadow Flare: [MP:  80] [Effect Power: 110] [Accuracy: Perfect (0)]
+* elements: Darkness
+* Causes statuses: disease
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, runicable, re-target if victim is dead, undodgeable
+
+             Cave-In: [MP:   0] [Effect Power:  12] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: nearFatal
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+reflect-piercing, re-target if victim is dead, undodgeable, fraction damage (/16), miss if status immune
+
+            Snowball: [MP:   0] [Effect Power:  58] [Accuracy: Perfect (0)]
+* elements: Ice, Wind
+* Causes statuses: sleep
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+reflect-piercing, re-target if victim is dead, undodgeable
+
+           Avalanche: [MP:   0] [Effect Power:  55] [Accuracy: Perfect (0)]
+* [Special effect: 0x25 <No effect on Floating targets >]
+* elements: Ice
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+don't split damage, random target, reflect-piercing, undodgeable
+
+              Falcon: [MP:   0] [Effect Power:  52] [Accuracy: 140]
+* elements: Non-Elemental
+* Causes statuses: petrify
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, reflect-piercing, re-target if victim is dead
+
+              Wombat: [MP:   0] [Effect Power:   6] [Accuracy: Perfect (0)]
+* [Special effect: 0x2c <4 random attacks (Launcher effect) >]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+             Meerkat: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+random target, reflect-piercing, undodgeable
+
+               Tapir: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x17 <Tapir effect>]
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+random target, reflect-piercing, undodgeable, healing
+
+            Wild Pig: [MP:   0] [Effect Power:  14] [Accuracy: Perfect (0)]
+* [Special effect: 0x32 <4 consecutive attacks>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+             Raccoon: [MP:   0] [Effect Power: 100] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Removes statuses: confusion, mute, slow, imp, disease, berserk, stop, sleep, poison, zombie, blind, condemned, frozen, petrify
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+inverse damage on undead, ignore defense, random target, reflect-piercing, undodgeable, healing
+
+         Poison Frog: [MP:   0] [Effect Power:  62] [Accuracy: Perfect (0)]
+* elements: Darkness
+* Causes statuses: mute, disease, poison, blind
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+reflect-piercing, re-target if victim is dead, undodgeable
+
+          Snow Bunny: [MP:   0] [Effect Power:  60] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: blink
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+inverse damage on undead, ignore defense, random target, reflect-piercing, undodgeable, healing
+
+          Bioblaster: [MP:   0] [Effect Power:  20] [Accuracy: Perfect (0)]
+* elements: Darkness
+* Causes statuses: poison
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+don't split damage, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+               Flash: [MP:   0] [Effect Power:  45] [Accuracy: 128]
+* [Special effect: 0x28 <Randomly triggered from specified status error (Duplicate?)>]
+* elements: Fire
+* Causes statuses: blind
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+don't split damage, abort vs allies, reflect-piercing, re-target if victim is dead
+
+        Chocobo Rush: [MP:   0] [Effect Power:  36] [Accuracy: Perfect (0)]
+* [Special effect: 0x25 <No effect on Floating targets >]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+don't split damage, ignore defense, random target, reflect-piercing, undodgeable
+
+           Dive Bomb: [MP:   0] [Effect Power:  88] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+don't split damage, ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+         Seven Flush: [MP:   0] [Effect Power:  65] [Accuracy: Perfect (0)]
+* elements: Earth, Ice, Holy, Fire, Thunder, Wind, Water
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+don't split damage, random target, reflect-piercing, undodgeable
+
+              Shock: [MP:   0] [Effect Power: 128] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, undodgeable
+
+        Wishing Star: [MP:   0] [Effect Power:  41] [Accuracy: Perfect (0)]
+* [Special effect: 0x1e <Step count divided by effect value damage>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+           Twin Fang: [MP:   0] [Effect Power:  68] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, physical damage, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+        Magitek Beam: [MP:   0] [Effect Power:  61] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+re-target if victim is dead, undodgeable
+
+           Bio Blast: [MP:   0] [Effect Power:  60] [Accuracy: Perfect (0)]
+* elements: Darkness
+* Causes statuses: poison
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+don't split damage, reflect-piercing, re-target if victim is dead, undodgeable
+
+          Heal Force: [MP:   0] [Effect Power:  60] [Accuracy: Perfect (0)]
+* [Special effect: 0x2a <Level x effect value damage (Flare Star effect) >]
+* elements: Non-Elemental
+* targeting: can't switch sides, can move cursor
+inverse damage on undead, reflect-piercing, undodgeable, healing
+
+            Confuser: [MP:   0] [Effect Power:   0] [Accuracy: 128]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+reflect-piercing, re-target if victim is dead, miss if status immune
+
+            Banisher: [MP:   0] [Effect Power:   0] [Accuracy: 170]
+* [Special effect: 0x23 <Instant death without counter activating (Warp effect)>]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+miss vs. death immune, reflect-piercing, stamina evasion, miss if status immune
+
+     Magitek Missile: [MP:   0] [Effect Power:  58] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+      Death Sentence: [MP:  20] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: defaults to enemies, can move cursor
+reflect-piercing, lore, undodgeable, miss if status immune
+
+    Death's Roulette: [MP:  10] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: defaults to enemies, random selection (death roulette)
+miss vs. death immune, reflect-piercing, re-target if victim is dead, lore, undodgeable, miss if status immune
+
+          Mind Blast: [MP:  32] [Effect Power:   9] [Accuracy: Perfect (170)]
+* elements: Non-Elemental
+* Causes statuses: mute, disease
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+ignore defense, reflect-piercing, runicable, re-target if victim is dead, lore, deals mp damage, undodgeable
+
+         Aqua Breath: [MP:  38] [Effect Power:  71] [Accuracy: 170]
+* elements: Wind, Water
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+reflect-piercing, runicable, re-target if victim is dead, lore
+
+              Aeroga: [MP:  68] [Effect Power:  92] [Accuracy: 170]
+* [Special effect: 0x08 <Flying attack property>]
+* elements: Wind
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+reflect-piercing, runicable, re-target if victim is dead, lore
+
+        1000 Needles: [MP:  50] [Effect Power:   1] [Accuracy: Perfect (0)]
+* [Special effect: 0x1a <1000 Needles >]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+don't split damage, ignore defense, reflect-piercing, re-target if victim is dead, lore, undodgeable
+
+        Mighty Guard: [MP: 120] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, runicable, lore, undodgeable
+
+       Revenge Blast: [MP:  31] [Effect Power:   1] [Accuracy: Perfect (0)]
+* [Special effect: 0x3d <HP missing damage (Revenge Blast effect)>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+don't split damage, ignore defense, reflect-piercing, re-target if victim is dead, lore, undodgeable
+
+          White Wind: [MP:  55] [Effect Power:   1] [Accuracy: Perfect (0)]
+* [Special effect: 0x1b <Effect based on current HP>]
+* elements: Non-Elemental
+* Removes statuses: sleep
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, inverse damage on undead, ignore defense, reflect-piercing, lore, undodgeable, healing
+
+       Level ? Death: [MP:  22] [Effect Power:   0] [Accuracy:   0]
+* [Special effect: 0x1d <Applies to the last single-digit multiple level of party's Gil>]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+miss vs. death immune, reflect-piercing, lore, accuracy is level-X target, displays text if monster hits with this, miss if status immune
+
+       Level 3 Flare: [MP:  42] [Effect Power:  66] [Accuracy:   3]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, ignore defense, reflect-piercing, lore, accuracy is level-X target, displays text if monster hits with this
+
+        Level 4 Hold: [MP:  28] [Effect Power:   0] [Accuracy:   4]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, lore, accuracy is level-X target, displays text if monster hits with this, miss if status immune
+
+               Night: [MP:  38] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x24 <Crusader use (No effect?)>]
+* targeting: select all or select both groups
+reflect-piercing, runicable, lore, undodgeable, miss if status immune
+
+        Level 2 Holy: [MP:  50] [Effect Power: 120] [Accuracy:   2]
+* elements: Holy
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, lore, accuracy is level-X target, displays text if monster hits with this
+
+            Traveler: [MP:   1] [Effect Power:  48] [Accuracy: Perfect (0)]
+* [Special effect: 0x1e <Step count divided by effect value damage>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, reflect-piercing, lore, undodgeable
+
+         Force Field: [MP:  48] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x31 <Disable attribute attack (Force Field effect)>]
+* targeting: select all or select both groups
+reflect-piercing, lore, undodgeable
+
+            Dischord: [MP:  68] [Effect Power:   0] [Accuracy: 110]
+* [Special effect: 0x1f <Level halved (Mysterious sound effect)>]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+miss vs. death immune, reflect-piercing, re-target if victim is dead, lore, displays text if monster hits with this
+
+          Bad Breath: [MP:  56] [Effect Power:  64] [Accuracy: 140]
+* elements: Darkness
+* Causes statuses: confusion, mute, imp, sleep, poison, blind
+* targeting: defaults to enemies, can move cursor
+reflect-piercing, re-target if victim is dead, lore
+
+        Magic Hammer: [MP:  25] [Effect Power:   2] [Accuracy: 130]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, reflect-piercing, lore, deals mp damage, draining, fraction damage (/16)
+
+             Rippler: [MP:  66] [Effect Power:   0] [Accuracy: Perfect (111)]
+* [Special effect: 0x21 <Status exchange (Ripple effect)>]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, re-target if victim is dead, lore, undodgeable, displays text if monster hits with this
+
+      Ancient Prayer: [MP:  10] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x49 <Magicite Shard effect>]
+* targeting: auto-confirm
+reflect-piercing, lore, undodgeable
+
+              Quasar: [MP:  99] [Effect Power:  57] [Accuracy: Perfect (0)]
+* [Special effect: 0x3b <Randomly triggered from a specified status error (Only one?)>]
+* elements: Non-Elemental
+* Causes statuses: confusion, mute, slow, imp, disease, berserk, sleep, poison, zombie, blind
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+ignore defense, reflect-piercing, lore, undodgeable
+
+         Grand Delta: [MP: 121] [Effect Power:  93] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Removes statuses: haste, float, reflect, regen, morph, blink, safe, vanish, shell
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+ignore defense, reflect-piercing, lore, undodgeable
+
+       Self-Destruct: [MP:   1] [Effect Power:   1] [Accuracy: Perfect (0)]
+* [Special effect: 0x19 <Self-Destruct effect>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+inverse damage on undead, ignore defense, random target, suicide attack, reflect-piercing, re-target if victim is dead, lore, undodgeable
+
+           Frog Song: [MP:  12] [Effect Power:   0] [Accuracy: 150]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+reflect-piercing, re-target if victim is dead, displays text if monster hits with this, miss if status immune
+
+        Thunder Call: [MP:  25] [Effect Power: 162] [Accuracy: Perfect (180)]
+* [Special effect: 0x32 <4 consecutive attacks>]
+* elements: Holy, Thunder
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+reflect-piercing, undodgeable
+
+          Poison Fog: [MP:   0] [Effect Power:  52] [Accuracy: 130]
+* elements: Darkness, Wind
+* Causes statuses: poison
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+inverse damage on undead, reflect-piercing, re-target if victim is dead
+
+          Crypt Dust: [MP:  15] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+dead targets only, reflect-piercing, re-target if victim is dead, undodgeable, displays text if monster hits with this, miss if status immune
+
+               Flash: [MP:  28] [Effect Power:   0] [Accuracy: 100]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+reflect-piercing, re-target if victim is dead, miss if status immune
+
+             Lullaby: [MP:  18] [Effect Power:   0] [Accuracy: 110]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+reflect-piercing, re-target if victim is dead, miss if status immune
+
+           Acid Rain: [MP:  11] [Effect Power:  25] [Accuracy: 150]
+* elements: Darkness, Water
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+don't split damage, inverse damage on undead, reflect-piercing, re-target if victim is dead
+
+   Everyone's Grudge: [MP:   0] [Effect Power:  60] [Accuracy: 170]
+* [Special effect: 0x03 <Chance of instant death >]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can move cursor
+reflect-piercing, re-target if victim is dead
+
+        Mega Berserk: [MP:  25] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, runicable, undodgeable
+
+     Divine Judgment: [MP:  80] [Effect Power: 160] [Accuracy: Perfect (0)]
+* [Special effect: 0x28 <Randomly triggered from specified status error (Duplicate?)>]
+* elements: Holy, Fire, Thunder
+* Causes statuses: mute, slow
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+don't split damage, reflect-piercing, re-target if victim is dead, undodgeable, miss if status immune
+
+                 Net: [MP:   0] [Effect Power:   0] [Accuracy: 110]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, re-target if victim is dead, miss if status immune
+
+         Reflect????: [MP:  26] [Effect Power:  15] [Accuracy: Perfect (0)]
+* [Special effect: 0x1c <Only effective for Reflect>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, ignore defense, reflect-piercing, deals mp damage, undodgeable, stamina evasion, fraction damage (/16)
+
+         S. Triangle: [MP:   0] [Effect Power:  70] [Accuracy: Perfect (0)]
+* [Special effect: 0x28 <Randomly triggered from specified status error (Duplicate?)>]
+* elements: Ice
+* Causes statuses: petrify
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, physical damage, reflect-piercing, re-target if victim is dead, undodgeable
+
+             Attract: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+reflect-piercing, re-target if victim is dead, undodgeable, miss if status immune
+
+             Blaster: [MP:  59] [Effect Power:   0] [Accuracy:  99]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+miss vs. death immune, reflect-piercing, runicable, re-target if victim is dead, stamina evasion, miss if status immune
+
+           Whirlwind: [MP:  47] [Effect Power:  10] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: nearFatal
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+don't split damage, miss vs. death immune, reflect-piercing, re-target if victim is dead, undodgeable, fraction damage (/16), miss if status immune
+
+            Fireball: [MP:  11] [Effect Power:  50] [Accuracy: 150]
+* elements: Fire
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+reflect-piercing, re-target if victim is dead
+
+          Atomic Ray: [MP:  38] [Effect Power:  80] [Accuracy: 170]
+* elements: Fire, Thunder
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+reflect-piercing, runicable, re-target if victim is dead
+
+       Magitek Laser: [MP:   5] [Effect Power:  20] [Accuracy: 150]
+* elements: Non-Elemental
+* targeting: defaults to enemies, allow multi-target, can move cursor
+reflect-piercing, runicable, re-target if victim is dead
+
+   Diffractive Laser: [MP:  10] [Effect Power:  62] [Accuracy: 170]
+* elements: Fire, Thunder, Wind
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+reflect-piercing, runicable, re-target if victim is dead
+
+         Wave Cannon: [MP:   0] [Effect Power:  9] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: nearFatal
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+don't split damage, ignore defense, reflect-piercing, fraction damage (/16), re-target if victim is dead
+
+        10,000 Volts: [MP:   8] [Effect Power:  20] [Accuracy: 150]
+* elements: Thunder
+* targeting: defaults to enemies, can't switch sides, allow multi-target, can move cursor
+reflect-piercing, re-target if victim is dead
+
+     1,000,000 Volts: [MP:  24] [Effect Power: 110] [Accuracy: 150]
+* elements: Thunder
+* targeting: defaults to enemies, can't switch sides, allow multi-target, can move cursor
+reflect-piercing, re-target if victim is dead
+
+            Blizzard: [MP:   4] [Effect Power:  25] [Accuracy: 140]
+* elements: Ice
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+reflect-piercing, re-target if victim is dead
+
+       Absolute Zero: [MP:  25] [Effect Power: 110] [Accuracy: Perfect (160)]
+* elements: Ice
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+reflect-piercing, re-target if victim is dead, undodgeable
+
+         Magnitude 8: [MP:   0] [Effect Power: 100] [Accuracy: 150]
+* [Special effect: 0x25 <No effect on Floating targets >]
+* elements: Earth
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+reflect-piercing, re-target if victim is dead
+
+             Gravija: [MP:  38] [Effect Power:   6] [Accuracy: Perfect (255)]
+* [Special effect: 0x24 <Crusader use (No effect?)>]
+* elements: Non-Elemental
+* targeting: select all or select both groups
+don't split damage, ignore defense, reflect-piercing, undodgeable, fraction damage (/16)
+
+          Flash Rain: [MP:   0] [Effect Power:  60] [Accuracy: 140]
+* [Special effect: 0x3b <Randomly triggered from a specified status error (Only one?)>]
+* elements: Thunder, Water
+* Causes statuses: blind
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+don't split damage, reflect-piercing, re-target if victim is dead
+
+     Magitek Barrier: [MP:  10] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: can't switch sides, can move cursor
+re-target if victim is dead, undodgeable
+
+          Fallen One: [MP:   0] [Effect Power:   0] [Accuracy: 180]
+* [Special effect: 0x40 <HP becomes 1 (Heartless Angel effect)>]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, re-target if victim is dead, stamina evasion
+
+      Barrier Change: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x26 <Attribute change (Barrier Change effect) >]
+* targeting: can't switch sides, auto-confirm
+reflect-piercing, undodgeable
+
+              Escape: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x27 <Escape effect>]
+* targeting: can't switch sides
+reflect-piercing, undodgeable
+
+         50x Gravity: [MP:  20] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, runicable, undodgeable
+
+          Tidal Wave: [MP:  50] [Effect Power: 130] [Accuracy: Perfect (0)]
+* elements: Water
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, undodgeable
+
+      Northern Cross: [MP:  33] [Effect Power:  95] [Accuracy: 130]
+* [Special effect: 0x29 <50% chance to be targeted (Northern Cross effect)>]
+* elements: Ice, Holy
+* Causes statuses: frozen
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, runicable, stamina evasion, displays text if monster hits with this, miss if status immune
+
+          Flare Star: [MP:  60] [Effect Power:  42] [Accuracy: Perfect (0)]
+* [Special effect: 0x2a <Level x effect value damage (Flare Star effect) >]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+don't split damage, ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+          Love Token: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x2d <Active until death (Declaration of Love effect)>]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, re-target if victim is dead, undodgeable, displays text if monster hits with this
+
+             Capture: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x2e <Capture effect (HP can't be absorbed gradually)>]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, undodgeable
+
+    Reverse Polarity: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x2b <Formation change (R. Polarity effect) >]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, re-target if victim is dead, undodgeable
+
+       Firebird Arts: [MP:  60] [Effect Power: 168] [Accuracy: Perfect (0)]
+* elements: Fire, Wind
+* Causes statuses: disease
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+               Snort: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x38 <End battle (Sneeze) >]
+* targeting: defaults to enemies, can't switch sides, allow multi-target, can move cursor
+reflect-piercing, re-target if victim is dead, undodgeable, miss if status immune
+
+      Southern Cross: [MP:  34] [Effect Power: 120] [Accuracy: 140]
+* elements: Holy, Fire
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+don't split damage, reflect-piercing, re-target if victim is dead
+
+            Launcher: [MP:   0] [Effect Power:   4] [Accuracy: 100]
+* [Special effect: 0x2c <4 random attacks (Launcher effect) >]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, ignore defense, random target, reflect-piercing, re-target if victim is dead, fraction damage (/16)
+
+              Entice: [MP:   0] [Effect Power:   0] [Accuracy:  99]
+* [Special effect: 0x34 <Attack party until the user dies (Temptation effect)>]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, re-target if victim is dead, stamina evasion, displays text if monster hits with this
+
+       Freezing Dust: [MP:  28] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, re-target if victim is dead, undodgeable, displays text if monster hits with this, miss if status immune
+
+            Tentacle: [MP:   0] [Effect Power: 146] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+physical damage, reflect-piercing, re-target if victim is dead, undodgeable
+
+          Hyperdrive: [MP:  38] [Effect Power: 118] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, reflect-piercing, runicable, re-target if victim is dead, undodgeable
+
+               Trine: [MP:  26] [Effect Power:  69] [Accuracy: Perfect (0)]
+* elements: Holy, Thunder
+* Causes statuses: mute, blind
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, re-target if victim is dead, undodgeable
+
+    Diabolic Whistle: [MP:  12] [Effect Power:   0] [Accuracy: 120]
+* [Special effect: 0x3b <Randomly triggered from a specified status error (Only one?)>]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, stamina evasion, miss if status immune
+
+        Mustard Bomb: [MP:   0] [Effect Power:  49] [Accuracy: Perfect (0)]
+* [Special effect: 0x28 <Randomly triggered from specified status error (Duplicate?)>]
+* elements: Non-Elemental
+* Causes statuses: condemned
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+              Engulf: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x39 <End battle (Inhale) >]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+random target, reflect-piercing, undodgeable, displays text if monster hits with this
+
+            Disaster: [MP:  44] [Effect Power:   0] [Accuracy:  90]
+* targeting: defaults to enemies, can't switch sides, allow multi-target, can move cursor
+reflect-piercing, runicable, re-target if victim is dead, stamina evasion, miss if status immune
+
+            Shrapnel: [MP:   0] [Effect Power: 120] [Accuracy: Perfect (140)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, allow multi-target, can move cursor
+reflect-piercing, re-target if victim is dead, undodgeable
+
+       Big Explosion: [MP:   0] [Effect Power: 108] [Accuracy: Perfect (0)]
+* elements: Fire
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+          Sword Rain: [MP:   0] [Effect Power:  93] [Accuracy: 175]
+* [Special effect: 0x32 <4 consecutive attacks>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor, auto-confirm
+ignore defense, physical damage, reflect-piercing
+
+                Fury: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x3a <Possess (Fury effect) >]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, re-target if victim is dead, undodgeable
+
+          Throw Away: [MP:   0] [Effect Power:  20] [Accuracy: Perfect (0)]
+* [Special effect: 0x44 <Throw>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+physical damage, reflect-piercing, undodgeable
+
+       Cloudy Heaven: [MP:  42] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x37 <Zombie status after death (Cloudy Heaven effect)>]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+miss vs. death immune, reflect-piercing, re-target if victim is dead, undodgeable, displays text if monster hits with this
+
+             Missile: [MP:   0] [Effect Power:   8] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: confusion
+* targeting: defaults to enemies, can't switch sides, can move cursor
+miss vs. death immune, reflect-piercing, re-target if victim is dead, undodgeable, fraction damage (/16)
+
+               Goner: [MP: 100] [Effect Power: 118] [Accuracy: Perfect (0)]
+* [Special effect: 0x56 <Debilitator>]
+* elements: Non-Elemental
+* Removes statuses: equipFloat, haste, reraise, dance, reflect, regen, blink, safe, shell
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+              Galaxy: [MP:  53] [Effect Power:  60] [Accuracy: 130]
+* elements: Earth, Ice, Darkness, Holy, Fire, Thunder, Wind, Water
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+don't split damage, ignore defense, reflect-piercing, re-target if victim is dead
+
+            Revenger: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+reflect-piercing, re-target if victim is dead, undodgeable, miss if status immune
+
+         Poltergeist: [MP:  30] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+reflect-piercing, re-target if victim is dead, undodgeable, displays text if monster hits with this
+
+          Dread Gaze: [MP:  15] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, re-target if victim is dead, undodgeable, miss if status immune
+
+           Shockwave: [MP:   0] [Effect Power:  25] [Accuracy: 120]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, re-target if victim is dead
+
+             Updraft: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x13 <Palidor effect>]
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, ignore defense, random target, reflect-piercing, re-target if victim is dead, undodgeable
+
+     Soul Extraction: [MP:   4] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, re-target if victim is dead, undodgeable, displays text if monster hits with this, miss if status immune
+
+            Gale Cut: [MP:   0] [Effect Power:  15] [Accuracy: Perfect (0)]
+* elements: Wind
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, re-target if victim is dead, undodgeable
+
+              Merton: [MP:  85] [Effect Power:  98] [Accuracy: Perfect (0)]
+* elements: Fire, Wind
+* targeting: select all or select both groups
+ignore defense, random target, reflect-piercing, undodgeable
+
+                Kill: [MP:  44] [Effect Power:   0] [Accuracy: Perfect (95)]
+* [Special effect: 0x35 <Group instant death>]
+* targeting: defaults to enemies, can move cursor
+reflect-piercing, runicable, re-target if victim is dead, undodgeable, miss if status immune
+
+          Saint Beam: [MP:   0] [Effect Power:  32] [Accuracy: Perfect (0)]
+* elements: Holy
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, reflect-piercing, runicable, re-target if victim is dead, undodgeable
+
+     Humbaba Breath: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x33 <Withdrawl from battle for 1 person (Humbaba's Breath effect)  >]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, re-target if victim is dead, undodgeable, miss if status immune
+
+          Lifeshaver: [MP:  14] [Effect Power:  42] [Accuracy: 140]
+* elements: Earth
+* targeting: defaults to enemies, can't switch sides, can move cursor
+inverse damage on undead, reflect-piercing, re-target if victim is dead, draining, stamina evasion
+
+              Spirit: [MP:   0] [Effect Power:   3] [Accuracy: Perfect (0)]
+* [Special effect: 0x42 <0.25x damage >]
+* elements: Non-Elemental
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+don't split damage, ignore defense, reflect-piercing, deals mp damage, undodgeable, healing
+
+           Landslide: [MP:   0] [Effect Power:  75] [Accuracy: Perfect (0)]
+* [Special effect: 0x25 <No effect on Floating targets >]
+* elements: Earth
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, re-target if victim is dead, undodgeable
+
+               Fight: [MP:   0] [Effect Power:   0] [Accuracy:   0]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+physical damage, reflect-piercing, re-target if victim is dead
+
+             Special: [MP:   0] [Effect Power:  96] [Accuracy: 130]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, ignore defense, physical damage, reflect-piercing
+
+          Riot Blade: [MP:   0] [Effect Power:  65] [Accuracy: Perfect (0)]
+* [Special effect: 0x08 <Flying attack property>]
+* elements: Non-Elemental
+* Causes statuses: disease
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+         Mirage Dive: [MP:   0] [Effect Power: 178] [Accuracy: Perfect (0)]
+* [Special effect: 0x01 <Stealing effect>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, physical damage, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+      Tsubame Gaeshi: [MP:   0] [Effect Power: 185] [Accuracy: Perfect (0)]
+* [Special effect: 0x0d <Chance of instant death, ignoring Undead (Zantetsuken effect) >]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, physical damage, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+         Shadow Fang: [MP:   0] [Effect Power: 162] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: poison
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, physical damage, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+         Royal Shock: [MP:   0] [Effect Power:  66] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: sleep
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+         Tiger Break: [MP:   0] [Effect Power: 190] [Accuracy: Perfect (0)]
+* [Special effect: 0x03 <Chance of instant death >]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, physical damage, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+        Moulin Rouge: [MP:   0] [Effect Power: 175] [Accuracy: Perfect (0)]
+* [Special effect: 0x04 <Damage to humans >]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, physical damage, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+          Saber Soul: [MP:   0] [Effect Power:  74] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+abort vs allies, reflect-piercing, re-target if victim is dead, deals mp damage, undodgeable
+
+          Star Prism: [MP:   0] [Effect Power:  63] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: imp
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+        Bloody Cards: [MP:   0] [Effect Power: 140] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, physical damage, abort vs allies, reflect-piercing, re-target if victim is dead, draining, undodgeable
+
+        Moogle Dance: [MP:   0] [Effect Power: 168] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: confusion
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, physical damage, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+         Wild Buster: [MP:   0] [Effect Power: 178] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: petrify
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, physical damage, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+    Punishing Meteor: [MP:   0] [Effect Power:  72] [Accuracy: Perfect (0)]
+* [Special effect: 0x22 <Level x Magic (16x effect if target and level are the same)>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+          Aura Boost: [MP:   0] [Effect Power:  61] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: berserk
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, abort vs allies, reflect-piercing, re-target if victim is dead, undodgeable
+
+      Mysidia Rabbit: [MP:   0] [Effect Power:  14] [Accuracy: Perfect (0)]
+* [Special effect: 0x2a <Level x effect value damage (Flare Star effect) >]
+* elements: Non-Elemental
+* Removes statuses: poison, blind
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+reflect-piercing, undodgeable, healing
+
+                Pray: [MP:   0] [Effect Power:  42] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: can't switch sides, select single group, allow multi-target, select all or select both groups, auto-confirm
+inverse damage on undead, ignore defense, random target, reflect-piercing, undodgeable, healing
+
+
+
+
+
+
+
+
+
+
+
+EX Spells/Techniques
+
+
+       Zombie Breath: [MP:  33] [Effect Power:  52] [Accuracy: 140]
+* elements: Non-Elemental
+* Causes statuses: zombie
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+don't split damage, reflect-piercing, stamina evasion, displays text if monster hits with this, miss if status immune
+
+           Aura Ball: [MP:  80] [Effect Power:  14] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Removes statuses: shell
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+don't split damage, reflect-piercing, re-target if victim is dead, undodgeable, fraction damage (/16)
+
+Fusillade Particle Beam: [MP:  55] [Effect Power: 109] [Accuracy: 150]
+* [Special effect: 0x32 <4 consecutive attacks>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, runicable, re-target if victim is dead
+
+Reflective Particle Beam: [MP:  28] [Effect Power:  85] [Accuracy: 150]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, can move cursor
+physical damage, reflect-piercing, runicable, re-target if victim is dead, stamina evasion
+
+ Arrogance Incarnate: [MP:   0] [Effect Power: 128] [Accuracy: 150]
+* [Special effect: 0x02 <The more HP=more damage (Ultima Weapon effect)>]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+ignore defense, reflect-piercing, re-target if victim is dead, stamina evasion
+
+            Big Bang: [MP: 150] [Effect Power:  99] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: disease
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+don't split damage, ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+          Earthquake: [MP:  90] [Effect Power: 105] [Accuracy: Perfect (0)]
+* [Special effect: 0x25 <No effect on Floating targets >]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+don't split damage, ignore defense, reflect-piercing, undodgeable
+
+     Artillery Drone: [MP:  52] [Effect Power:  55] [Accuracy: 140]
+* [Special effect: 0x46 <2 consecutive attacks>]
+* elements: Non-Elemental
+* Removes statuses: float
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+don't split damage, reflect-piercing, runicable
+
+          Pale Horse: [MP:  33] [Effect Power:  12] [Accuracy: 180]
+* [Special effect: 0x47 <8 consecutive attacks>]
+* elements: Non-Elemental
+* Causes statuses: imp
+* targeting: defaults to enemies, can move cursor
+reflect-piercing, stamina evasion, fraction damage (/16)
+
+           Supernova: [MP: 108] [Effect Power: 130] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: confusion, mute, slow
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, ignore defense, reflect-piercing, undodgeable
+
+        Havoc Spiral: [MP:   0] [Effect Power: 122] [Accuracy: 140]
+* elements: Non-Elemental
+* Causes statuses: slow, sleep
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+physical damage, reflect-piercing, re-target if victim is dead
+
+          Apocalypse: [MP: 250] [Effect Power: 128] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* Causes statuses: disease, poison, condemned
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+ignore defense, reflect-piercing, runicable, re-target if victim is dead, undodgeable
+
+     Great Whirlwind: [MP:   0] [Effect Power: 125] [Accuracy: 180]
+* [Special effect: 0x28 <Randomly triggered from specified status error (Duplicate?)>]
+* elements: Non-Elemental
+* Causes statuses: slow
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+don't split damage, ignore defense, physical damage, reflect-piercing, re-target if victim is dead
+
+          Amon Drive: [MP:   0] [Effect Power: 130] [Accuracy: 150]
+* elements: Non-Elemental
+* Causes statuses: petrify
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+physical damage, reflect-piercing, re-target if victim is dead, deals mp damage
+
+    Time Compression: [MP:   0] [Effect Power:   0] [Accuracy: Perfect (0)]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, re-target if victim is dead, undodgeable
+
+  Magic Annihilation: [MP:   0] [Effect Power:   1] [Accuracy: Perfect (160)]
+* [Special effect: 0x1a <1000 Needles >]
+* elements: Non-Elemental
+* Causes statuses: mute
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, re-target if victim is dead, deals mp damage, undodgeable
+
+           Hurricane: [MP:  38] [Effect Power:   0] [Accuracy: 170]
+* [Special effect: 0x40 <HP becomes 1 (Heartless Angel effect)>]
+* targeting: defaults to enemies, can't switch sides, can move cursor
+reflect-piercing, runicable, re-target if victim is dead, stamina evasion
+
+           Meteorite: [MP:  99] [Effect Power:  33] [Accuracy: Perfect (0)]
+* [Special effect: 0x2c <4 random attacks (Launcher effect) >]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+            Almagest: [MP:  89] [Effect Power:  85] [Accuracy: Perfect (0)]
+* elements: Darkness, Holy
+* Removes statuses: haste
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+           Holy Star: [MP: 100] [Effect Power:  66] [Accuracy: Perfect (0)]
+* [Special effect: 0x2a <Level x effect value damage (Flare Star effect) >]
+* elements: Holy
+* Causes statuses: imp
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+don't split damage, ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+            Weakness: [MP:  85] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x56 <Debilitator>]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, re-target if victim is dead, undodgeable
+
+        Cross Reaver: [MP:   0] [Effect Power:  32] [Accuracy: Perfect (0)]
+* [Special effect: 0x29 <50% chance to be targeted (Northern Cross effect)>]
+* elements: Non-Elemental
+* Causes statuses: slow, stop
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, can move cursor
+ignore defense, reflect-piercing, undodgeable
+
+       Stellar Blast: [MP: 100] [Effect Power: 150] [Accuracy: 180]
+* [Special effect: 0x3b <Randomly triggered from a specified status error (Only one?)>]
+* elements: Non-Elemental
+* Causes statuses: mute, disease, zombie
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+don't split damage, ignore defense, reflect-piercing, re-target if victim is dead
+
+          Black Hole: [MP: 125] [Effect Power:  29] [Accuracy: Perfect (0)]
+* [Special effect: 0x05 <HP Absorption >]
+* elements: Non-Elemental
+* Removes statuses: haste, reraise, float, reflect, rage, regen, blink, safe, vanish, shell
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target
+ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+       Omega Javelin: [MP:  30] [Effect Power: 165] [Accuracy: Perfect (0)]
+* [Special effect: 0x57 <Air Anchor>]
+* elements: Non-Elemental
+* Causes statuses: petrify
+* targeting: defaults to enemies, can't switch sides, can move cursor
+ignore defense, physical damage, reflect-piercing, re-target if victim is dead, undodgeable
+
+           Nightglow: [MP:  59] [Effect Power:  12] [Accuracy: 170]
+* elements: Non-Elemental
+* Causes statuses: sleep
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, re-target if victim is dead, stamina evasion, fraction damage (/16)
+
+        Genesis Rock: [MP:  52] [Effect Power:  98] [Accuracy: Perfect (0)]
+* elements: Earth, Wind
+* Causes statuses: petrify
+* targeting: defaults to enemies, can move cursor
+ignore defense, reflect-piercing, re-target if victim is dead, undodgeable
+
+               Whirl: [MP:  30] [Effect Power:  15] [Accuracy: Perfect (0)]
+* elements: Non-Elemental
+* targeting: defaults to enemies, can move cursor
+reflect-piercing, runicable, re-target if victim is dead, undodgeable, fraction damage (/16)
+
+        C. Dimension: [MP:   0] [Effect Power:  32] [Accuracy: 138]
+* [Special effect: 0x32 <4 consecutive attacks>]
+* elements: Non-Elemental
+* Causes statuses: confusion, petrify
+* targeting: defaults to enemies, can move cursor
+inverse damage on undead, reflect-piercing, runicable, re-target if victim is dead
+
+         Grand Cross: [MP: 115] [Effect Power:   0] [Accuracy: Perfect (0)]
+* [Special effect: 0x3b <Randomly triggered from a specified status error (Only one?)>]
+* targeting: defaults to enemies, can't switch sides, select single group, allow multi-target, select all or select both groups
+reflect-piercing, re-target if victim is dead, undodgeable, miss if status immune
+
+          Dragonfall: [MP:   0] [Effect Power: 118] [Accuracy: Perfect (0)]
+* [Special effect: 0x14 <3 consecutive attacks>]
+* elements: Non-Elemental
+* Causes statuses: blind
+* targeting: defaults to enemies, can move cursor
+reflect-piercing, re-target if victim is dead, undodgeable

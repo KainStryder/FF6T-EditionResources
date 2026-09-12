@@ -1,0 +1,2181 @@
+[0x000] Dagger usable by: Te, Lo, Sh, Ed, Ce, Go
+  * Battle power: 14
+  * Hit rate: 130
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Enables block anim: Dagger parry (evade)
+  * Purchase price: 150
+
+[0x001] Mythril Knife usable by: Te, Lo, Sh, Ed, Ce, Go
+  * Battle power: 22
+  * Hit rate: 130
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Enables block anim: Dagger parry (evade)
+  * Purchase price: 300
+
+[0x002] Main Gauche usable by: Lo
+  * Battle power: 32
+  * Hit rate: 130
+  * Affects evasion: 10 Evade
+  * Granted stats: +2 Strength
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Enables block anim: Dagger parry (evade)
+  * Purchase price: 820
+
+[0x003] Air Knife usable by: Lo
+  * Battle power: 40
+  * Hit rate: 130
+  * Granted stats: +1 Speed, +1 Magic
+  * Weapon element: Wind
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Enables block anim: Dagger parry (evade)
+  * Purchase price: 1050
+
+[0x004] Thief's Knife usable by: Lo, Sh
+  * Battle power: 62
+  * Hit rate: 130
+  * Affects evasion: 5 Evade
+  * Granted stats: +2 Speed
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Weapon special: Randomly mug
+  * Enables block anim: Dagger parry (evade)
+  * Purchase price: 25000
+
+[0x005] Assassin's Dagger usable by: Lo, Sh
+  * Battle power: 81
+  * Hit rate: 130
+  * Affects evasion: 10 Evade
+  * Granted stats: +3 Strength, +2 Speed, +2 Stamina
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Weapon special: May randomly X-kill
+  * Enables block anim: Dagger parry (evade)
+  * Purchase price: 2
+
+[0x006] Dancing Dagger usable by: Te, Lo, Ce, Re, Go
+  * Battle power: 68
+  * Hit rate: 130
+  * Affects evasion: 15 Evade
+  * Granted stats: +6 Speed
+  * Weapon flags: Runic OK
+  * Item type flags: Throwable
+  * Weapon special: May randomly use a Dance
+  * Purchase price: 2
+
+[0x007] Gladius usable by: Lo
+  * Battle power: 102
+  * Hit rate: 130
+  * Granted stats: +2 Magic
+  * Weapon element: Holy
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Enables block anim: Dagger parry (evade)
+  * Purchase price: 18500
+
+[0x008] Valiant Knife usable by: Lo
+  * Battle power: 65
+  * Hit rate: 130
+  * Affects evasion: 5 Evade, 5 Magic Evade
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Weapon special: Bonus damage from lost HP
+  * Enables block anim: Dagger parry (evade)
+  * Purchase price: 2
+
+[0x009] Mythril Sword usable by: Te, Ed, Ce, Go
+  * Battle power: 45
+  * Hit rate: 110
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Purchase price: 450
+
+[0x00A] Great Sword usable by: Te, Ed, Ce, Go
+  * Battle power: 62
+  * Hit rate: 110
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Purchase price: 800
+
+[0x00B] Rune Blade usable by: Te, Ce, Go
+  * Battle power: 54
+  * Hit rate: 110
+  * Granted stats: +1 Strength, +2 Magic
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Weapon special: Consumes MP for crits
+  * Purchase price: 7500
+
+[0x00C] Flametongue usable by: Te, Lo, Ed, Ce, Go
+  * Battle power: 85
+  * Hit rate: 110
+  * Granted stats: +2 Magic
+  * Weapon element: Fire
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Purchase price: 12000
+
+[0x00D] Icebrand usable by: Te, Lo, Ed, Ce, Go
+  * Battle power: 85
+  * Hit rate: 110
+  * Granted stats: +2 Magic
+  * Weapon element: Ice
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Randomly procs: Blizzard
+  * Purchase price: 12000
+
+[0x00E] Thunder Blade usable by: Te, Lo, Ed, Ce, Go
+  * Battle power: 85
+  * Hit rate: 110
+  * Granted stats: +2 Magic
+  * Weapon element: Thunder
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Randomly procs: Thunder
+  * Purchase price: 12000
+
+[0x00F] Enhancer Sword usable by: Te, Ce, Go
+  * Battle power: 108
+  * Hit rate: 110
+  * Granted stats: +5 Magic
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Randomly procs: Dispel
+  * Purchase price: 28000
+
+[0x010] Crystal Sword usable by: Te, Ce, Go
+  * Battle power: 116
+  * Hit rate: 110
+  * Granted stats: +2 Strength, +1 Speed, +1 Stamina, +1 Magic
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Purchase price: 32000
+
+[0x011] Stoneblade usable by: Te, Ce, Go
+  * Battle power: 91
+  * Hit rate: 110
+  * Granted stats: +1 Speed, +3 Magic
+  * Weapon element: Earth
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Randomly procs: Break
+  * Purchase price: 2
+
+[0x012] Shadow Blade usable by: Te, Ed, Ce
+  * Battle power: 67
+  * Hit rate: 110
+  * Granted stats: +2 Strength
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Magical Types
+  * Purchase price: 1400
+
+[0x013] Blood Sword usable by: Te, Lo, Ed, Ce, Se, Go
+  * Battle power: 88
+  * Hit rate: 95
+  * Granted stats: +2 Strength
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Weapon special: Drains HP
+  * Purchase price: 12000
+
+[0x014] Hrunting usable by: Te, Ce
+  * Battle power: 90
+  * Hit rate: 110
+  * Granted stats: +3 Magic
+  * Weapon element: Dark
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Randomly procs: Bio
+  * Weapon special: Bonus vs. Magical Types
+  * Purchase price: 8500
+
+[0x015] Gram usable by: Te, Ce
+  * Equipment flags: Phys. Up
+  * Battle power: 107
+  * Hit rate: 100
+  * Granted stats: +2 Strength, +1 Speed, +1 Magic
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Magical Types
+  * Purchase price: 2
+
+[0x016] Arondight usable by: Ce
+  * Battle power: 125
+  * Hit rate: 110
+  * Granted stats: +2 Strength, +2 Speed, +4 Magic
+  * Weapon element: Ice
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Randomly procs: Blizzara
+  * Weapon special: Bonus vs. Magical Types
+  * Purchase price: 38000
+
+[0x017] Balmung usable by: Ce
+  * Battle power: 144
+  * Hit rate: 110
+  * Granted stats: +4 Strength, +1 Speed
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Dragons
+  * Purchase price: 48200
+
+[0x018] Defender usable by: Te, Lo, Ed, Ce, Go
+  * Battle power: 107
+  * Hit rate: 115
+  * Affects evasion: 10 Evade
+  * Granted stats: +3 Strength
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Enables block anim: Sword parry (evade)
+  * Purchase price: 32000
+
+[0x019] Durandal usable by: Te
+  * Battle power: 155
+  * Hit rate: 115
+  * Granted stats: +1 Strength, +1 Speed, +2 Stamina, +1 Magic
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Enables block anim: Sword parry (evade)
+  * Purchase price: 41000
+
+[0x01A] Save the Queen usable by: Te, Lo, Ed, Ce, Mo
+  * Equipment flags: Cover Ally
+  * Applies status: Safe
+  * Battle power: 178
+  * Hit rate: 115
+  * Affects evasion: 5 Magic Evade
+  * Granted stats: +2 Strength, +2 Speed, +1 Magic
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Purchase price: 49500
+
+[0x01B] Ragnarok usable by: Te, Ce
+  * Applies status: Shell
+  * Battle power: 212
+  * Hit rate: 115
+  * Affects evasion: 10 Evade, 10 Magic Evade
+  * Granted stats: +3 Strength, +2 Speed, +2 Stamina, +4 Magic
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Enables block anim: Sword parry (evade)
+  * Purchase price: 2
+
+[0x01C] Zantetsuken usable by: Te, Cy
+  * Battle power: 182
+  * Hit rate: 120
+  * Granted stats: +5 Strength, +5 Stamina
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Weapon special: May randomly cleave
+  * Purchase price: 51000
+
+[0x01D] Mythril Spear usable by: Ed, Mo
+  * Battle power: 55
+  * Hit rate: 110
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 1800
+
+[0x01E] Heavy Lance usable by: Ed, Mo
+  * Battle power: 86
+  * Hit rate: 110
+  * Granted stats: +3 Strength, -1 Speed, +2 Stamina, -1 Magic
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 2500
+
+[0x01F] Trident usable by: Ed, Mo
+  * Battle power: 93
+  * Hit rate: 110
+  * Granted stats: +1 Strength, +1 Speed, +3 Magic
+  * Weapon element: Water
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 8200
+
+[0x020] Partisan usable by: Ed, Mo
+  * Battle power: 116
+  * Hit rate: 110
+  * Granted stats: +3 Strength, +2 Stamina
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 15600
+
+[0x021] Blood Lance usable by: Ed, Mo
+  * Battle power: 84
+  * Hit rate: 95
+  * Granted stats: +2 Strength, +6 Speed, -1 Stamina
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Weapon special: Drains HP
+  * Purchase price: 2
+
+[0x022] Radiant Lance usable by: Ed
+  * Battle power: 157
+  * Hit rate: 115
+  * Granted stats: +3 Strength, +3 Speed
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 32800
+
+[0x023] Gungnir usable by: Ed
+  * Equipment flags: Enhanced Jump, Fight to Jump
+  * Battle power: 208
+  * Hit rate: 115
+  * Granted stats: +5 Strength, +5 Speed
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 51000
+
+[0x024] Dragon Spear usable by: Ed, Mo
+  * Battle power: 132
+  * Hit rate: 115
+  * Affects evasion: 10 Magic Evade
+  * Granted stats: +3 Strength, +3 Speed, +2 Stamina
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Dragons
+  * Purchase price: 32200
+
+[0x025] Kunai usable by: Sh
+  * Equipment flags: Dual-Wield
+  * Battle power: 32
+  * Hit rate: 130
+  * Granted stats: +1 Speed
+  * Item type flags: Throwable
+  * Purchase price: 1200
+
+[0x026] Kodachi usable by: Sh
+  * Equipment flags: Dual-Wield
+  * Battle power: 45
+  * Hit rate: 130
+  * Granted stats: +1 Strength, +2 Speed
+  * Item type flags: Throwable
+  * Purchase price: 2500
+
+[0x027] Sakura usable by: Sh
+  * Equipment flags: Dual-Wield
+  * Battle power: 64
+  * Hit rate: 130
+  * Affects evasion: 5 Evade
+  * Granted stats: +3 Speed, +2 Magic
+  * Weapon element: Wind
+  * Item type flags: Throwable
+  * Purchase price: 5100
+
+[0x028] Izayoi usable by: Sh
+  * Equipment flags: Dual-Wield
+  * Battle power: 92
+  * Hit rate: 130
+  * Affects evasion: 5 Evade
+  * Granted stats: +3 Speed, +1 Magic
+  * Item type flags: Throwable
+  * Randomly procs: Sleep
+  * Purchase price: 24000
+
+[0x029] Narigitsune usable by: Sh
+  * Equipment flags: Dual-Wield
+  * Battle power: 132
+  * Hit rate: 130
+  * Affects evasion: 10 Evade
+  * Granted stats: +4 Strength, +3 Speed, +1 Stamina, +3 Magic
+  * Item type flags: Throwable
+  * Purchase price: 2
+
+[0x02A] Kagenui usable by: Sh
+  * Equipment flags: Dual-Wield
+  * Battle power: 140
+  * Hit rate: 130
+  * Affects evasion: 5 Evade, 5 Magic Evade
+  * Granted stats: +2 Strength, +5 Speed, +2 Stamina, +1 Magic
+  * Item type flags: Throwable
+  * Randomly procs: Stop
+  * Purchase price: 44000
+
+[0x02B] Ashura usable by: Cy
+  * Battle power: 56
+  * Hit rate: 110
+  * Weapon flags: Bushido OK, Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 1000
+
+[0x02C] Kotetsu usable by: Cy
+  * Battle power: 62
+  * Hit rate: 110
+  * Granted stats: +2 Strength
+  * Weapon flags: Bushido OK, Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 1600
+
+[0x02D] Osafune usable by: Cy
+  * Battle power: 75
+  * Hit rate: 110
+  * Affects evasion: 5 Evade
+  * Granted stats: +3 Stamina
+  * Weapon flags: Bushido OK, Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 2500
+
+[0x02E] Kikuichimonji usable by: Cy
+  * Battle power: 89
+  * Hit rate: 110
+  * Granted stats: +1 Strength, +1 Speed, +1 Stamina, +1 Magic
+  * Weapon flags: Bushido OK, Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 8600
+
+[0x02F] Muramasa usable by: Cy
+  * Battle power: 115
+  * Hit rate: 110
+  * Granted stats: +3 Strength, +6 Stamina, +1 Magic
+  * Weapon element: Dark
+  * Weapon flags: Bushido OK, Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 2
+
+[0x030] Mutsunokami usable by: Cy
+  * Equipment flags: +25% HP
+  * Battle power: 152
+  * Hit rate: 115
+  * Affects evasion: 5 Evade, 5 Magic Evade
+  * Granted stats: +2 Strength, +2 Speed, +2 Stamina, +2 Magic
+  * Weapon flags: Bushido OK, Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 2
+
+[0x031] Murasame usable by: Cy
+  * Battle power: 133
+  * Hit rate: 110
+  * Affects evasion: 10 Magic Evade
+  * Granted stats: +2 Magic
+  * Weapon element: Water
+  * Weapon flags: Bushido OK, Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 37500
+
+[0x032] Murakumo usable by: Cy
+  * Equipment flags: Phys. Up
+  * Battle power: 192
+  * Hit rate: 115
+  * Affects evasion: 5 Evade, 10 Magic Evade
+  * Granted stats: +3 Strength, +2 Stamina
+  * Weapon element: Holy
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Dragons
+  * Purchase price: 50000
+
+[0x033] Battle Bamboo usable by: Sa, St
+  * Battle power: 46
+  * Hit rate: 110
+  * Granted stats: +1 Speed, -1 Magic
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 950
+
+[0x034] Healing Staff usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Battle power: 200
+  * Hit rate: 180
+  * Weapon flags: Ignore Row, Two-Hand OK
+  * Weapon special: Attacks heal instead
+  * Purchase price: 12000
+
+[0x035] Flame Rod usable by: St, Re, Go
+  * Battle power: 38
+  * Hit rate: 110
+  * Weapon element: Fire
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Use in Battle
+  * Randomly procs or break to cast: Fira
+  * Target info: can move cursor, select single group, allow multi-target, defaults to enemies
+  * Purchase price: 30000
+
+[0x036] Ice Rod usable by: St, Re, Go
+  * Battle power: 38
+  * Hit rate: 110
+  * Weapon element: Ice
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Use in Battle
+  * Randomly procs or break to cast: Blizzara
+  * Target info: can move cursor, select single group, allow multi-target, defaults to enemies
+  * Purchase price: 30000
+
+[0x037] Thunder Rod usable by: St, Re, Go
+  * Battle power: 38
+  * Hit rate: 110
+  * Weapon element: Thunder
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Use in Battle
+  * Randomly procs or break to cast: Thundara
+  * Target info: can move cursor, select single group, allow multi-target, defaults to enemies
+  * Purchase price: 30000
+
+[0x038] Octagon Staff usable by: Sa, St
+  * Battle power: 99
+  * Hit rate: 110
+  * Granted stats: +4 Strength, +2 Speed, +2 Stamina, +4 Magic
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Randomly procs: Toad
+  * Purchase price: 32500
+
+[0x039] Holy Rod usable by: St, Re, Go
+  * Battle power: 78
+  * Hit rate: 110
+  * Granted stats: +2 Magic
+  * Weapon element: Holy
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Use in Battle
+  * Randomly procs or break to cast: Holy
+  * Target info: can move cursor, defaults to enemies
+  * Purchase price: 40000
+
+[0x03A] Kenkonken usable by: Lo, Sh, Sa, Go
+  * Equipment flags: Random Evade
+  * Battle power: 149
+  * Hit rate: 100
+  * Affects evasion: 10 Evade
+  * Granted stats: +4 Strength, +2 Speed, +2 Magic
+  * Weapon flags: Ignore Row
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Human
+  * Purchase price: 2
+
+[0x03B] Bone Club usable by: Um
+  * Equipment flags: Two-Hand Weapon
+  * Battle power: 163
+  * Hit rate: 120
+  * Affects evasion: -20 Evade
+  * Granted stats: +5 Strength, +7 Stamina
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 2
+
+[0x03C] Zeus Mace usable by: St, Go
+  * Equipment flags: +25% MP
+  * Battle power: 115
+  * Hit rate: 115
+  * Affects evasion: 10 Magic Evade
+  * Granted stats: +1 Strength, +3 Speed, +7 Stamina, +2 Magic
+  * Weapon element: Thunder, Holy
+  * Weapon flags: Ignore Row, Two-Hand OK
+  * Purchase price: 43800
+
+[0x03D] Chocobo Brush usable by: Re
+  * Equipment flags: Enhanced Sketch
+  * Battle power: 42
+  * Hit rate: 110
+  * Granted stats: +2 Speed
+  * Weapon flags: Two-Hand OK
+  * Purchase price: 2
+
+[0x03E] Magical Brush usable by: Re
+  * Equipment flags: Enhanced Sketch
+  * Battle power: 58
+  * Hit rate: 110
+  * Affects evasion: 5 Magic Evade
+  * Granted stats: +3 Magic
+  * Weapon flags: Two-Hand OK
+  * Randomly procs: Teleport
+  * Purchase price: 13000
+
+[0x03F] Lamia Brush usable by: Re
+  * Equipment flags: Enhanced Sketch
+  * Battle power: 67
+  * Hit rate: 95
+  * Granted stats: +1 Strength, +2 Speed, +1 Stamina, +2 Magic
+  * Weapon flags: Two-Hand OK
+  * Randomly procs: Confuse
+  * Weapon special: Drains HP
+  * Purchase price: 2
+
+[0x040] Rainbow Brush usable by: Re
+  * Equipment flags: Enhanced Sketch, SOS Safe
+  * Battle power: 99
+  * Hit rate: 110
+  * Granted stats: +2 Strength, +2 Speed, +3 Magic
+  * Weapon flags: Two-Hand OK
+  * Purchase price: 2
+
+[0x041] Shuriken usable by: Sh
+  * Equipment flags: Dual-Wield
+  * Battle power: 35
+  * Hit rate: 100
+  * Granted stats: +1 Speed, +1 Magic
+  * Weapon flags: Ignore Row
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Human
+  * Purchase price: 2600
+
+[0x042] Fuma Shuriken usable by: Sh
+  * Equipment flags: Dual-Wield
+  * Battle power: 97
+  * Hit rate: 115
+  * Affects evasion: 5 Evade
+  * Granted stats: +1 Strength, +3 Speed
+  * Weapon flags: Ignore Row
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Human
+  * Purchase price: 32500
+
+[0x043] Pinwheel usable by: Sh
+  * Equipment flags: Dual-Wield
+  * Battle power: 129
+  * Hit rate: 110
+  * Affects evasion: 5 Evade
+  * Granted stats: +3 Strength, +5 Speed
+  * Weapon flags: Ignore Row
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Human
+  * Purchase price: 42000
+
+[0x044] Mythril Axe usable by: Ga, Um
+  * Battle power: 52
+  * Hit rate: 100
+  * Affects evasion: -10 Evade
+  * Granted stats: +5 Strength, +5 Stamina
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 2400
+
+[0x045] Rising Sun usable by: Lo, Sh, Go
+  * Battle power: 102
+  * Hit rate: 100
+  * Granted stats: +2 Speed, +2 Magic
+  * Weapon flags: Ignore Row
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Human
+  * Purchase price: 28000
+
+[0x046] Flame Whip usable by: Te, Ce, St, Re, Mo, Go
+  * Battle power: 72
+  * Hit rate: 120
+  * Granted stats: +1 Speed, +1 Magic
+  * Weapon element: Fire
+  * Weapon flags: Ignore Row, Two-Hand OK
+  * Randomly procs: Fira
+  * Purchase price: 10500
+
+[0x047] Boomerang usable by: Lo, Ga, Go
+  * Battle power: 43
+  * Hit rate: 110
+  * Granted stats: +1 Speed
+  * Weapon flags: Ignore Row
+  * Item type flags: Throwable
+  * Purchase price: 3700
+
+[0x048] Moonring Blade usable by: Lo, Sh, Go
+  * Battle power: 59
+  * Hit rate: 100
+  * Affects evasion: 5 Evade
+  * Granted stats: +2 Strength, +2 Speed, +1 Stamina, +1 Magic
+  * Weapon flags: Ignore Row
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Human
+  * Purchase price: 4500
+
+[0x049] Slasher usable by: Ga, Um
+  * Battle power: 63
+  * Hit rate: 130
+  * Affects evasion: -10 Evade
+  * Granted stats: +1 Strength, +1 Speed
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Randomly procs: Slow
+  * Purchase price: 4800
+
+[0x04A] Chain Whip usable by: Te, Ce, St, Re, Mo, Go
+  * Battle power: 38
+  * Hit rate: 120
+  * Granted stats: +2 Strength, +3 Speed, +3 Stamina
+  * Weapon flags: Ignore Row, Two-Hand OK
+  * Purchase price: 950
+
+[0x04B] Blitz Whip usable by: Te, Ce, St, Re, Mo, Go
+  * Battle power: 86
+  * Hit rate: 120
+  * Granted stats: +2 Strength, +3 Speed, +2 Stamina, +3 Magic
+  * Weapon element: Thunder
+  * Weapon flags: Ignore Row, Two-Hand OK
+  * Randomly procs: Thundara
+  * Purchase price: 12500
+
+[0x04C] Gaia Hammer usable by: Ga, Um
+  * Battle power: 117
+  * Hit rate: 100
+  * Affects evasion: -10 Evade
+  * Granted stats: +7 Strength, -5 Speed
+  * Weapon element: Earth
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Randomly procs: Quake
+  * Purchase price: 52500
+
+[0x04D] Diamond Bell usable by: Re, Mo, Go
+  * Battle power: 85
+  * Hit rate: 110
+  * Granted stats: +6 Speed, +2 Magic
+  * Weapon flags: Ignore Row, Two-Hand OK
+  * Purchase price: 21000
+
+[0x04E] Cards usable by: Se
+  * Battle power: 52
+  * Hit rate: 110
+  * Weapon flags: Ignore Row
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Flying
+  * Purchase price: 1400
+
+[0x04F] Darts usable by: Se
+  * Battle power: 64
+  * Hit rate: 110
+  * Granted stats: +2 Strength
+  * Weapon flags: Ignore Row
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Flying
+  * Purchase price: 3500
+
+[0x050] Dice usable by: Se
+  * Battle power: 1
+  * Hit rate: 2
+  * Weapon flags: Ignore Row
+  * Weapon special: Dice rolled = hit rate
+  * Purchase price: 6500
+
+[0x051] Tarot de Bennstat usable by: Se
+  * Battle power: 83
+  * Hit rate: 115
+  * Affects evasion: 5 Evade, 5 Magic Evade
+  * Granted stats: +2 Speed, +2 Magic
+  * Weapon flags: Ignore Row
+  * Item type flags: Throwable
+  * Randomly procs: Death
+  * Weapon special: Bonus vs. Flying
+  * Purchase price: 2
+
+[0x052] Fake Dice usable by: Se
+  * Battle power: 1
+  * Hit rate: 3
+  * Granted stats: +3 Stamina
+  * Weapon flags: Ignore Row
+  * Weapon special: Dice rolled = hit rate
+  * Purchase price: 2
+
+[0x053] Antares usable by: Se
+  * Battle power: 122
+  * Hit rate: 115
+  * Affects evasion: 10 Magic Evade
+  * Granted stats: +2 Strength, +4 Speed
+  * Weapon element: Dark
+  * Weapon flags: Ignore Row
+  * Item type flags: Throwable
+  * Randomly procs: Scourge
+  * Weapon special: Bonus vs. Flying
+  * Purchase price: 2
+
+[0x054] Last Resort usable by: Se
+  * Equipment flags: Mag. Up
+  * Battle power: 52
+  * Hit rate: 115
+  * Affects evasion: 15 Evade, 5 Magic Evade
+  * Granted stats: +5 Strength, +5 Speed, +3 Stamina, +3 Magic
+  * Weapon flags: Ignore Row
+  * Item type flags: Throwable
+  * Weapon special: Bonus damage from lost HP
+  * Purchase price: 2
+
+[0x055] Metal Knuckle usable by: Sa
+  * Battle power: 33
+  * Hit rate: 120
+  * Purchase price: 600
+
+[0x056] Mythril Claw usable by: Sa, Ga
+  * Battle power: 48
+  * Hit rate: 120
+  * Granted stats: +1 Strength, +1 Speed
+  * Purchase price: 1200
+
+[0x057] Kaiser Knuckle usable by: Sa
+  * Battle power: 61
+  * Hit rate: 120
+  * Granted stats: +2 Strength, +1 Stamina
+  * Purchase price: 2200
+
+[0x058] Dark Claw usable by: Sa, Ga
+  * Battle power: 79
+  * Hit rate: 120
+  * Granted stats: +2 Strength, +1 Speed
+  * Weapon element: Dark
+  * Randomly procs: Poison
+  * Purchase price: 3800
+
+[0x059] Burning Knuckle usable by: Sa
+  * Battle power: 86
+  * Hit rate: 120
+  * Granted stats: +1 Strength, +1 Speed, +2 Stamina
+  * Weapon element: Fire
+  * Purchase price: 18000
+
+[0x05A] Buckler usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Defense: 8 Defense, 5 Magic Defense
+  * Affects evasion: 5 Evade
+  * Enables block anim: Shield block (evade)
+  * Purchase price: 350
+
+[0x05B] Large Shield usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Defense: 12 Defense, 10 Magic Defense
+  * Affects evasion: 5 Evade
+  * Enables block anim: Shield block (evade)
+  * Purchase price: 600
+
+[0x05C] Dragon Claw usable by: Sa, Ga
+  * Battle power: 118
+  * Hit rate: 120
+  * Granted stats: +3 Strength, +2 Speed, +2 Stamina, +3 Magic
+  * Weapon element: Holy
+  * Weapon special: Bonus vs. Dragons
+  * Purchase price: 2
+
+[0x05D] Tiger Fang usable by: Sa
+  * Battle power: 142
+  * Hit rate: 120
+  * Granted stats: +5 Strength, +5 Speed
+  * Purchase price: 40000
+
+[0x05E] Marvelous Cheer usable by: Re, Mo, Go
+  * Battle power: 124
+  * Hit rate: 110
+  * Affects evasion: 15 Magic Evade
+  * Granted stats: +2 Speed, +1 Magic
+  * Weapon flags: Ignore Row, Two-Hand OK
+  * Randomly procs: Silence
+  * Purchase price: 2
+
+[0x05F] Lightbringer usable by: Te, Lo, Ed, Ce, Go
+  * Battle power: 220
+  * Hit rate: 125
+  * Affects evasion: 25 Evade, 15 Magic Evade
+  * Granted stats: +3 Strength, +2 Speed, +2 Stamina, +4 Magic
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Randomly procs: Flare
+  * Enables block anim: Sword parry (evade)
+  * Purchase price: 2
+
+[0x060] Gekkabijin usable by: Sh
+  * Equipment flags: +12.5% MP, Dual-Wield
+  * Battle power: 201
+  * Hit rate: 140
+  * Affects evasion: 10 Evade
+  * Granted stats: +6 Strength, +4 Speed, +2 Stamina
+  * Item type flags: Throwable
+  * Purchase price: 2
+
+[0x061] Ultima Weapon usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Battle power: 140
+  * Hit rate: 110
+  * Weapon flags: Bushido OK, Runic OK
+  * Weapon special: Strength up with stamina/HP
+  * Purchase price: 2
+
+[0x062] Artemis's Brush usable by: Re
+  * Battle power: 135
+  * Hit rate: 120
+  * Granted stats: +1 Strength, +3 Speed
+  * Weapon element: Holy
+  * Weapon flags: Two-Hand OK
+  * Randomly procs: Tornado
+  * Weapon special: Bonus vs. Dragons
+  * Purchase price: 2
+
+[0x063] Kitchen Knife usable by: Lo
+  * Battle power: 140
+  * Hit rate: 80
+  * Affects evasion: -20 Evade, -20 Magic Evade
+  * Granted stats: +4 Strength, +4 Speed, +7 Magic
+  * Weapon flags: Ignore Row, Two-Hand OK
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Human
+  * Purchase price: 32000
+
+[0x064] Needle Dagger usable by: Lo, Se, Go
+  * Battle power: 75
+  * Hit rate: 140
+  * Affects evasion: 5 Evade
+  * Granted stats: +2 Speed
+  * Weapon flags: Ignore Row
+  * Item type flags: Throwable
+  * Purchase price: 6200
+
+[0x065] Maduin's Horn usable by: Te [No Merit]
+  * Equipment flags: Magic to Dualcast
+  * Battle power: 185
+  * Hit rate: 130
+  * Affects evasion: 5 Evade, 10 Magic Evade
+  * Granted stats: +2 Strength, +3 Speed, +2 Stamina, +3 Magic
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Randomly procs: Chaos Wave
+  * Purchase price: 2
+
+[0x066] Orichalcum usable by: Lo
+  * Equipment flags: Enhanced Steal
+  * Battle power: 0
+  * Hit rate: 140
+  * Affects evasion: 20 Evade
+  * Granted stats: +3 Strength, +7 Speed, +3 Stamina
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Enables block anim: Dagger parry (evade)
+  * Purchase price: 2
+
+[0x067] Excalibur usable by: Te, Lo, Ce
+  * Applies status: Regen
+  * Battle power: 200
+  * Hit rate: 115
+  * Affects evasion: 5 Evade, 5 Magic Evade
+  * Granted stats: +1 Strength, +3 Speed, +1 Stamina, +2 Magic
+  * Weapon element: Holy
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Randomly procs: Comet
+  * Enables block anim: Sword parry (evade)
+  * Purchase price: 2
+
+[0x068] Soul Eater usable by: Ed, Ce, Go
+  * Battle power: 119
+  * Hit rate: 115
+  * Affects evasion: 15 Magic Evade
+  * Granted stats: +2 Strength, +3 Speed, +3 Stamina, +1 Magic
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Randomly procs: Rasp
+  * Weapon special: Drains MP
+  * Purchase price: 2
+
+[0x069] Masamune usable by: Cy
+  * Equipment flags: No Pincer/Back, Pre-emptive Strike
+  * Applies status: Haste
+  * Battle power: 171
+  * Hit rate: 115
+  * Affects evasion: 5 Evade
+  * Granted stats: +4 Strength, +5 Speed, +2 Stamina, +3 Magic
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Item type flags: Throwable
+  * Purchase price: 2
+
+[0x06A] Sasuke's Katana usable by: Sh
+  * Equipment flags: Random Evade, Dual-Wield
+  * Battle power: 162
+  * Hit rate: 130
+  * Affects evasion: 15 Evade, 5 Magic Evade
+  * Granted stats: +3 Strength, +2 Speed, +1 Stamina
+  * Item type flags: Throwable
+  * Purchase price: 2
+
+[0x06B] Wizard Rod usable by: Te, Ce, St, Re, Mo, Go
+  * Equipment flags: Mag. Up
+  * Battle power: 102
+  * Hit rate: 110
+  * Affects evasion: 10 Magic Evade
+  * Granted stats: +7 Magic
+  * Purchase price: 2
+
+[0x06C] Elven Darts usable by: Lo, Se
+  * Equipment flags: Multi-Fight
+  * Battle power: 88
+  * Hit rate: 120
+  * Affects evasion: 5 Evade, 10 Magic Evade
+  * Granted stats: +1 Speed, +3 Magic
+  * Weapon flags: Ignore Row
+  * Item type flags: Throwable
+  * Weapon special: Bonus vs. Flying
+  * Purchase price: 2
+
+[0x06D] Earthbreaker usable by: Ga, Um
+  * Equipment flags: +50% Strength
+  * Battle power: 186
+  * Hit rate: 100
+  * Affects evasion: -20 Evade
+  * Granted stats: +7 Strength, -1 Speed
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Purchase price: 2
+
+[0x06E] Dragon Whisker usable by: Te, Ce, St, Re, Mo, Go
+  * Equipment flags: SOS Safe, SOS Shell
+  * Battle power: 121
+  * Hit rate: 110
+  * Granted stats: +4 Speed, +2 Magic
+  * Weapon flags: Ignore Row, Two-Hand OK
+  * Randomly procs: Flood
+  * Weapon special: Bonus vs. Dragons
+  * Purchase price: 2
+
+[0x06F] Holy Lance usable by: Ed, Mo
+  * Battle power: 185
+  * Hit rate: 115
+  * Granted stats: +2 Strength, +2 Speed, +4 Stamina, +4 Magic
+  * Weapon element: Holy
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Randomly procs: Holy
+  * Purchase price: 2
+
+[0x070] God Hand usable by: Sa, Ga
+  * Equipment flags: 100% Hit Rate
+  * Blocks status: Zombie, Confuse
+  * Battle power: 168
+  * Hit rate: 125
+  * Granted stats: +6 Strength, +2 Speed, +6 Stamina, +5 Magic
+  * Purchase price: 2
+
+[0x071] Rune Bell usable by: Re, Mo, Go
+  * Blocks status: Petrify
+  * Battle power: 102
+  * Hit rate: 115
+  * Affects evasion: 5 Evade, 5 Magic Evade
+  * Granted stats: +5 Magic
+  * Weapon element: Fire, Ice, Thunder, Dark, Wind, Holy, Earth, Water
+  * Weapon flags: Ignore Row, Two-Hand OK
+  * Weapon special: Consumes MP for crits
+  * Purchase price: 2
+
+[0x072] Mythril Shield usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Defense: 15 Defense, 16 Magic Defense
+  * Affects evasion: 5 Evade
+  * Enables block anim: Shield block (evade)
+  * Purchase price: 2200
+
+[0x073] Gold Shield usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Defense: 21 Defense, 18 Magic Defense
+  * Affects evasion: 10 Evade
+  * Enables block anim: Shield block (evade)
+  * Purchase price: 3900
+
+[0x074] Flame Shield usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Fira (x5)
+  * Defense: 23 Defense, 32 Magic Defense
+  * Affects evasion: 5 Evade, 10 Magic Evade
+  * Granted stats: +1 Magic
+  * Nulls element: Fire
+  * Resists element: Ice
+  * Weak to element: Water
+  * Item type flags: Use in Battle
+  * Break to cast: Firaga
+  * Target info: can move cursor, select single group, allow multi-target, defaults to enemies
+  * Enables block anim: Shield block (evade)
+  * Purchase price: 25000
+
+[0x075] Ice Shield usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Blizzara (x5)
+  * Defense: 23 Defense, 32 Magic Defense
+  * Affects evasion: 5 Evade, 10 Magic Evade
+  * Granted stats: +1 Magic
+  * Nulls element: Ice
+  * Resists element: Wind
+  * Weak to element: Fire
+  * Item type flags: Use in Battle
+  * Break to cast: Blizzaga
+  * Target info: can move cursor, select single group, allow multi-target, defaults to enemies
+  * Enables block anim: Shield block (evade)
+  * Purchase price: 25000
+
+[0x076] Thunder Shield usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Thundara (x5)
+  * Defense: 23 Defense, 32 Magic Defense
+  * Affects evasion: 5 Evade, 10 Magic Evade
+  * Granted stats: +1 Magic
+  * Nulls element: Thunder
+  * Resists element: Water
+  * Weak to element: Earth
+  * Item type flags: Use in Battle
+  * Break to cast: Thundaga
+  * Target info: can move cursor, select single group, allow multi-target, defaults to enemies
+  * Enables block anim: Shield block (evade)
+  * Purchase price: 25000
+
+[0x077] Diamond Shield usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Defense: 28 Defense, 26 Magic Defense
+  * Affects evasion: 10 Evade
+  * Granted stats: +1 Stamina
+  * Resists element: Thunder
+  * Enables block anim: Shield block (evade)
+  * Purchase price: 6600
+
+[0x078] Crystal Shield usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Blocks status: Toad
+  * Defense: 32 Defense, 28 Magic Defense
+  * Affects evasion: 15 Evade
+  * Granted stats: +1 Magic
+  * Enables block anim: Shield block (evade)
+  * Purchase price: 13000
+
+[0x079] Aegis Shield usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Break (x5)
+  * Blocks status: Petrify
+  * Defense: 36 Defense, 39 Magic Defense
+  * Affects evasion: 5 Evade, 15 Magic Evade
+  * Granted stats: +2 Magic
+  * Resists elements: Fire, Ice, Thunder
+  * Enables block anim: Shield block (evade and magic evade)
+  * Purchase price: 47500
+
+[0x07A] Force Shield usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Shell (x3)
+  * Defense: 72 Magic Defense
+  * Affects evasion: -30 Evade, 25 Magic Evade
+  * Enables block anim: Shield block (magic evade)
+  * Purchase price: 40000
+
+[0x07B] Genji Shield usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Blocks status: Sleep
+  * Defense: 48 Defense, 23 Magic Defense
+  * Affects evasion: 25 Evade, -30 Magic Evade
+  * Granted stats: +2 Strength, +2 Stamina
+  * Resists elements: Wind, Earth, Water
+  * Enables block anim: Shield block (evade)
+  * Purchase price: 42000
+
+[0x07C] Cursed Shield usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga [No Merit]
+  * Applies status: Condemned, Silence, Berserk, Confuse, Disease
+  * Affects evasion: -50 Evade, -50 Magic Evade
+  * Granted stats: -7 Strength, -7 Speed, -7 Stamina, -7 Magic
+  * Weak to elements: Fire, Ice, Thunder, Dark, Wind, Holy, Earth, Water
+  * Purchase price: 2
+
+[0x07D] Hero's Shield usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Meteor (x1)
+  * Equipment flags: +12.5% HP
+  * Defense: 51 Defense, 45 Magic Defense
+  * Affects evasion: 20 Evade, 20 Magic Evade
+  * Granted stats: +3 Strength, +3 Speed, +3 Stamina, +3 Magic
+  * Nulls elements: Fire, Ice, Thunder, Dark, Wind, Holy, Earth, Water
+  * Enables block anim: Shield block (evade and magic evade)
+  * Purchase price: 2
+
+[0x07E] La Seraphica usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Defense: 53 Defense, 48 Magic Defense
+  * Affects evasion: 25 Evade, 25 Magic Evade
+  * Granted stats: +4 Strength, +4 Speed, +4 Stamina, +4 Magic
+  * Absorbs elements: Fire, Ice, Thunder, Dark, Wind, Holy, Earth, Water
+  * Enables block anim: Shield block (evade and magic evade)
+  * Purchase price: 2
+
+[0x07F] Leather Hat usable by: Te, Lo, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Defense: 7 Defense, 5 Magic Defense
+  * Purchase price: 320
+
+[0x080] Plumed Hat usable by: Te, Lo, Sh, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Defense: 12 Defense, 8 Magic Defense
+  * Granted stats: +1 Speed
+  * Purchase price: 400
+
+[0x081] Headgear usable by: Te, Lo, Sh, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Defense: 16 Defense, 12 Magic Defense
+  * Purchase price: 1000
+
+[0x082] Magus Hat usable by: Te, Lo, Ce, St, Re, Mo, Go
+  * Teaches Poisona (x1)
+  * Defense: 12 Defense, 16 Magic Defense
+  * Granted stats: +2 Magic
+  * Purchase price: 1200
+
+[0x083] Priest's Miter usable by: Te, Lo, Ce, St, Re, Mo, Go
+  * Teaches Cure (x1)
+  * Equipment flags: +12.5% MP
+  * Defense: 18 Defense, 22 Magic Defense
+  * Granted stats: +3 Magic
+  * Purchase price: 4900
+
+[0x084] Green Beret usable by: Te, Lo, Sh, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: +12.5% HP
+  * Defense: 18 Defense, 20 Magic Defense
+  * Granted stats: +2 Strength, +2 Speed
+  * Purchase price: 6000
+
+[0x085] Twist Headband usable by: Lo, Sh, Ed, Sa, Se, Mo, Ga, Go, Um
+  * Blocks status: Sleep
+  * Defense: 19 Defense, 10 Magic Defense
+  * Granted stats: +3 Strength, +1 Speed, +1 Stamina
+  * Purchase price: 2500
+
+[0x086] Gold Hairpin usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Regen (x1)
+  * Equipment flags: 50% MP Cost
+  * Defense: 2 Defense, 4 Magic Defense
+  * Granted stats: +3 Magic
+  * Purchase price: 41500
+
+[0x087] Mystery Veil usable by: Te, Ce, Re
+  * Teaches Cura (x2)
+  * Defense: 20 Defense, 22 Magic Defense
+  * Affects evasion: 10 Magic Evade
+  * Granted stats: +1 Speed, +3 Magic
+  * Purchase price: 8800
+
+[0x088] Black Cowl usable by: Lo, Sh, Ed, Sa, Se, Mo, Ga, Go, Um
+  * Teaches Poison (x2)
+  * Blocks status: Poison
+  * Defense: 24 Defense, 17 Magic Defense
+  * Affects evasion: 5 Evade
+  * Granted stats: +2 Speed
+  * Purchase price: 12200
+
+[0x089] Oath Veil usable by: Te, Ce, Re
+  * Teaches Raise (x2)
+  * Defense: 26 Defense, 28 Magic Defense
+  * Affects evasion: 5 Magic Evade
+  * Granted stats: +2 Stamina, +1 Magic
+  * Purchase price: 18000
+
+[0x08A] Djinn's Cap usable by: Te, Lo, Ce, St, Re, Mo, Go
+  * Teaches Thundaga (x1)
+  * Equipment flags: +25% MP
+  * Defense: 29 Defense, 36 Magic Defense
+  * Affects evasion: 5 Magic Evade
+  * Granted stats: +2 Stamina, +5 Magic
+  * Resists elements: Fire, Ice, Thunder
+  * Purchase price: 39500
+
+[0x08B] Cat Hood usable by: Te, Ce, Re
+  * Teaches Teleport (x3)
+  * Equipment flags: 2x Gold
+  * Applies status: Regen
+  * Defense: 28 Defense, 40 Magic Defense
+  * Affects evasion: 15 Magic Evade
+  * Granted stats: +3 Magic
+  * Purchase price: 2
+
+[0x08C] Lambent Hat usable by: Lo, Sh, Sa, St, Se, Mo, Ga, Go, Um
+  * Teaches Dispel (x2)
+  * Defense: 33 Defense, 35 Magic Defense
+  * Affects evasion: 5 Evade, 5 Magic Evade
+  * Granted stats: +2 Speed, +4 Magic
+  * Resists elements: Fire, Ice, Thunder, Dark, Wind, Holy, Earth, Water
+  * Purchase price: 2
+
+[0x08D] Iron Helm usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Defense: 15 Defense, 10 Magic Defense
+  * Purchase price: 1800
+
+[0x08E] Mythril Helm usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Defense: 19 Defense, 12 Magic Defense
+  * Purchase price: 3200
+
+[0x08F] Gold Helm usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Defense: 21 Defense, 14 Magic Defense
+  * Purchase price: 6100
+
+[0x090] Diamond Helm usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Defense: 25 Defense, 16 Magic Defense
+  * Resists element: Thunder
+  * Purchase price: 14500
+
+[0x091] Circlet usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Esuna (x5)
+  * Blocks status: Silence
+  * Defense: 24 Defense, 25 Magic Defense
+  * Granted stats: -2 Strength, +5 Magic
+  * Purchase price: 13500
+
+[0x092] Crystal Helm usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Defense: 30 Defense, 27 Magic Defense
+  * Granted stats: +1 Speed, +1 Stamina
+  * Purchase price: 23000
+
+[0x093] Royal Crown usable by: Ed, Sa
+  * Blocks status: Zombie
+  * Defense: 35 Defense, 34 Magic Defense
+  * Granted stats: +1 Strength, +1 Speed, +1 Stamina, +1 Magic
+  * Purchase price: 2
+
+[0x094] Genji Helm usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Defense: 39 Defense, 28 Magic Defense
+  * Granted stats: +3 Strength, +2 Stamina
+  * Purchase price: 2
+
+[0x095] Grand Helm usable by: Lo, Cy, Ed, Sa, Mo, Ga, Go, Um
+  * Equipment flags: +25% HP
+  * Defense: 42 Defense, 40 Magic Defense
+  * Granted stats: +5 Strength, +4 Stamina
+  * Purchase price: 2
+
+[0x096] Barrette usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Blocks status: Blind, Poison, Toad, Sleep
+  * Defense: 2 Defense, 8 Magic Defense
+  * Purchase price: 12000
+
+[0x097] Cachusha usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Blocks status: Petrify, Silence, Berserk, Confuse
+  * Defense: 4 Defense, 10 Magic Defense
+  * Purchase price: 14000
+
+[0x098] Ribbon usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Blocks status: Blind, Poison, Toad, Petrify, Silence, Berserk, Confuse, Sleep
+  * Defense: 6 Defense, 12 Magic Defense
+  * Granted stats: +3 Speed
+  * Purchase price: 25000
+
+[0x099] Cotton Robe usable by: Te, Ce, St, Re, Mo, Go
+  * Defense: 22 Defense, 27 Magic Defense
+  * Purchase price: 450
+
+[0x09A] Kenpo Gi usable by: Lo, Sh, Ed, Sa, Se, Mo, Ga, Go, Um
+  * Defense: 28 Defense, 26 Magic Defense
+  * Purchase price: 510
+
+[0x09B] Mythril Plate usable by: Te, Lo, Sh, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Defense: 34 Defense, 32 Magic Defense
+  * Granted stats: +1 Magic
+  * Purchase price: 2400
+
+[0x09C] Ninja Gear usable by: Lo, Sh, Ed, Sa, Se, Mo, Ga, Go, Um
+  * Defense: 37 Defense, 30 Magic Defense
+  * Granted stats: +2 Speed
+  * Purchase price: 2300
+
+[0x09D] White Dress usable by: Te, Ce, Re
+  * Defense: 36 Defense, 35 Magic Defense
+  * Granted stats: +3 Magic
+  * Purchase price: 4500
+
+[0x09E] Gaia Gear usable by: Te, Lo, Sh, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Defense: 40 Defense, 38 Magic Defense
+  * Affects evasion: 5 Magic Evade
+  * Granted stats: +2 Stamina
+  * Resists element: Earth
+  * Purchase price: 10000
+
+[0x09F] Moogle Suit usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Confuse (x5)
+  * Defense: 48 Defense, 36 Magic Defense
+  * Nulls element: Dark
+  * Resists element: Water
+  * Purchase price: 28000
+
+[0x0A0] Power Sash usable by: Lo, Sh, Ed, Sa, Se, Mo, Ga, Go, Um
+  * Defense: 42 Defense, 36 Magic Defense
+  * Granted stats: +3 Strength, +1 Speed, +2 Stamina
+  * Purchase price: 8500
+
+[0x0A1] Black Garb usable by: Lo, Sh, Ed, Sa, Se, Mo, Ga, Go, Um
+  * Teaches Death (x2)
+  * Defense: 51 Defense, 45 Magic Defense
+  * Affects evasion: 5 Evade
+  * Granted stats: +3 Speed
+  * Purchase price: 25000
+
+[0x0A2] Magus Robe usable by: Te, Ce, St, Re, Mo, Go
+  * Teaches Cura (x5)
+  * Blocks status: Condemned
+  * Defense: 45 Defense, 48 Magic Defense
+  * Granted stats: +3 Magic
+  * Purchase price: 19000
+
+[0x0A3] Noiseblaster
+  * Battle power: 0
+  * Hit rate: 120
+  * Weapon flags: Ignore Row
+  * Purchase price: 2000
+
+[0x0A4] Bioblaster
+  * Battle power: 0
+  * Hit rate: 255
+  * Weapon flags: Ignore Row
+  * Purchase price: 2000
+
+[0x0A5] Flash
+  * Battle power: 0
+  * Hit rate: 70
+  * Weapon flags: Ignore Row
+  * Purchase price: 5000
+
+[0x0A6] Chainsaw
+  * Battle power: 225
+  * Hit rate: 140
+  * Weapon flags: Ignore Row
+  * Purchase price: 25000
+
+[0x0A7] Particle Bomb
+  * Battle power: 10
+  * Hit rate: 255
+  * Purchase price: 29200
+
+[0x0A8] Drill
+  * Battle power: 95
+  * Hit rate: 120
+  * Weapon flags: Ignore Row
+  * Purchase price: 15000
+
+[0x0A9] Air Anchor
+  * Battle power: 192
+  * Hit rate: 140
+  * Weapon flags: Ignore Row
+  * Purchase price: 34000
+
+[0x0AA] Auto Crossbow
+  * Battle power: 65
+  * Hit rate: 100
+  * Weapon flags: Ignore Row
+  * Purchase price: 1800
+
+[0x0AB] Flame Scroll
+  * Item power: 0
+  * Item type flags: Throwable
+  * Target info: can't switch sides, select all or select both groups, select single group, allow multi-target, defaults to enemies
+  * Purchase price: 600
+
+[0x0AC] Water Scroll
+  * Item power: 0
+  * Item type flags: Throwable
+  * Target info: can't switch sides, select all or select both groups, select single group, allow multi-target, defaults to enemies
+  * Purchase price: 600
+
+[0x0AD] Thunder Scroll
+  * Item power: 0
+  * Item type flags: Throwable
+  * Target info: can't switch sides, select all or select both groups, select single group, allow multi-target, defaults to enemies
+  * Purchase price: 600
+
+[0x0AE] Invis Scroll
+  * Item power: 0
+  * Item type flags: Throwable
+  * Target info: can't switch sides
+  * Affects status: Vanish
+  * Purchase price: 400
+
+[0x0AF] Shadow Scroll
+  * Item power: 0
+  * Item type flags: Throwable
+  * Target info: can't switch sides
+  * Purchase price: 800
+
+[0x0B0] White Robe usable by: Te, Ce, St, Re, Mo, Go
+  * Teaches Holy (x2)
+  * Defense: 50 Defense, 52 Magic Defense
+  * Affects evasion: 10 Magic Evade
+  * Granted stats: +1 Speed, +2 Stamina, +3 Magic
+  * Resists element: Dark
+  * Purchase price: 50000
+
+[0x0B1] Black Robe usable by: Te, Ce, St, Re, Mo, Go
+  * Teaches Flare (x2)
+  * Defense: 52 Defense, 50 Magic Defense
+  * Affects evasion: 10 Magic Evade
+  * Granted stats: +5 Magic
+  * Resists element: Holy
+  * Purchase price: 50000
+
+[0x0B2] Mirage Vest usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Blink (x3)
+  * Applies status: Blink
+  * Defense: 20 Defense, 20 Magic Defense
+  * Affects evasion: 15 Evade
+  * Granted stats: +5 Speed
+  * Purchase price: 48000
+
+[0x0B3] Minerva Bustier usable by: Te, Ce
+  * Equipment flags: +12.5% MP
+  * Defense: 59 Defense, 69 Magic Defense
+  * Affects evasion: 5 Magic Evade
+  * Granted stats: +5 Magic
+  * Nulls element: Holy
+  * Resists elements: Fire, Ice, Thunder
+  * Purchase price: 46000
+
+[0x0B4] Pheasant Netsuke usable by: Mo
+  * Equipment flags: Dance to Animal
+  * Defense: 2 Defense, 4 Magic Defense
+  * Affects evasion: 5 Evade
+  * Granted stats: +3 Strength, +5 Speed, +2 Stamina
+  * Absorbs element: Wind
+  * Resists element: Earth
+  * Purchase price: 2
+
+[0x0B5] Rubber Suit usable by: Lo, Sh, Ed, Sa, Se, Mo, Ga, Go, Um
+  * Equipment flags: +12.5% HP
+  * Defense: 66 Defense, 50 Magic Defense
+  * Granted stats: +2 Strength, +4 Speed
+  * Nulls element: Thunder
+  * Resists element: Dark
+  * Purchase price: 2
+
+[0x0B6] Snow Scarf usable by: Mo, Ga, Um
+  * Teaches Blizzaga (x1)
+  * Defense: 67 Defense, 52 Magic Defense
+  * Granted stats: +1 Strength, +2 Speed, +1 Stamina, +2 Magic
+  * Nulls element: Ice
+  * Resists element: Fire
+  * Purchase price: 2
+
+[0x0B7] Behemoth Suit usable by: St, Re
+  * Teaches Comet (x2)
+  * Equipment flags: +50% Strength
+  * Defense: 55 Defense, 35 Magic Defense
+  * Granted stats: +7 Strength, +3 Speed, +2 Stamina, -7 Magic
+  * Nulls element: Wind
+  * Purchase price: 2
+
+[0x0B8] Leather Armor usable by: Te, Lo, Cy, Ed, Ce, Se, Mo, Go
+  * Defense: 24 Defense, 20 Magic Defense
+  * Purchase price: 500
+
+[0x0B9] Iron Armor usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Defense: 31 Defense, 22 Magic Defense
+  * Purchase price: 1300
+
+[0x0BA] Mythril Armor usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Defense: 38 Defense, 26 Magic Defense
+  * Granted stats: +1 Magic
+  * Purchase price: 5400
+
+[0x0BB] Gold Armor usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Defense: 45 Defense, 38 Magic Defense
+  * Purchase price: 18000
+
+[0x0BC] Diamond Armor usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Defense: 56 Defense, 42 Magic Defense
+  * Resists element: Thunder
+  * Purchase price: 30000
+
+[0x0BD] Crystal Mail usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Defense: 63 Defense, 46 Magic Defense
+  * Granted stats: +2 Stamina, +2 Magic
+  * Purchase price: 32000
+
+[0x0BE] Reflect Mail usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Applies status: Reflect
+  * Defense: 62 Defense, 50 Magic Defense
+  * Granted stats: +2 Strength, +1 Magic
+  * Purchase price: 36500
+
+[0x0BF] Force Armor usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Teaches Shell (x5)
+  * Applies status: Shell
+  * Defense: 23 Defense, 65 Magic Defense
+  * Affects evasion: -30 Evade, 10 Magic Evade
+  * Purchase price: 46000
+
+[0x0C0] Genji Armor usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Blocks status: Zombie
+  * Defense: 85 Defense, 48 Magic Defense
+  * Affects evasion: 15 Evade, -30 Magic Evade
+  * Granted stats: +3 Strength
+  * Purchase price: 47500
+
+[0x0C1] Maximillian usable by: Te, Cy, Ed, Ce, Se, Mo, Go
+  * Equipment flags: +25% HP
+  * Blocks status: (Instant) Death
+  * Defense: 91 Defense, 55 Magic Defense
+  * Affects evasion: 10 Evade
+  * Granted stats: +3 Strength, +3 Stamina
+  * Purchase price: 2
+
+[0x0C2] Silver Spectacles usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Blocks status: Blind
+  * Defense: 1 Defense, 1 Magic Defense
+  * Purchase price: 1300
+
+[0x0C3] White Cape usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Blocks status: Toad
+  * Defense: 5 Defense, 6 Magic Defense
+  * Resists element: Water
+  * Purchase price: 8000
+
+[0x0C4] Jeweled Ring usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Blocks status: Petrify
+  * Defense: 1 Defense, 3 Magic Defense
+  * Resists element: Thunder
+  * Purchase price: 2000
+
+[0x0C5] Protect Ring usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Applies status: Safe
+  * Defense: 8 Defense
+  * Granted stats: +3 Stamina
+  * Resists element: Ice
+  * Purchase price: 25000
+
+[0x0C6] Hermes Sandals usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Applies status: Haste
+  * Defense: 2 Defense, 6 Magic Defense
+  * Granted stats: +3 Speed
+  * Purchase price: 45000
+
+[0x0C7] Reflect Ring usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Reflect (x3)
+  * Applies status: Reflect
+  * Defense: 1 Defense, 10 Magic Defense
+  * Granted stats: +2 Magic
+  * Resists element: Dark
+  * Purchase price: 40000
+
+[0x0C8] Feather Boots usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Applies status: Float
+  * Defense: 2 Defense, 2 Magic Defense
+  * Affects evasion: 5 Evade
+  * Granted stats: +2 Speed
+  * Weak to element: Wind
+  * Purchase price: 20000
+
+[0x0C9] Gyshal Potpourri usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Blocks status: Silence, Sleep
+  * Defense: 5 Magic Defense
+  * Purchase price: 4800
+
+[0x0CA] Knight's Code usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Cover Ally, SOS Safe
+  * Defense: 10 Defense
+  * Granted stats: +5 Stamina
+  * Purchase price: 3500
+
+[0x0CB] Dragoon Boots usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Fight to Jump
+  * Defense: 6 Defense, 3 Magic Defense
+  * Granted stats: +1 Speed
+  * Purchase price: 16500
+
+[0x0CC] Zephyr Cloak usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Defense: 4 Defense, 4 Magic Defense
+  * Affects evasion: 25 Evade, 5 Magic Evade
+  * Granted stats: +1 Speed
+  * Resists element: Wind
+  * Enables block anim: Cape swirl (evade)
+  * Purchase price: 25000
+
+[0x0CD] Earrings usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Fire (x1)
+  * Equipment flags: Mag. Up
+  * Defense: 2 Magic Defense
+  * Granted stats: -2 Strength, +3 Magic
+  * Resists element: Water
+  * Purchase price: 8000
+
+[0x0CE] Gigas Glove usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Protect (x1)
+  * Equipment flags: Phys. Up
+  * Defense: 5 Defense
+  * Granted stats: +3 Strength, -2 Speed, -3 Magic
+  * Purchase price: 12000
+
+[0x0CF] Thief's Bracer usable by: Lo, Go
+  * Equipment flags: Enhanced Steal
+  * Defense: 3 Defense
+  * Granted stats: +3 Speed
+  * Purchase price: 20000
+
+[0x0D0] Mjolnir usable by: Ga, Um
+  * Equipment flags: +12.5% MP, 100% Hit Rate
+  * Battle power: 206
+  * Hit rate: 120
+  * Granted stats: +5 Strength, +2 Speed, +2 Stamina, +3 Magic
+  * Weapon flags: Two-Hand OK
+  * Item type flags: Throwable
+  * Randomly procs: Thundaga
+  * Weapon special: Consumes MP for crits
+  * Purchase price: 2
+
+[0x0D1] Thief Gloves usable by: Lo, Go
+  * Equipment flags: Steal to Mug
+  * Defense: 5 Defense, 1 Magic Defense
+  * Granted stats: +4 Speed
+  * Purchase price: 18200
+
+[0x0D2] Gauntlet usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Two-Hand Weapon, SOS Shell
+  * Defense: 10 Defense, 5 Magic Defense
+  * Affects evasion: -20 Evade
+  * Granted stats: +6 Strength
+  * Purchase price: 15000
+
+[0x0D3] Genji Glove usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Dual-Wield
+  * Defense: 12 Defense, 3 Magic Defense
+  * Affects evasion: -10 Magic Evade
+  * Granted stats: +1 Strength, +1 Speed
+  * Purchase price: 49000
+
+[0x0D4] Hyper Wrist usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: +50% Strength
+  * Defense: 8 Defense
+  * Purchase price: 16000
+
+[0x0D5] Heiji's Jitte usable by: Se, Go
+  * Equipment flags: Slots to Gil Toss
+  * Defense: 2 Defense, 7 Magic Defense
+  * Affects evasion: 5 Evade
+  * Granted stats: +4 Speed, +4 Magic
+  * Purchase price: 2
+
+[0x0D6] Merit Award usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Merit Award
+  * Defense: 10 Defense, 10 Magic Defense
+  * Granted stats: +2 Strength, +5 Stamina
+  * Purchase price: 2
+
+[0x0D7] Memento Ring usable by: Sh, Re [No Merit]
+  * Teaches Raise (x3)
+  * Blocks status: Zombie, (Instant) Death, Condemned
+  * Defense: 5 Magic Defense
+  * Granted stats: +2 Speed, +2 Magic
+  * Resists element: Holy
+  * Purchase price: 2
+
+[0x0D8] Molulu's Charm usable by: Mo
+  * Field effect: No encounters
+  * Defense: 2 Defense, 4 Magic Defense
+  * Purchase price: 2
+
+[0x0D9] Ward Bangle usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Field effect: Reduced encounters
+  * Defense: 20 Magic Defense
+  * Purchase price: 16800
+
+[0x0DA] Alarm Earring usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: No Pincer/Back
+  * Defense: 3 Magic Defense
+  * Affects evasion: 5 Evade
+  * Purchase price: 10000
+
+[0x0DB] Gale Hairpin usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Pre-emptive Strike
+  * Defense: 3 Defense, 1 Magic Defense
+  * Granted stats: +3 Speed
+  * Purchase price: 12000
+
+[0x0DC] Sniper Eye usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: 100% Hit Rate
+  * Defense: 2 Defense, 3 Magic Defense
+  * Purchase price: 8200
+
+[0x0DD] Star Pendant usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Blocks status: Poison
+  * Defense: 2 Defense, 2 Magic Defense
+  * Purchase price: 1200
+
+[0x0DE] Amulet usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Blocks status: Zombie
+  * Defense: 2 Defense, 6 Magic Defense
+  * Granted stats: +1 Magic
+  * Resists element: Wind
+  * Purchase price: 9500
+
+[0x0DF] Tynar Rouge usable by: Te, Ce, Re
+  * Teaches Arise (x5)
+  * Applies status: Regen, Shell, Safe
+  * Defense: 10 Defense, 12 Magic Defense
+  * Granted stats: +3 Strength, +3 Speed, +3 Stamina, +3 Magic
+  * Purchase price: 47000
+
+[0x0E0] Lunar Curtain usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Reflect (x1)
+  * Equipment flags: SOS Reflect
+  * Defense: 2 Defense, 24 Magic Defense
+  * Affects evasion: 5 Evade, 5 Magic Evade
+  * Granted stats: -7 Strength, +7 Magic
+  * Enables block anim: Cape swirl (evade)
+  * Purchase price: 13000
+
+[0x0E1] Peace Ring usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Blocks status: Berserk, Confuse
+  * Defense: 1 Defense, 6 Magic Defense
+  * Granted stats: +1 Magic
+  * Resists element: Fire
+  * Purchase price: 6500
+
+[0x0E2] Power Belt usable by: Um [No Merit]
+  * Defense: 6 Defense, 12 Magic Defense
+  * Granted stats: +2 Strength, +4 Speed, +3 Stamina, +4 Magic
+  * Absorbs element: Ice
+  * Purchase price: 2
+
+[0x0E3] Berserker Ring usable by: Um [No Merit]
+  * Equipment flags: +50% Strength
+  * Defense: 12 Defense, 3 Magic Defense
+  * Granted stats: +4 Strength, +4 Stamina
+  * Nulls element: Fire
+  * Purchase price: 2
+
+[0x0E4] Floral Fallal usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Teaches Curaga (x1)
+  * Equipment flags: +50% HP, +25% MP, Random Evade
+  * Defense: 3 Defense, 8 Magic Defense
+  * Granted stats: +4 Speed
+  * Weak to element: Dark
+  * Purchase price: 42500
+
+[0x0E5] Lordly Robes usable by: Te, Ce, St, Re, Go
+  * Equipment flags: 50% MP Cost
+  * Blocks status: Zombie, (Instant) Death
+  * Defense: 62 Defense, 76 Magic Defense
+  * Affects evasion: 15 Magic Evade
+  * Granted stats: +2 Speed, +6 Magic
+  * Purchase price: 2
+
+[0x0E6] Omega Weapon usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Mag. Up, Phys. Up, 100% Hit Rate, Random Counter, SOS Safe, SOS Shell
+  * Applies status: Regen, Haste
+  * Battle power: 255
+  * Hit rate: 150
+  * Affects evasion: 30 Evade, 30 Magic Evade
+  * Granted stats: +6 Strength, +6 Speed, +6 Stamina, +6 Magic
+  * Weapon flags: Bushido OK, Two-Hand OK, Runic OK
+  * Randomly procs: Ultima
+  * Purchase price: 2
+
+[0x0E7] Golden Apple (sometimes proxy for Brave Ring)
+  * Item power: 0
+  * Item type flags: Use in Menu
+  * Target info: can move cursor, can't switch sides
+  * Purchase price: 2
+
+[0x0E8] Potion (sometimes proxy for Guard Bracelet)
+  * Item power: 90
+  * Item type flags: Use in Battle, Use in Menu
+  * Item flags: Damages Undead, Affects HP
+  * Target info: can move cursor
+  * Purchase price: 100
+
+[0x0E9] Hi-Potion (sometimes proxy for Dead Spirit)
+  * Item power: 255
+  * Item type flags: Use in Battle, Use in Menu
+  * Item flags: Damages Undead, Affects HP
+  * Target info: can move cursor
+  * Purchase price: 500
+
+[0x0EA] X-Potion (sometimes proxy for Prayer Beads)
+  * Item power: 16
+  * Item type flags: Use in Battle, Use in Menu
+  * Item flags: Damages Undead, Affects HP, Fractional (pow/16)
+  * Target info: can move cursor, can't switch sides
+  * Purchase price: 36000
+
+[0x0EB] Ether (sometimes proxy for Black Belt)
+  * Item power: 100
+  * Item type flags: Use in Battle, Use in Menu
+  * Item flags: Affects MP
+  * Target info: can move cursor
+  * Purchase price: 3000
+
+[0x0EC] Hi-Ether (sometimes proxy for Dragon Horn)
+  * Item power: 250
+  * Item type flags: Use in Battle, Use in Menu
+  * Item flags: Affects MP
+  * Target info: can move cursor
+  * Purchase price: 10000
+
+[0x0ED] X-Ether (sometimes proxy for Celestriad)
+  * Item power: 16
+  * Item type flags: Use in Battle, Use in Menu
+  * Item flags: Affects MP, Fractional (pow/16)
+  * Target info: can move cursor
+  * Purchase price: 42000
+
+[0x0EE] Elixir (sometimes proxy for Master's Scroll)
+  * Item power: 16
+  * Item type flags: Use in Battle, Use in Menu
+  * Item flags: Damages Undead, Affects HP, Affects MP, Fractional (pow/16)
+  * Target info: can move cursor, can't switch sides
+  * Item special effect: 0x04
+  * Purchase price: 2
+
+[0x0EF] Megalixir (sometimes proxy for Bacchus's Bracer)
+  * Item power: 16
+  * Item type flags: Use in Battle
+  * Item flags: Damages Undead, Affects HP, Affects MP, Fractional (pow/16)
+  * Target info: can't switch sides, select all or select both groups, select single group, allow multi-target
+  * Item special effect: 0x04
+  * Purchase price: 2
+
+[0x0F0] Phoenix Down (sometimes proxy for Safety Bit)
+  * Item power: 2
+  * Item type flags: Use in Battle, Use in Menu
+  * Item flags: Damages Undead, Affects HP, Remove Status, Fractional (pow/16)
+  * Target info: can move cursor
+  * Affects status: (Instant) Death
+  * Purchase price: 800
+
+[0x0F1] Holy Water (sometimes proxy for Mime's Dictionary)
+  * Item power: 0
+  * Item type flags: Use in Menu
+  * Target info: can move cursor, can't switch sides
+  * Purchase price: 2
+
+[0x0F2] Antidote (sometimes proxy for Bracer)
+  * Item power: 0
+  * Item type flags: Use in Menu
+  * Target info: can move cursor, can't switch sides
+  * Purchase price: 2
+
+[0x0F3] Eye Drops (sometimes proxy for Tetra Elemental)
+  * Item power: 0
+  * Item type flags: Use in Menu
+  * Target info: can move cursor, can't switch sides
+  * Purchase price: 2
+
+[0x0F4] Gold Needle (sometimes proxy for Embroidered Tippet)
+  * Teaches Arise (x1)
+  * Item power: 0
+  * Item type flags: Use in Menu
+  * Target info: can move cursor, can't switch sides
+  * Purchase price: 2
+
+[0x0F5] Remedy (sometimes proxy for Soul of Thamasa)
+  * Item power: 0
+  * Item type flags: Use in Battle, Use in Menu
+  * Item flags: Remove Status
+  * Target info: can move cursor
+  * Affects status: Blind, Poison, Toad, Petrify, Silence, Disease
+  * Purchase price: 2500
+
+[0x0F6] Soma Drop (sometimes proxy for Zeidrich)
+  * Item power: 0
+  * Item type flags: Use in Menu
+  * Target info: can move cursor, can't switch sides
+  * Purchase price: 2
+
+[0x0F7] Tent (sometimes proxy for Flame Cape)
+  * Item power: 16
+  * Item type flags: Use in Menu
+  * Item flags: Affects HP, Affects MP, Remove Status, Fractional (pow/16)
+  * Affects status: Blind, Zombie, Poison, Vanish, Toad, Petrify, (Instant) Death, Temp. Float
+  * Purchase price: 2000
+
+[0x0F8] Maiden's Kiss (sometimes proxy for Wind Corsage)
+  * Item power: 0
+  * Item type flags: Use in Battle, Use in Menu
+  * Item flags: Remove Status
+  * Target info: can move cursor
+  * Affects status: Blind, Poison, Silence, Disease
+  * Purchase price: 120
+
+[0x0F9] Magicite Piece (sometimes proxy for Earth Greaves)
+  * Item power: 0
+  * Item type flags: Use in Battle
+  * Item flags: Remove Status
+  * Target info: can move cursor
+  * Affects status: Berserk, Confuse, Sleep
+  * Purchase price: 240
+
+[0x0FA] Reincarnation (sometimes proxy for Water Cuffs)
+  * Item power: 16
+  * Item type flags: Use in Battle
+  * Item flags: Damages Undead, Affects HP, Remove Status, Fractional (pow/16)
+  * Target info: can move cursor, can't switch sides
+  * Affects status: (Instant) Death
+  * Purchase price: 60000
+
+[0x0FB] Echo Herbs (sometimes proxy for Maiden's Prayer)
+  * Item power: 2
+  * Item type flags: Use in Battle, Use in Menu
+  * Item flags: Damages Undead, Affects HP, Remove Status, Fractional (pow/16)
+  * Target info: can move cursor
+  * Affects status: Zombie
+  * Purchase price: 280
+
+[0x0FC] Smoke Bomb (sometimes proxy for Imp's Feelings)
+  * Item power: 0
+  * Item type flags: Use in Battle
+  * Target info: can't switch sides, select all or select both groups, select single group, allow multi-target
+  * Item special effect: 0x03
+  * Purchase price: 300
+
+[0x0FD] Teleport Stone (sometimes proxy for Piggy's Badge)
+  * Item power: 0
+  * Item type flags: Use in Battle, Use in Menu
+  * Item flags: Remove Status
+  * Target info: can move cursor
+  * Affects status: Toad, Petrify
+  * Purchase price: 200
+
+[0x0FE] Dried Meat (sometimes proxy for Growth Egg)
+  * Item power: 150
+  * Item type flags: Use in Battle, Use in Menu
+  * Item flags: Affects HP
+  * Target info: can move cursor
+  * Item special effect: 0x06
+  * Purchase price: 150
+
+[0x100] Brave Ring usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Mag. Up, Phys. Up
+  * Defense: 6 Defense, 6 Magic Defense
+  * Granted stats: +1 Strength, +1 Speed, +1 Stamina, +1 Magic
+  * Purchase price: 30000
+
+[0x101] Guard Bracelet usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Applies status: Shell, Safe
+  * Defense: 12 Defense, 12 Magic Defense
+  * Granted stats: +2 Stamina, +2 Magic
+  * Resists element: Earth
+  * Purchase price: 42000
+
+[0x102] Dead Soul usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Turns user 'undead'
+  * Blocks status: Zombie
+  * Defense: 48 Magic Defense
+  * Affects evasion: 10 Evade, -50 Magic Evade
+  * Granted stats: +5 Strength, +5 Speed, -7 Stamina, +5 Magic
+  * Absorbs element: Dark
+  * Nulls elements: Fire, Ice, Thunder, Wind, Earth, Water
+  * Weak to element: Holy
+  * Purchase price: 9898
+
+[0x103] Prayer Beads usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Random Evade
+  * Defense: 5 Defense, 5 Magic Defense
+  * Affects evasion: 15 Evade
+  * Granted stats: +2 Speed
+  * Purchase price: 6200
+
+[0x104] Black Belt usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Random Counter
+  * Defense: 6 Defense, 1 Magic Defense
+  * Granted stats: +2 Strength, +2 Speed
+  * Purchase price: 3000
+
+[0x105] Dragon Horn usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Enhanced Jump, Fight to Jump
+  * Defense: 9 Magic Defense
+  * Granted stats: +1 Strength, +3 Speed
+  * Purchase price: 2
+
+[0x106] Celestriad usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: 1 MP Cost
+  * Defense: 8 Magic Defense
+  * Granted stats: -5 Strength, -5 Magic
+  * Purchase price: 2
+
+[0x107] Master's Scroll usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Multi-Fight
+  * Defense: 2 Defense, 5 Magic Defense
+  * Granted stats: +1 Strength, +1 Speed
+  * Purchase price: 2
+
+[0x108] Bacchus's Bracer usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Applies status: Berserk
+  * Defense: 12 Magic Defense
+  * Granted stats: +5 Strength, +5 Stamina
+  * Purchase price: 25000
+
+[0x109] Safety Bit usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Blocks status: Zombie, Petrify, (Instant) Death
+  * Defense: 8 Magic Defense
+  * Granted stats: +1 Magic
+  * Purchase price: 52800
+
+[0x10A] Mime's Dictionary usable by: Go [No Merit]
+  * Equipment flags: Enhanced Control, Enhanced Steal, Enhanced Sketch, Slots to Gil Toss, Sketch to Spirit, Dance to Animal, Runic to Pray, Steal to Mug
+  * Defense: 13 Defense, 12 Magic Defense
+  * Affects evasion: 5 Evade, 5 Magic Evade
+  * Granted stats: +5 Strength, +5 Speed, +5 Stamina, +5 Magic
+  * Purchase price: 2
+
+[0x10B] Bracer usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Phys. Up, Dual-Wield
+  * Defense: 17 Defense, 20 Magic Defense
+  * Affects evasion: 5 Evade
+  * Granted stats: +5 Strength, +4 Speed, +4 Stamina, +5 Magic
+  * Purchase price: 2
+
+[0x10C] Tetra Elemental usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Defense: 10 Magic Defense
+  * Absorbs elements: Fire, Ice, Thunder, Water
+  * Purchase price: 38000
+
+[0x10D] Embroidered Tippet usable by: Re
+  * Teaches Arise (x1)
+  * Equipment flags: Sketch to Spirit
+  * Defense: 4 Defense, 9 Magic Defense
+  * Affects evasion: -10 Evade, 5 Magic Evade
+  * Granted stats: +2 Stamina, +3 Magic
+  * Nulls elements: Dark, Holy
+  * Resists elements: Wind, Earth, Water
+  * Purchase price: 2
+
+[0x10E] Soul of Thamasa usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Magic to X-Magic
+  * Defense: 5 Defense, 5 Magic Defense
+  * Granted stats: +4 Magic
+  * Purchase price: 2
+
+[0x10F] Zeidrich usable by: Te [No Merit]
+  * Equipment flags: Trance to Shock
+  * Defense: 18 Defense, 14 Magic Defense
+  * Granted stats: +4 Strength, +2 Speed, +3 Stamina
+  * Purchase price: 2
+
+[0x110] Flame Cape usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Cover Ally
+  * Applies status: Regen
+  * Defense: 12 Defense, 10 Magic Defense
+  * Granted stats: +7 Strength, +3 Speed, +3 Stamina, +3 Magic
+  * Absorbs element: Fire
+  * Nulls element: Ice
+  * Resists element: Water
+  * Purchase price: 2
+
+[0x111] Wind Corsage usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: 100% Hit Rate
+  * Applies status: Haste
+  * Defense: 10 Defense, 12 Magic Defense
+  * Granted stats: +3 Strength, +7 Speed, +3 Stamina, +3 Magic
+  * Absorbs element: Wind
+  * Nulls element: Earth
+  * Resists element: Thunder
+  * Purchase price: 2
+
+[0x112] Earth Greaves usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: No Pincer/Back
+  * Applies status: Safe
+  * Defense: 11 Defense, 11 Magic Defense
+  * Granted stats: +3 Strength, +3 Speed, +7 Stamina, +3 Magic
+  * Absorbs element: Earth
+  * Nulls element: Dark
+  * Resists element: Holy
+  * Purchase price: 2
+
+[0x113] Water Cuffs usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: Random Counter
+  * Applies status: Shell
+  * Defense: 8 Defense, 14 Magic Defense
+  * Granted stats: +3 Strength, +3 Speed, +3 Stamina, +7 Magic
+  * Absorbs element: Water
+  * Nulls element: Fire
+  * Resists element: Wind
+  * Purchase price: 2
+
+[0x114] Maiden's Prayer usable by: Ce [No Merit]
+  * Equipment flags: Runic to Pray
+  * Applies status: Regen
+  * Defense: 4 Defense, 15 Magic Defense
+  * Affects evasion: 5 Magic Evade
+  * Granted stats: +2 Stamina, +4 Magic
+  * Nulls element: Dark
+  * Purchase price: 2
+
+[0x115] Imp's Feelings usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Defense: 9 Defense, 10 Magic Defense
+  * Affects evasion: 5 Evade, 15 Magic Evade
+  * Granted stats: +2 Strength, +2 Speed, +2 Magic
+  * Absorbs element: Water
+  * Nulls element: Thunder
+  * Purchase price: 2
+
+[0x116] Piggy's Badge usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Defense: 10 Defense, 7 Magic Defense
+  * Affects evasion: 5 Evade, 5 Magic Evade
+  * Granted stats: +5 Strength, +6 Stamina
+  * Absorbs element: Earth
+  * Nulls element: Wind
+  * Purchase price: 2
+
+[0x117] Experience Egg usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+  * Equipment flags: (unk) 2x XP
+  * Defense: 1 Magic Defense
+  * Granted stats: -2 Strength, -2 Speed, -2 Stamina, -2 Magic
+  * Purchase price: 2

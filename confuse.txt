@@ -1,0 +1,510 @@
+   Guard: Fight, Special
+ImpSoldr: Fight, Special, Libra
+ Templar: Fight, Special
+   Ninja: Fight, Flame Scroll, Water Scroll, Thunder Scroll
+ Samurai: Fight, Special, Tachi: Dragon
+Borghese: Fight, Bio, Scourge
+FemSoldr: Fight, Special, Fire
+ Yojimbo: Fight, Special, Wind Slash, Death Sentence
+Cocktrce: Fight, Special, Sunbath
+   Misty: Fight, Special, Silence, Cura
+ Al Jabr: Fight, Special, Thundaga, Flash Rain
+ Zaghrem: Fight, Special
+Apocryph: Fight, Special, Level 4 Hold, Level 3 Flare
+BlkForce: Fight, Mind Blast, White Wind, Quasar
+A.Whispr: Fight, Blizzard, Gravity
+Oversoul: Fight, Special, Dread Gaze
+DdlyHorr: Fight, Special, Death
+Commandr: Fight, Special, Fire
+      Mu: Fight, Special
+ Wererat: Fight, Special
+ Mugbear: Fight, Special
+Belmodar: Fight, 10,000 Volts
+MuudSuud: Fight, Special, Blizzard, Blaster
+LeafBuny: Fight, Special
+StrayCat: Fight, Special
+SlvrLobo: Fight, Special
+Doberman: Fight, Special
+Mglodoth: Fight, Special, Blizzard
+   Fidor: Fight, Special
+Frostbst: Fight, Special, Freezing Dust
+NutEater: Fight, Special
+ Chimera: Fight, Special, Aqua Breath, Blizzard
+Behemoth: Fight, Special, Firaga
+  Fafnir: Fight, Special, Step Mine
+LsrLoprs: Fight, Special, Fireball
+DrgnFosl: Fight, Special, Sandstorm, X-Zone
+  Goblin: Fight, Special
+FendDrgn: Fight, Fallen One, Northern Cross, Southern Cross
+Brachios: Fight, Special, Ultima
+Tyranosr: Fight, Special, Meteo
+IronClaw: Fight, Special
+Aepyorns: Fight, Special
+   Lamia: Fight, Special, Drain, Confuse
+St. Elmo: Fight, Special, Aeroga
+    Ochu: Fight, Special, Bio
+ Trapper: Fight, Level ? Death, Level 4 Hold, Level 3 Flare
+  Hornet: Fight, Special
+NetlHopr: Fight, Special
+PiscoDmn: Fight, Special, Fira, Bio
+KilrMnts: Fight, Special, Shrapnel
+  Cactus: Fight, Special, 1000 Needles, Mighty Guard
+Raflesia: Fight, Special, Entice
+  Ankheg: Fight, Special, Poison Fog
+VampThrn: Fight, Special, Drain, Poison
+Cartagra: Fight, Special, Poison
+Nighthwk: Fight, Special, Tornado
+Nautloid: Fight, Special
+ Sahagin: Fight, Special
+Anguifrm: Fight, Special, Aqua Breath
+LeapFrog: Fight, Special, Acid Rain
+  Lizard: Fight, Special, Break
+LitwrChk: Fight, Special, Quake
+Slagworm: Fight, Special, Sandstorm, Cave-In
+HellRidr: Fight, Special, Poison Fog
+ Domovoi: Fight, Special, Revenge Blast
+   Onion: Fight, Gravity, Thunder
+MTekArmr: Fight, Magitek Laser
+SkyArmor: Fight, Special, Magitek Laser
+Satellte: Fight, Magitek Laser, Fireball
+ArmrdWpn: Fight, Special, Magitek Laser, Absolute Zero
+SteelBat: Fight, Special
+BlueFlan: Fight, Special, Slow
+ Outcast: Fight, Special, Life Shaver
+RockSlug: Fight, Special, Poison
+Brainpan: Fight, Special, 1000 Needles
+Hedgehog: Fight, Special, 1000 Needles
+ Cactuar: Fight, Special, 1000 Needles
+ Kum Kum: Fight, Special, Sleep
+Harvestr: Fight, Special, Drain
+    Bomb: Fight, Special, Self-Destruct
+Coolness: Fight, Special, Lullaby, Death Sentence
+ Lunatys: Fight, Special, Flood, Cave-In
+VeilDncr: Fight, Sleep, Fira, Blizzara
+HilGigas: Fight, Special, Magnitude 8
+Tonberry: Fight, Special, Everyone's Grudge
+MagicPot: Fight, Esuna, Curaga, Protect
+   Mover: Fight, Mighty Guard
+FigaroLz: Fight, Special, Dischord
+  Phoebe: Fight, Special, Leaf Swirl, Cure
+SoulEatr: Fight, Special, Drain, Aspir
+   Ghost: Fight, Fire
+ Crawler: Fight, Special, Step Mine
+DsrtSacr: Fight, Special
+ Alacran: Fight, Special
+    Fawn: Fight, Special, Whirlwind, Cura
+DkBhmoth: Fight, Special, Shadow Flare, Mighty Guard
+Darksidr: Fight, Special, Thunder
+ Malboro: Fight, Special, Bad Breath
+Demiurok: Fight, Special, Magnitude 8
+PoisnLch: Fight, Special, Poison
+GuardLdr: Fight, Special, Net
+Corporal: Fight, Special
+ General: Fight, Special, Cura
+  Covert: Fight, Special, Wind Slash, Leaf Swirl
+   Kamui: Fight, Freezing Dust, White Wind
+   Rudra: Fight, Special, Shamshir
+  Maiden: Fight, Flare, Holy, Comet
+   Joker: Fight, Special, Thundara, Acid Rain
+MtrDrive: Fight, Special, Revenge Blast
+   Devil: Fight, Break, Bio, Death
+Provoker: Fight, Special, Toad
+CldWrath: Fight, Special, Comet
+Mahadeva: Fight, Special, Death, X-Zone
+VctrHond: Fight, Special
+  Peeper: Fight, Special, White Wind
+ Stunner: Fight, Special
+  Sorath: Fight, Special, Cliff Collapse
+Dstroidr: Fight, Special, Break
+Chprabbt: Fight, Special
+Wild Cat: Fight, Special
+Bld Fang: Fight, Special
+HntHound: Fight, Special
+ Gorgias: Fight, Special
+     Don: Fight, Special
+FlameDog: Fight, Special, Firaga
+SkullEtr: Fight, Special, Disaster
+Gorgmera: Fight, Flare Star, Avalanche, Aeroga
+Vampress: Fight, Special, Poison Frog
+VctrLths: Fight, Special, Aeroga
+  Wyvern: Fight, Special, Whirlwind
+DrgnZmbe: Fight, Special, Bio, Aspir
+  Dragon: Fight, Special, Revenge Blast, Blizzard
+Old Drgn: Fight, Special, Firaga, Meteo
+Weredrgn: Fight, Special, Death
+Deathclw: Fight, Special, Death
+Sprinter: Fight, Special, Whirlwind
+LmaQueen: Fight, Special, 1000 Needles, Love Token
+     Imp: Fight, Special, Aeroga
+Mandrake: Fight, Special, Bio, Bad Breath
+ Dropper: Fight, Special, Confuse
+BrnCandy: Fight, Special, Sleep
+Graswyrm: Fight, Special, Berserk
+Soulflyr: Special, Scourge, Flare, Mind Blast
+TwnScyth: Fight, Special, Shrapnel
+  Minity: Fight, Special, Night, Curaga
+  Exoray: Fight, Special, Poison Fog
+Hundlegs: Fight, Special, Quake
+Ourobors: Fight, Drain, Aspir
+SahgnChf: Fight, Special, El Nino
+ Schmidt: Fight, Special, Magitek Laser
+Devourer: Fight, Special, Stop
+DsrtShgn: Fight, Special, Dischord, El Nino
+Gigntoad: Fight, Special, Plasma
+Basilisk: Fight, Special, Break, Dread Gaze
+MedsaChk: Fight, Special, Quake
+Landworm: Fight, Special, Magnitude 8, Cliff Collapse
+TestRidr: Fight, Special, Flash Rain
+PlutoAmr: Fight, Special, Magitek Laser, Shrapnel
+OninDshr: Fight, Special, Step Mine
+HeavyAmr: Fight, Special, Magitek Laser
+  Chaser: Fight, Special, Plasma, Dischord
+   Gamma: Fight, Special, Magitek Missile
+BloodBat: Fight, Special, Drain
+Intangir: Fight, Special, Magic Hammer, Shadow Flare
+  Misfit: Fight, Special, Life Shaver
+    Slug: Fight, Special
+ Gatling: Fight, Special, 1000 Needles
+BkLizard: Fight, Special, Dread Gaze, Break
+  Haokah: Fight, Special
+NeckHntr: Fight, Special, Vacuum Wave
+ Grenade: Fight, Special, Fira, Fireball
+AlrngRdr: Fight, Special, Death Sentence
+ Pandora: Fight, Special, Revenge Blast, Cave-In
+BldDancr: Fight, Special, Drain, Fira
+Gigantos: Fight, Special, Revenge Blast
+Mandragr: Fight, Special, Sunbath
+  Lycaon: Fight, Special, Acid Rain
+    Rust: Fight, Special, 1,000,000 Volts
+ErthGurd: Fight, Special, Mighty Guard
+ Antares: Fight, Special, Wind Slash
+Cheshire: Fight, Special, 1,000,000 Volts, Cura
+WhtJello: Fight, Special, Blizzaga, Blizzard
+ Spectre: Fight, Thunder, Fire, Blizzard
+GrtMlbor: Fight, Special, Snort, Bad Breath
+Bonnacon: Fight, Special, Magnitude 8, Aspir
+ Oceanus: Fight, Special, Magnitude 8, Antlion
+LvngDead: Fight, Special
+  Mykale: Fight, Special, Hastega, Night
+    Face: Fight, Special, Flare
+Outsider: Fight, Special, Self-Destruct
+    Coco: Fight, Special, Confuse, Dispel
+  Zeveak: Fight, Special, Flash Rain, El Nino
+NtWalker: Fight, Poison, Drain, Thundara
+DmnKnght: Fight, Special, Shockwave, Thunder Call
+ImpElite: Fight, Special, Protect
+DsrtRbbt: Fight, Cure, Cura, Esuna
+DiveEagl: Fight, Special, Aeroga, Whirlwind
+DevilFst: Fight, Special, Wildfire
+Illyanks: Fight, Bio, 1,000,000 Volts
+Sergeant: Fight, Special, Shell
+  Neochu: Fight, Special, Bad Breath, Scourge
+  Knotty: Fight, Special, Wild Pig
+LunarWlf: Fight, Special
+Belzecue: Fight, Special, Sleep
+Mindflyr: Fight, Special, Bio, Mind Blast
+Tzakmaql: Fight, Special, Esuna
+ Lukhavi: Fight, Special, Snow Bunny, Snowball
+  Vampyr: Fight, Special, Drain
+LndGriln: Fight, Special
+  Goetia: Fight, Special, Aqua Breath
+GtMantis: Fight, Special, Wind Slash
+   Bogey: Fight, Special
+  Purusa: Fight, Special, Cave-In
+Blk Drgn: Fight, Sandstorm, Ghost
+Lmnscnce: Fight, Special, Meerkat
+   Dante: Fight, Special, Level 4 Hold, Absolute Zero
+PlatDrgn: Fight, Special, Whirlwind
+DuelArmr: Fight, Special, Magitek Barrier, Atomic Ray
+PrplBvrs: Fight, Special, Bio
+YllwMsse: Fight, Special, Magic Hammer
+  Corpse: Fight, Break, Thundaga
+Punisher: Fight, Special
+ Balloon: Fight, Special, Self-Destruct
+  Coeurl: Fight, Special, Thundaga, Blaster
+GrBhmoth: Fight, Special, Flood, Shadow Flare
+Scorpion: Fight, Special
+Chs Drgn: Fight, Special, Disaster, Break
+Spitfire: Fight, Special, Magitek Laser, Flash
+VctChmra: Fight, 1,000,000 Volts, Aqua Breath, Reverse Polarity
+  Wizard: Fight, Fire, Fira, Firaga
+LmaQueen: Fight, Special, Rasp, Cura
+  Cassie: Fight, Special, Bad Breath, Bio
+     Bug: Fight, Special
+SnwPnthr: Fight, Special, Blizzaga, Avalanche
+  Fortis: Fight, Special, Fireball, Snowball
+Venobenu: Fight, Special, Poison, White Wind
+     Jam: Fight, Special, Whirlwind
+    Junk: Fight, Special, Magic Hammer, Self-Destruct
+  Lilith: Fight, Special, Entice, Cura
+  Vivian: Fight, Special, Drain, Aspir
+Amdscias: Fight, Special, X-Zone, Vanish
+Ncrmncer: Fight, Quake, Blizzaga, Dispel
+GlsyLbls: Fight, Special, Special, Special
+RedMarsh: Fight, Special
+ Chronos: Fight, Special
+GoldBear: Fight, Special
+InnoSent: Fight, Level 2 Holy
+Pineappl: Fight, Firaga, Self-Destruct, Revenge Blast
+    Garm: Fight, Special
+Daedalus: Fight, Flare, Flare Star, Blaster
+Baalzphn: Fight, Special
+    Thor: Fight, Thundaga, Thunder Call, Shrapnel
+DthMachn: Fight, Special, Level ? Death, Bio Blaster
+MtlHitmn: Fight, Special, Dischord, Magitek Laser
+      Io: Fight, Special, Plasma, Blaster
+Tonberis: Fight, Special, Everyone's Grudge
+    Ymir: Fight, Special
+AnglrWhk: Fight, Special
+MegaArmr: Fight, Special, Magitek Laser
+DthWardn: Fight, Special
+DigArmor: Fight, Special
+Promeths: Fight, Special, Southern Cross, Northern Cross
+PhntmTrn: Fight, Special
+KTonbery: Fight, Special
+   Shiva: Fight, Special
+   Ifrit: Fight, Special
+WilloWsp: Fight, Special, Fire
+Numbr128: Fight, Special
+ Inferno: Fight, Special
+   Crane: Fight, Special
+   Crane: Fight, Special
+Tricrtps: Fight, Special
+MTInfntr: Fight, Special, Fira
+Guardian: Fight, Special
+Guardian: Fight, Special, Plasma
+AirForce: Fight, Special
+ Eidolon: Fight, Special
+ Eidolon: Fight, Special
+GilTurtl: Fight, Special
+UltmaWpn: Fight, Special, Flare, Stop
+  Nelapa: Fight, Special
+KBehmoth: Fight, Special
+   Kefka: Fight, Special
+Tentacle: Fight, Special
+Dullahan: Fight, Special, Level 2 Holy, Northern Cross
+DethGaze: Fight, Special
+Chadarnk: Fight, Special
+   Mindy: Fight, Special
+   Cindy: Fight, Special
+   Sandy: Fight, Special
+Wrexsoul: Fight, Special
+ Revnant: Fight, Special
+Sam Soul: Fight, Special, Tachi: Dragon, Tachi: Snow
+RicardMg: Fight, Blizzara, Comet, Reflect
+GrtDemon: Fight, Special, Gravity, Drain
+   Fiend: Fight, Special
+ Goddess: Fight, Special
+   Demon: Fight, Special
+   Kefka: Fight, Special
+MagcDrgn: Fight, Drain, Silence, Hastega
+  Ultros: Fight, Special
+  Ultros: Fight, Special
+  Ultros: Fight, Special
+  Typhon: Fight, Special
+ Titania: Fight, Rasp, Haste, Protect
+    Puck: Fight, Special
+   Shade: Fight, Thunder, Slow, Blink
+    Yama: Fight, Thundara, Berserk, Vanish
+    Head: Fight, Special
+YmirHead: Fight, Special
+   Vilia: Fight, Special, Entice, Meteo
+ Abaddon: Fight, Special, Disaster, Wind Slash
+MstrTbry: Fight, Special, Everyone's Grudge, Step Mine
+Traveler: Fight, Haste, Slow, Stop
+Merchant: Fight, Special
+    Nude: Fight, Special
+Tentacle: Fight, Special
+Tentacle: Fight, Special
+Tentacle: Fight, Special
+R. Blade: Fight, Special
+LeftClaw: Fight, Special
+    Rahu: Fight, Special
+    Ketu: Fight, Special
+Alchymia: Fight, Special, Toad, Bio
+Vlgrmnda: Fight, Special
+LaserGun: Fight, Special
+ManaJamr: Fight, Special
+MisslBay: Fight, Special
+Chadarnk: Fight, Special
+FrzeDrgn: Fight, Special
+   Kefka: Fight, Special
+StrmDrgn: Fight, Special
+ErthDrgn: Fight, Special
+ Brawler: Fight, Special
+ Captain: Fight, Special
+ Soldier: Fight, Special
+YllwDrgn: Fight, Special
+SkulDrgn: Fight, Special
+BlueDrgn: Fight, Special
+Red Drgn: Fight, Special
+Opinicus: Fight, Special
+Rhizopas: Fight, Special, El Nino
+Apparitn: Fight, Special
+ShortArm: Fight, Special
+Long Arm: Fight, Special
+    Face: Fight, Special
+   Tiger: Fight, Special
+ Machine: Fight, Special
+   Magic: Fight, Special
+   Power: Fight, Special
+   Mario: Fight, Special
+    Rest: Fight, Special
+  Erebus: Fight, Special
+     Nyx: Fight, Special
+IrnGiant: Fight, Special
+Deep One: Fight, Reflect, Cure, Esuna
+PitFiend: Fight, Flood, Scourge, Flare
+ProtoAmr: Fight, Special, Magitek Laser, Flash
+SandFish: Fight, Special, Sandstorm
+SoulSavr: Fight, Special
+  Ultros: Fight, Special
+   Naude: Fight, Special
+ Humbaba: Fight, Special
+ Humbaba: Fight, Special
+ Humbaba: Fight, Special
+ Humbaba: Fight, Special
+        : Fight, Special
+        : Fight, Special
+        : Fight, Special
+ZoneEatr: Fight, Special
+        : Fight, Special
+        : Fight, Special
+        : Fight, Special
+   Cadet: Fight, Special
+ Officer: Fight, Special
+  Haniel: Fight, Special
+Omniscnt: Fight, Special
+ImpSoldr: Fight, Special
+        : Fight, Special
+        : Fight, Special
+RuneClaw: Fight, Special
+UltmBstr: Fight, Special, Meteo, Curaga
+  Shadow: Snort, Snort, Snort, Snort
+ Shinryu: Fight
+RamuhCln: Fight, Special
+   Ifrit: Fight, Special
+ShivaCln: Fight, Special
+SirenCln: Fight, Special
+Mdgrdsmr: Fight, Special
+Catoblps: Fight, Special
+  Maduin: Fight, Special
+ Bismark: Fight, Special
+CaitSith: Fight, Special
+MistDrgn: Fight, Special
+Vlgrmnda: Fight, Special
+    Odin: Fight, Special
+  Ultima: Fight, Special
+ Bahamut: Fight, Special
+Alexandr: Fight, Special
+Crusader: Fight, Special
+IfritCln: Fight, Special
+KirinCln: Fight, Special
+ZonaSeek: Fight, Special
+Carbuncl: Fight, Special
+ Phantom: Fight, Special
+SeraphCl: Fight, Special
+   Golem: Fight, Special
+UncrnCln: Fight, Special
+FenriCln: Fight, Special
+   Asura: Fight, Special
+ Phoenix: Fight, Special
+Tentacle: Fight, Special
+Dullahan: Fight, Special
+DethGaze: Fight, Special
+Chadarnk: Fight, Special
+   Snoll: Fight, Special
+   Omega: Fight, Special
+DsrtTrap: Fight, Special
+MagnaRdr: Fight, Special
+LtlMagna: Fight, Special
+GhostTrn: Fight, Special
+   Hidon: Fight, Special
+StllLife: Fight, Special
+  Vargas: Fight, Special
+  Vargas: Fight, Special
+LifeTrap: Fight, Special
+Gilgamsh: Fight, Special
+Gilgamsh: Fight, Special
+Mom Bomb: Fight, Special
+Dadaluma: Fight, Special
+Numbr024: Fight, Special
+    Yeti: Fight, Special
+  Typhon: Fight, Special, Death Sentence
+FrzeDrgn: Fight, Special, Disaster
+Draclady: Fight, Special, Death Sentence, Death Roulette
+     Alv: Fight, Break, Death, Bio
+CrysDrgn: Fight, Special, Gale Cut
+Colossus: Fight, Special, Launcher
+Helldivr: Fight, Special, Mustard Bomb
+Vanguard: Fight, Special, Confuser, Heal Force
+ Ochiudo: Fight, Special, Tachi: Dragon, Tachi: Snow
+NnjMastr: Fight, Flame Scroll, Water Scroll, Thunder Scroll
+HolyDrgn: Fight, Special
+ Silenus: Fight, Snort, Snort, Snort
+LilMurdr: Fight, Break, Death, Bio
+ Valefor: Fight, Special
+Aeronite: Fight, Special, Aspir
+  Carrot: Fight, Special, Bad Breath
+  Apanda: Fight, Special, Flood
+   Astos: Fight, Special, Magnitude 8
+Myrmecln: Fight, Special, Sandstorm, Lullaby
+Prosrpne: Fight, Special, Holy, Stop
+DonTnbry: Fight
+QnBhmoth: Fight, Special, Holy, Curaga
+ShldDrgn: Fight, Special, X-Zone, Aqua Breath
+   Hecto: Fight, Special, Toad, Frog Song
+Korpokkr: Fight
+Emrlditn: Fight
+MnGoddss: Fight
+Skulnant: Fight
+  Azrael: Fight
+Cerberus: Fight
+ Alraune: Fight
+Wolfrmtr: Fight, Special, Reflect????, Shrapnel
+   Kefka: Fight
+Audience: Fight
+RflctBit: Fight
+LeoRebrn: Fight
+U.Cherub: Fight
+Leviathn: Fight
+DthRider: Fight
+ErthEatr: Fight, Special, Quake
+Seraphim: Fight, Saint Beam, Cura, Holy
+  Ultima: Fight, Special
+Carbuncl: Fight, Special
+Vlgrmnda: Fight, Special
+    Wisp: Fight, Special
+Adamants: Fight, Special
+Tantrian: Fight, Special
+Grimoire: Fight, Special, Meteo
+LastWyrm: Fight, Special
+MistDrgn: Fight, Special
+MistDrgn: Fight, Special
+Marilith: Fight, Special
+    Lich: Fight, Special
+  Kraken: Fight, Special
+  Tiamat: Fight, Special
+ Bahamut: Fight, Special
+Leviathn: Fight, Special
+    Odin: Fight, Special
+ Ahriman: Fight, Special
+2HedDrgn: Fight, Special
+ Echidna: Fight, Special
+Nightmar: Fight, Special
+Alexandr: Fight, Special
+  Ashura: Fight, Special
+Diabolos: Fight, Special
+   Titan: Fight, Special
+Barbrica: Fight, Special
+Rubcante: Fight, Special
+Scarmgln: Fight, Special
+Cagnazzo: Fight, Special
+ Bahamut: Fight, Special
+  Enkidu: Fight, Special
+Barbrica: Fight, Special
+Rubcante: Fight, Special
+Scarmgln: Fight, Special
+Cagnazzo: Fight, Special
+    Odin: Fight, Special
+BrnTyrnt: Fight, Firaga, Death, Level 3 Flare

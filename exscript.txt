@@ -1,0 +1,1225 @@
+[script #256]  ; orig idx=256, "Darkness", offset 0xE97000, special: Deal 1x Damage + Apply Slow
+FC 15 00 00    | If... Variable $000 has unset bit 0x01
+F3 01 00       | > Display message 1: We are the Cloud of Darkness_ We've come to return the world...
+B7             | > Wave Cannon
+F9 01 00 00    | > Modify var. bits [$000: Set 0x01]
+FE             | > End of if statement, reset target and wait
+FC 0D 03 03    | If... Variable $003 is 3 or more
+F0 97 BB 97    | > Random spell: [Night] or [Absolute Zero] or [Night]
+F0 EF EF CE    | > Random spell: [Special: Tentacle of Scorn] or [Special: Tentacle of Scorn] or [Entice]
+FD             | > Wait for next turn, reset target
+F0 AD EF AD    | > Random spell: [Fusillade Particle Beam] or [Special: Tentacle of Scorn] or [Fusillade Particle Beam]
+F0 A5 9C 9C    | > Random spell: [Poison Fog] or [Bad Breath] or [Bad Breath]
+FD             | > Wait for next turn, reset target
+F0 AC AC A4    | > Random spell: [Aura Ball] or [Aura Ball] or [Thunder Call]
+EB             | > Life Shaver
+FD             | > Wait for next turn, reset target
+B7             | > Wave Cannon
+FE             | > End of if statement, reset target and wait
+F0 EF A4 AD    | Random spell: [Special: Tentacle of Scorn] or [Thunder Call] or [Fusillade Particle Beam]
+EF             | Special: Tentacle of Scorn
+FD             | Wait for next turn, reset target
+AC             | Aura Ball
+F0 EF EF CE    | Random spell: [Special: Tentacle of Scorn] or [Special: Tentacle of Scorn] or [Entice]
+FD             | Wait for next turn, reset target
+F0 AD A4 EF    | Random spell: [Fusillade Particle Beam] or [Thunder Call] or [Special: Tentacle of Scorn]
+BB             | Absolute Zero
+FE             | End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 0C 03 04    | If... Variable $003 is less than 4
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 03 81       | >> Modify variable [$003 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F3 02 00       | > Display message 2: Darkness can only return to darkness_
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 02 17 42    | If... Hit by spell [Ultima] or [Perfect Ultima]
+F0 FE FE AF    | > Random spell: [Nothing] or [Nothing] or [Reflective Particle Beam]
+F8 02 81       | > Modify variable [$002 + 1]
+FC 0D 02 03    | > If... Variable $002 is 3 or more
+35             | >> Holy
+16             | >> Flare
+23             | >> Meteor
+F8 02 00       | >> Modify variable [$002 = 0]
+FE             | >> End of if statement, reset target and wait
+FC 0D 03 03    | If... Variable $003 is 3 or more
+FC 05 00 00    | > If... HP is decreased
+F0 AF FE EB    | >> Random spell: [Reflective Particle Beam] or [Nothing] or [Life Shaver]
+FE             | >> End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 FE FE AF    | > Random spell: [Nothing] or [Nothing] or [Reflective Particle Beam]
+FF             - End of script
+
+[script #257]  ; orig idx=257, "Golbez", offset 0xE970A0, special: 100% Deal 1x Damage + Inflict Frozen
+FC 15 00 00    | If... Variable $000 has unset bit 0x01
+F3 03 00       | > Display message 3: There is no future for the fearful_ Show me your true resolv...
+F9 01 00 00    | > Modify var. bits [$000: Set 0x01]
+FE             | > End of if statement, reset target and wait
+F0 16 0B 0B    | Random spell: [Flare] or [Bio] or [Bio]
+F0 0E 0D 0C    | Random spell: [Thundaga] or [Blizzaga] or [Firaga]
+FD             | Wait for next turn, reset target
+F0 14 09 09    | Random spell: [Scourge] or [Break] or [Break]
+F0 16 13 13    | Random spell: [Flare] or [Flood] or [Flood]
+FD             | Wait for next turn, reset target
+F0 10 2C 11    | Random spell: [Death] or [Confuse] or [Rasp]
+12             | Quake
+11             | Rasp
+16             | Flare
+FE             | End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 15 00 01    | If... Variable $000 has unset bit 0x02
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F9 01 00 01    | >> Modify var. bits [$000: Set 0x02]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F3 04 00       | > Display message 4: Come forth, my creature of shadow!
+FA 0C 01 00    | > Use Animation 
+F5 08 03 00    | > Adjust enemies: Monsters <Self> => Hide, refill MP
+F2 00 02 80    | > Formation change to 2
+F5 08 00 01    | > Adjust enemies: Monsters <0> => Unhide, refill HP
+FE             | > End of if statement, reset target and wait
+FC 01 12 0C    | If... Hit by command [Mimic] or [Blue]
+F0 FE EF FE    | > Random spell: [Nothing] or [Special: Binding Cold] or [Nothing]
+FE             | > End of if statement, reset target and wait
+FC 01 19 17    | If... Hit by command [Summon] or [XMagic]
+F0 EF FE FE    | > Random spell: [Special: Binding Cold] or [Nothing] or [Nothing]
+FE             | > End of if statement, reset target and wait
+FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+F0 FE FE E2    | > Random spell: [Nothing] or [Nothing] or [Nightglow]
+FE             | > End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 E2 FE FE    | > Random spell: [Nightglow] or [Nothing] or [Nothing]
+FF             - End of script
+
+[script #258]  ; orig idx=258, "Golbez", offset 0xE97140, special: 100% Instant Death
+F0 16 16 04    | Random spell: [Flare] or [Flare] or [Drain]
+F0 E5 30 E5    | Random spell: [Genesis Rock] or [Curaga] or [Genesis Rock]
+FD             | Wait for next turn, reset target
+F0 12 14 12    | Random spell: [Quake] or [Scourge] or [Quake]
+F0 E2 21 E2    | Random spell: [Nightglow] or [Slowga] or [Nightglow]
+FD             | Wait for next turn, reset target
+AE             | Reflect????
+F0 E5 E2 E5    | Random spell: [Genesis Rock] or [Nightglow] or [Genesis Rock]
+FD             | Wait for next turn, reset target
+F0 12 C2 C2    | Random spell: [Quake] or [Artillery Drone] or [Artillery Drone]
+F0 E2 34 E2    | Random spell: [Nightglow] or [Tornado] or [Nightglow]
+FD             | Wait for next turn, reset target
+23             | Meteor
+F0 FE FE 23    | Random spell: [Nothing] or [Nothing] or [Meteor]
+F3 06 00       | Display message 6: Shadow Dragon's power has healed statuses!
+FB 0C 12       | Misc.: Removes status Slow
+FF             @ End of action script, begin counter-attack script
+FC 15 00 02    | If... Variable $000 has unset bit 0x04
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F9 01 00 02    | >> Modify var. bits [$000: Set 0x04]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F3 05 00       | > Display message 5: Such incredible strength!
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 01 12 0C    | If... Hit by command [Mimic] or [Blue]
+F0 FE 11 16    | > Random spell: [Nothing] or [Rasp] or [Flare]
+F8 02 82       | > Modify variable [$002 + 2]
+FC 0D 02 04    | > If... Variable $002 is 4 or more
+EF             | >> Special: Black Fang
+F8 02 00       | >> Modify variable [$002 = 0]
+FE             | >> End of if statement, reset target and wait
+FC 01 19 17    | If... Hit by command [Summon] or [XMagic]
+F0 16 FE C2    | > Random spell: [Flare] or [Nothing] or [Artillery Drone]
+F8 02 83       | > Modify variable [$002 + 3]
+FC 0D 02 04    | > If... Variable $002 is 4 or more
+EF             | >> Special: Black Fang
+F8 02 00       | >> Modify variable [$002 = 0]
+FE             | >> End of if statement, reset target and wait
+FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+F0 04 FE 04    | > Random spell: [Drain] or [Nothing] or [Drain]
+F8 02 81       | > Modify variable [$002 + 1]
+FC 0D 02 04    | > If... Variable $002 is 4 or more
+EF             | >> Special: Black Fang
+F8 02 00       | >> Modify variable [$002 = 0]
+FE             | >> End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 04 04 FE    | > Random spell: [Drain] or [Drain] or [Nothing]
+F8 02 82       | > Modify variable [$002 + 2]
+FC 0D 02 04    | > If... Variable $002 is 4 or more
+EF             | >> Special: Black Fang
+F8 02 00       | >> Modify variable [$002 = 0]
+FF             - End of script
+
+[script #259]  ; orig idx=259, "Zeromus", offset 0xE97200, special: 100% Inflict Stop
+1F             | X-Zone
+F0 10 10 E8    | Random spell: [Death] or [Death] or [Kill]
+FD             | Wait for next turn, reset target
+8D             | Mind Blast
+EB             | Life Shaver
+FD             | Wait for next turn, reset target
+F0 B2 B2 B1    | Random spell: [Whirlwind] or [Whirlwind] or [Blaster]
+16             | Flare
+FF             @ End of action script, begin counter-attack script
+FC 12 01 00    | If... Monsters <0> are dead
+FB 0E 48       | > Misc.: ??? <0E>
+F3 08 00       | > Display message 8: Grr_ gh_ agh_
+FA 0C 01 00    | > Use Animation 
+F5 0B 03 00    | > Adjust enemies: Monsters <Self> => Hide, refill MP
+FB 0F 1F       | > Misc.: ??? <0F>
+F2 00 04 80    | > Formation change to 4
+F5 08 00 01    | > Adjust enemies: Monsters <0> => Unhide, refill HP
+F7 02          | > Special event 0x02
+FB 0E E9       | > Misc.: ??? <0E>
+FE             | > End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 FE EF FE    | > Random spell: [Nothing] or [Special: Dimensional Vortex] or [Nothing]
+FF             - End of script
+
+[script #260]  ; orig idx=260, "Zeromus", offset 0xE97260, special: Deal 5.5x Damage
+FC 0D 03 02    | If... Variable $003 is 2 or more
+E0             | > Black Hole
+F0 16 16 23    | > Random spell: [Flare] or [Flare] or [Meteor]
+FB 0C 12       | > Misc.: Removes status Slow
+FD             | > Wait for next turn, reset target
+F0 1A 8D B1    | > Random spell: [Stop] or [Mind Blast] or [Blaster]
+71             | > Shadow Flare
+FB 0C 12       | > Misc.: Removes status Slow
+FD             | > Wait for next turn, reset target
+23             | > Meteor
+FB 0C 12       | > Misc.: Removes status Slow
+FD             | > Wait for next turn, reset target
+F0 34 1E B2    | > Random spell: [Tornado] or [Gravity] or [Whirlwind]
+C9             | > Reverse Polarity
+FB 0C 12       | > Misc.: Removes status Slow
+FD             | > Wait for next turn, reset target
+B8             | > Big Bang
+FB 0C 12       | > Misc.: Removes status Slow
+FE             | > End of if statement, reset target and wait
+FC 0D 03 01    | If... Variable $003 is 1 or more
+E0             | > Black Hole
+F0 16 16 14    | > Random spell: [Flare] or [Flare] or [Scourge]
+FD             | > Wait for next turn, reset target
+F0 21 96 8D    | > Random spell: [Slowga] or [Level 4 Hold] or [Mind Blast]
+20             | > Comet
+FD             | > Wait for next turn, reset target
+F0 34 14 1E    | > Random spell: [Tornado] or [Scourge] or [Gravity]
+12             | > Quake
+FD             | > Wait for next turn, reset target
+F0 23 20 23    | > Random spell: [Meteor] or [Comet] or [Meteor]
+FB 0C 12       | > Misc.: Removes status Slow
+FE             | > End of if statement, reset target and wait
+E0             | Black Hole
+F0 14 1F 0B    | Random spell: [Scourge] or [X-Zone] or [Bio]
+FD             | Wait for next turn, reset target
+F0 1E 21 1A    | Random spell: [Gravity] or [Slowga] or [Stop]
+20             | Comet
+FD             | Wait for next turn, reset target
+F0 20 23 23    | Random spell: [Comet] or [Meteor] or [Meteor]
+FE             | End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 0C 03 03    | If... Variable $003 is less than 3
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 03 81       | >> Modify variable [$003 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 06 36 4F    | If... Self HP is below 10112 [16%]; targets them
+FC 05 00 00    | > If... HP is decreased
+F0 FE FE FE    | >> Use spell: [Nothing]
+FE             | >> End of if statement, reset target and wait
+FC 0D 03 03    | If... Variable $003 is 3 or more
+FC 02 17 42    | > If... Hit by spell [Ultima] or [Perfect Ultima]
+71             | >> Shadow Flare
+F8 04 81       | >> Modify variable [$004 + 1]
+FC 0D 04 03    | >> If... Variable $004 is 3 or more
+EF             | >>> Special: Object 199
+F0 EF FE FE    | >>> Random spell: [Special: Object 199] or [Nothing] or [Nothing]
+F8 04 00       | >>> Modify variable [$004 = 0]
+FE             | >>> End of if statement, reset target and wait
+FC 0D 03 03    | If... Variable $003 is 3 or more
+FC 01 12 0C    | > If... Hit by command [Mimic] or [Blue]
+F0 71 FE 71    | >> Random spell: [Shadow Flare] or [Nothing] or [Shadow Flare]
+FE             | >> End of if statement, reset target and wait
+FC 0D 03 03    | If... Variable $003 is 3 or more
+FC 01 19 17    | > If... Hit by command [Summon] or [XMagic]
+71             | >> Shadow Flare
+FE             | >> End of if statement, reset target and wait
+FC 01 12 0C    | If... Hit by command [Mimic] or [Blue]
+F0 16 FE 16    | > Random spell: [Flare] or [Nothing] or [Flare]
+FE             | > End of if statement, reset target and wait
+FC 01 19 17    | If... Hit by command [Summon] or [XMagic]
+16             | > Flare
+FE             | > End of if statement, reset target and wait
+FC 04 20 00    | If... Hit by element(s) [Holy]
+E6             | > Whirl
+FE             | > End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 FE FE E6    | > Random spell: [Nothing] or [Nothing] or [Whirl]
+FE             | > End of if statement, reset target and wait
+FF             - End of script
+
+[script #261]  ; orig idx=261, "Exdeath", offset 0xE97360, special: Deal 3x Damage
+EF             | Special: Vacuum Wave
+F0 EE 8B 8C    | Random spell: [Fight] or [Death Sentence] or [Death Roulette]
+FD             | Wait for next turn, reset target
+F0 34 8F 34    | Random spell: [Tornado] or [Aeroga] or [Tornado]
+F0 C9 EE EE    | Random spell: [Reverse Polarity] or [Fight] or [Fight]
+FD             | Wait for next turn, reset target
+F0 1E 1E 0F    | Random spell: [Gravity] or [Gravity] or [Dispel]
+12             | Quake
+FD             | Wait for next turn, reset target
+F0 EE EF 16    | Random spell: [Fight] or [Special: Vacuum Wave] or [Flare]
+C6             | Flare Star
+FD             | Wait for next turn, reset target
+D5             | Hurricane
+F0 A4 D5 EE    | Random spell: [Thunder Call] or [Hurricane] or [Fight]
+FD             | Wait for next turn, reset target
+F0 EE 0B EF    | Random spell: [Fight] or [Bio] or [Special: Vacuum Wave]
+14             | Scourge
+FF             @ End of action script, begin counter-attack script
+FC 15 00 00    | If... Variable $000 has unset bit 0x01
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F9 01 00 00    | >> Modify var. bits [$000: Set 0x01]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+FB 0E 48       | > Misc.: ??? <0E>
+F3 09 00       | > Display message 9: NOOO! WHY!? The Void was mine to command! How could it_ Uwaa...
+F5 0C 03 00    | > Adjust enemies: Monsters <Self> => Hide, refill MP
+F7 06          | > Special event 0x06
+FB 0E 8D       | > Misc.: ??? <0E>
+FA 0A 01 00    | > Use Animation 
+F2 00 06 80    | > Formation change to 6
+F5 0D 00 01    | > Adjust enemies: Monsters <0> => Unhide, refill HP
+F3 0A 00       | > Display message 10: I am Neo Exdeath! All memories_ dimensions_ existence_ All t...
+FE             | > End of if statement, reset target and wait
+FC 02 18 21    | If... Hit by spell [Slow] or [Slowga]
+F1 36          | > Set target: Self
+19             | > Haste
+FE             | > End of if statement, reset target and wait
+FC 02 17 42    | If... Hit by spell [Ultima] or [Perfect Ultima]
+F0 EF EF 0F    | > Random spell: [Special: Vacuum Wave] or [Special: Vacuum Wave] or [Dispel]
+FE             | > End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 FE 0F FE    | > Random spell: [Nothing] or [Dispel] or [Nothing]
+F8 01 81       | > Modify variable [$001 + 1]
+FC 0D 01 03    | > If... Variable $001 is 3 or more
+EF             | >> Special: Vacuum Wave
+F8 01 00       | >> Modify variable [$001 = 0]
+FF             - End of script
+
+[script #264]  ; orig idx=264, "Sephirot", offset 0xE976A0, special: 100% Deal 1x Damage + HP Absorb
+FC 0B 1E 00    | If... Personal timer above 30
+FB 00 00       | > Misc.: Reset personal timer
+F8 03 01       | > Modify variable [$003 = 1]
+F5 08 04 00    | > Adjust enemies: Monsters <Self> => Hide, don't touch HP
+F2 00 12 00    | > Formation change to 18
+F5 09 02 01    | > Adjust enemies: Monsters <0> => Unhide, don't touch HP
+FE             | > End of if statement, reset target and wait
+FC 0D 01 04    | If... Variable $001 is 4 or more
+F0 EE 23 EE    | > Random spell: [Fight] or [Meteor] or [Fight]
+EE             | > Fight
+FD             | > Wait for next turn, reset target
+F0 15 30 0F    | > Random spell: [Aspir] or [Curaga] or [Dispel]
+C3             | > Pale Horse
+FD             | > Wait for next turn, reset target
+F0 EE EF EE    | > Random spell: [Fight] or [Special: Wing of Ruin] or [Fight]
+A7             | > Flash
+FD             | > Wait for next turn, reset target
+C4             | > Supernova
+FE             | > End of if statement, reset target and wait
+F0 EE 16 EE    | Random spell: [Fight] or [Flare] or [Fight]
+EE             | Fight
+FD             | Wait for next turn, reset target
+F0 11 94 0F    | Random spell: [Rasp] or [Level ? Death] or [Dispel]
+C3             | Pale Horse
+FD             | Wait for next turn, reset target
+EE             | Fight
+8B             | Death Sentence
+FD             | Wait for next turn, reset target
+C4             | Supernova
+FE             | End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 0C 01 05    | If... Variable $001 is less than 5
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 01 81       | >> Modify variable [$001 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 01 02 0C    | If... Hit by command [Magic] or [Blue]
+F0 EF 99 99    | > Random spell: [Special: Wing of Ruin] or [Step Mine] or [Step Mine]
+F8 00 81       | > Modify variable [$000 + 1]
+FC 0D 00 04    | > If... Variable $000 is 4 or more
+F8 00 00       | >> Modify variable [$000 = 0]
+F8 03 00       | >> Modify variable [$003 = 0]
+F5 08 04 00    | >> Adjust enemies: Monsters <Self> => Hide, don't touch HP
+F2 00 12 00    | >> Formation change to 18
+F5 09 02 01    | >> Adjust enemies: Monsters <0> => Unhide, don't touch HP
+FE             | >> End of if statement, reset target and wait
+FC 01 17 19    | If... Hit by command [XMagic] or [Summon]
+F0 EF 99 99    | > Random spell: [Special: Wing of Ruin] or [Step Mine] or [Step Mine]
+F8 00 81       | > Modify variable [$000 + 1]
+FC 0D 00 04    | > If... Variable $000 is 4 or more
+F8 00 00       | >> Modify variable [$000 = 0]
+F8 03 00       | >> Modify variable [$003 = 0]
+F5 08 04 00    | >> Adjust enemies: Monsters <Self> => Hide, don't touch HP
+F2 00 12 00    | >> Formation change to 18
+F5 09 02 01    | >> Adjust enemies: Monsters <0> => Unhide, don't touch HP
+FE             | >> End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 FE EE EF    | > Random spell: [Nothing] or [Fight] or [Special: Wing of Ruin]
+F8 00 81       | > Modify variable [$000 + 1]
+FC 0D 00 04    | > If... Variable $000 is 4 or more
+F8 00 00       | >> Modify variable [$000 = 0]
+F8 03 00       | >> Modify variable [$003 = 0]
+F5 08 04 00    | >> Adjust enemies: Monsters <Self> => Hide, don't touch HP
+F2 00 12 00    | >> Formation change to 18
+F5 09 02 01    | >> Adjust enemies: Monsters <0> => Unhide, don't touch HP
+FF             - End of script
+
+[script #265]  ; orig idx=265, "Ultimeci", offset 0xE978A0, special: Deal 3.5x Damage
+FC 15 00 00    | If... Variable $000 has unset bit 0x01
+F3 11 00       | > Display message 17: I am Ultimecia. Time shall compress_  _All existence denied.
+C0             | > Fallen One
+F9 01 00 00    | > Modify var. bits [$000: Set 0x01]
+FE             | > End of if statement, reset target and wait
+FC 0D 03 04    | If... Variable $003 is 4 or more
+F0 16 23 23    | > Random spell: [Flare] or [Meteor] or [Meteor]
+F0 EE EF EE    | > Random spell: [Fight] or [Special: Knight's Blade] or [Fight]
+FD             | > Wait for next turn, reset target
+D2             | > Magic Annihilation
+F0 E8 CE CC    | > Random spell: [Kill] or [Entice] or [Southern Cross]
+FD             | > Wait for next turn, reset target
+17             | > Ultima
+F0 DA 30 C5    | > Random spell: [Weakness] or [Curaga] or [Northern Cross]
+FD             | > Wait for next turn, reset target
+CA             | > Apocalypse
+F0 EE EF EE    | > Random spell: [Fight] or [Special: Knight's Blade] or [Fight]
+FD             | > Wait for next turn, reset target
+D2             | > Magic Annihilation
+F0 A4 D2 D2    | > Random spell: [Thunder Call] or [Magic Annihilation] or [Magic Annihilation]
+FE             | > End of if statement, reset target and wait
+F0 16 35 35    | Random spell: [Flare] or [Holy] or [Holy]
+F0 EE EE 16    | Random spell: [Fight] or [Fight] or [Flare]
+FD             | Wait for next turn, reset target
+F0 D2 12 14    | Random spell: [Magic Annihilation] or [Quake] or [Scourge]
+F0 EE DA EE    | Random spell: [Fight] or [Weakness] or [Fight]
+FD             | Wait for next turn, reset target
+CA             | Apocalypse
+FD             | Wait for next turn, reset target
+F0 D2 16 34    | Random spell: [Magic Annihilation] or [Flare] or [Tornado]
+F0 10 DA CE    | Random spell: [Death] or [Weakness] or [Entice]
+FE             | End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 0C 03 03    | If... Variable $003 is less than 3
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 03 81       | >> Modify variable [$003 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 0C 03 05    | If... Variable $003 is less than 5
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F1 43          | >> Set target: All party members
+0F             | >> Dispel
+D1             | >> Time Compression
+F8 03 81       | >> Modify variable [$003 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F7 04          | > Special event 0x04
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 02 42 42    | If... Hit by spell [Perfect Ultima] or [Perfect Ultima]
+F1 43          | > Set target: All party members
+F0 FE 42 FE    | > Random spell: [Nothing] or [Perfect Ultima] or [Nothing]
+FE             | > End of if statement, reset target and wait
+FC 02 43 43    | If... Hit by spell [Mega Flare] or [Mega Flare]
+F1 43          | > Set target: All party members
+F0 FE 43 FE    | > Random spell: [Nothing] or [Mega Flare] or [Nothing]
+FE             | > End of if statement, reset target and wait
+FC 02 3D 3D    | If... Hit by spell [Tidal Wave] or [Tidal Wave]
+F1 43          | > Set target: All party members
+F0 FE 3D FE    | > Random spell: [Nothing] or [Tidal Wave] or [Nothing]
+FE             | > End of if statement, reset target and wait
+FC 01 02 17    | If... Hit by command [Magic] or [XMagic]
+F0 FE B1 FE    | > Random spell: [Nothing] or [Blaster] or [Nothing]
+FE             | > End of if statement, reset target and wait
+FC 01 0C 0D    | If... Hit by command [Blue] or [Sketch]
+F0 FE FE B1    | > Random spell: [Nothing] or [Nothing] or [Blaster]
+FE             | > End of if statement, reset target and wait
+FC 01 0A 07    | If... Hit by command [Blitz] or [Iaido]
+F0 EF FE EF    | > Random spell: [Special: Knight's Blade] or [Nothing] or [Special: Knight's Blade]
+FE             | > End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 FE EE EE    | > Random spell: [Nothing] or [Fight] or [Fight]
+FE             | > End of if statement, reset target and wait
+FF             - End of script
+
+[script #266]  ; orig idx=266, "Chaos", offset 0xE974C0, special: Deal 3x Damage
+FC 0D 00 02    | If... Variable $000 is 2 or more
+FC 15 00 00    | > If... Variable $000 has unset bit 0x01
+F3 0F 00       | >> Display message 15: Shiver at the power of a god!
+FB 01 36       | >> Misc.: Self becomes invincible
+45             | >> Armageddon
+F9 01 00 00    | >> Modify var. bits [$000: Set 0x01]
+FB 05 36       | >> Misc.: Self loses invincibility
+FE             | >> End of if statement, reset target and wait
+FC 0D 00 03    | If... Variable $000 is 3 or more
+BD             | > Earthquake
+30             | > Curaga
+FD             | > Wait for next turn, reset target
+E7             | > Merton
+F0 12 34 16    | > Random spell: [Quake] or [Tornado] or [Flare]
+13             | > Flood
+FD             | > Wait for next turn, reset target
+D7             | > Shrapnel
+A4             | > Thunder Call
+FE             | > End of if statement, reset target and wait
+BD             | Earthquake
+F0 19 28 29    | Random spell: [Haste] or [Protect] or [Shell]
+FD             | Wait for next turn, reset target
+A4             | Thunder Call
+F0 EE D7 D7    | Random spell: [Fight] or [Shrapnel] or [Shrapnel]
+FD             | Wait for next turn, reset target
+E7             | Merton
+F0 EE 16 16    | Random spell: [Fight] or [Flare] or [Flare]
+FD             | Wait for next turn, reset target
+F0 EF EE EF    | Random spell: [Special: Deathblow] or [Fight] or [Special: Deathblow]
+F0 34 30 34    | Random spell: [Tornado] or [Curaga] or [Tornado]
+FF             @ End of action script, begin counter-attack script
+FC 0C 00 03    | If... Variable $000 is less than 3
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 00 81       | >> Modify variable [$000 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 FE EF 18    | > Random spell: [Nothing] or [Special: Deathblow] or [Slow]
+FF             - End of script
+
+[script #267]  ; orig idx=267, "Mateus", offset 0xE97560, special: Deal 1x Damage + Inflict Muddle
+FC 0D 02 08    | If... Variable $002 is 8 or more
+F1 36          | > Set target: Self
+93             | > White Wind
+F8 02 00       | > Modify variable [$002 = 0]
+FE             | > End of if statement, reset target and wait
+A0             | Quasar
+F0 EE EF EE    | Random spell: [Fight] or [Special: Absolute Dominion] or [Fight]
+FD             | Wait for next turn, reset target
+F0 EE 9C EE    | Random spell: [Fight] or [Bad Breath] or [Fight]
+F0 EB BE CC    | Random spell: [Life Shaver] or [Flash Rain] or [Southern Cross]
+FD             | Wait for next turn, reset target
+6D             | Cliff Collapse
+F0 EE EE EF    | Random spell: [Fight] or [Fight] or [Special: Absolute Dominion]
+FD             | Wait for next turn, reset target
+F0 20 23 23    | Random spell: [Comet] or [Meteor] or [Meteor]
+FF             @ End of action script, begin counter-attack script
+FC 15 00 01    | If... Variable $000 has unset bit 0x02
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F9 01 00 01    | >> Modify var. bits [$000: Set 0x02]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F3 0C 00       | > Display message 12: Unbelievable_ It can't be_ I'm_ defeated?!
+F5 0C 03 00    | > Adjust enemies: Monsters <Self> => Hide, refill MP
+F2 00 0B 80    | > Formation change to 11
+F5 08 00 01    | > Adjust enemies: Monsters <0> => Unhide, refill HP
+F3 0D 00       | > Display message 13: Foolish humans_ Better you sleep than live in despair_
+FE             | > End of if statement, reset target and wait
+FC 02 17 42    | If... Hit by spell [Ultima] or [Perfect Ultima]
+F0 FE EF EF    | > Random spell: [Nothing] or [Special: Absolute Dominion] or [Special: Absolute Dominion]
+F8 02 83       | > Modify variable [$002 + 3]
+F9 01 00 02    | > Modify var. bits [$000: Set 0x04]
+FE             | > End of if statement, reset target and wait
+FC 02 23 43    | If... Hit by spell [Meteor] or [Mega Flare]
+F0 FE EF EF    | > Random spell: [Nothing] or [Special: Absolute Dominion] or [Special: Absolute Dominion]
+F8 02 82       | > Modify variable [$002 + 2]
+FE             | > End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 FE EF EF    | > Random spell: [Nothing] or [Special: Absolute Dominion] or [Special: Absolute Dominion]
+F8 02 81       | > Modify variable [$002 + 1]
+FF             - End of script
+
+[script #268]  ; orig idx=268, "Mateus", offset 0xE97600, special: 100% Deal 1x Damage + Inflict Stop
+FC 15 00 00    | If... Variable $000 has unset bit 0x01
+DC             | > Cloudy Heaven
+F9 01 00 00    | > Modify var. bits [$000: Set 0x01]
+FE             | > End of if statement, reset target and wait
+FC 14 00 02    | If... Variable $000 has set bit 0x04
+FC 0B 2D 00    | > If... Personal timer above 45
+FB 00 00       | >> Misc.: Reset personal timer
+F3 10 00       | >> Display message 16: Ultimate magic_ I'll treasure this knowledge!
+17             | >> Ultima
+FE             | >> End of if statement, reset target and wait
+F0 BB EE 16    | Random spell: [Absolute Zero] or [Fight] or [Flare]
+F0 A4 C0 A4    | Random spell: [Thunder Call] or [Fallen One] or [Thunder Call]
+FD             | Wait for next turn, reset target
+CF             | Freezing Dust
+12             | Quake
+FD             | Wait for next turn, reset target
+D6             | Meteorrite
+FD             | Wait for next turn, reset target
+F0 EF 35 EF    | Random spell: [Special: Dreary Cell] or [Holy] or [Special: Dreary Cell]
+A0             | Quasar
+FF             @ End of action script, begin counter-attack script
+FC 0C 03 02    | If... Variable $003 is less than 2
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 03 81       | >> Modify variable [$003 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F3 0E 00       | > Display message 14: Defeated by insects like you_ Not once, but twice! Uwaahhhh_...
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 EE EF FE    | > Random spell: [Fight] or [Special: Dreary Cell] or [Nothing]
+F8 04 81       | > Modify variable [$004 + 1]
+FC 0D 04 05    | > If... Variable $004 is 5 or more
+F1 36          | >> Set target: Self
+93             | >> White Wind
+F8 04 00       | >> Modify variable [$004 = 0]
+FF             - End of script
+
+[script #269]  ; orig idx=269, "NeoExdth", offset 0xE97400, special: 100% Deal 1x Damage + Inflict Stone
+FC 0D 02 01    | If... Variable $002 is 1 or more
+F0 23 A6 95    | > Random spell: [Meteor] or [Zombie Breath] or [Level 3 Flare]
+F0 EE 93 EE    | > Random spell: [Fight] or [White Wind] or [Fight]
+FD             | > Wait for next turn, reset target
+F0 EF EE A1    | > Random spell: [Special: White Hole] or [Fight] or [Grand Delta]
+F0 D5 13 91    | > Random spell: [Hurricane] or [Flood] or [Mighty Guard]
+FD             | > Wait for next turn, reset target
+D8             | > Almagest
+FD             | > Wait for next turn, reset target
+F0 EE 99 EF    | > Random spell: [Fight] or [Step Mine] or [Special: White Hole]
+F0 D5 A6 89    | > Random spell: [Hurricane] or [Zombie Breath] or [Banisher]
+FD             | > Wait for next turn, reset target
+F3 0B 00       | > Display message 11:      The laws of the universe mean nothing!
+EA             | > Grand Cross
+FE             | > End of if statement, reset target and wait
+F0 20 A6 95    | Random spell: [Comet] or [Zombie Breath] or [Level 3 Flare]
+F0 EE 30 EE    | Random spell: [Fight] or [Curaga] or [Fight]
+FD             | Wait for next turn, reset target
+F0 EF EE A1    | Random spell: [Special: White Hole] or [Fight] or [Grand Delta]
+F0 D5 13 91    | Random spell: [Hurricane] or [Flood] or [Mighty Guard]
+FD             | Wait for next turn, reset target
+D8             | Almagest
+FD             | Wait for next turn, reset target
+F0 EE CF EF    | Random spell: [Fight] or [Freezing Dust] or [Special: White Hole]
+F0 D5 A6 89    | Random spell: [Hurricane] or [Zombie Breath] or [Banisher]
+FD             | Wait for next turn, reset target
+F3 0B 00       | Display message 11:      The laws of the universe mean nothing!
+EA             | Grand Cross
+FF             @ End of action script, begin counter-attack script
+FC 0C 02 02    | If... Variable $002 is less than 2
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 02 81       | >> Modify variable [$002 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FF             - End of script
+
+[script #270]  ; orig idx=270, "Kamlanau", offset 0xE97A00, special: Deal 2.5x Damage
+EE             | Fight
+F0 EE EF EE    | Random spell: [Fight] or [Special: Light Blade] or [Fight]
+FD             | Wait for next turn, reset target
+CB             | Great Whirlwind
+F0 EE EE EF    | Random spell: [Fight] or [Fight] or [Special: Light Blade]
+FD             | Wait for next turn, reset target
+F0 1E C6 1E    | Random spell: [Gravity] or [Flare Star] or [Gravity]
+FE             | End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 0C 03 03    | If... Variable $003 is less than 3
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 03 81       | >> Modify variable [$003 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F3 12 00       | > Display message 18: Gahh_ why_ brother_
+F5 0B 01 01    | > Adjust enemies: Monsters <0> => Killed
+F3 13 00       | > Display message 19: Haha_  I have no more use for you, little brother!
+F5 03 01 02    | > Adjust enemies: Monsters <1> => Killed
+F2 00 13 80    | > Formation change to 19
+F5 03 00 10    | > Adjust enemies: Monsters <4> => Unhide, refill HP
+F3 14 00       | > Display message 20:                        Orbital Summon!
+F9 01 00 00    | > Modify var. bits [$000: Set 0x01]
+F5 0B 00 04    | > Adjust enemies: Monsters <2> => Unhide, refill HP
+F5 0B 00 08    | > Adjust enemies: Monsters <3> => Unhide, refill HP
+FE             | > End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 FE EE EF    | > Random spell: [Nothing] or [Fight] or [Special: Light Blade]
+FF             - End of script
+
+[script #271]  ; orig idx=271, "Ealdnarc", offset 0xE97AA0, special: Deal 1.5x Damage
+FC 14 00 00    | If... Variable $000 has set bit 0x01
+FC 0D 02 02    | > If... Variable $002 is 2 or more
+F0 C6 E0 23    | >> Random spell: [Flare Star] or [Black Hole] or [Meteor]
+F0 21 8D E1    | >> Random spell: [Slowga] or [Mind Blast] or [Omega Javelin]
+FD             | >> Wait for next turn, reset target
+F0 16 C0 23    | >> Random spell: [Flare] or [Fallen One] or [Meteor]
+1A             | >> Stop
+FD             | >> Wait for next turn, reset target
+DE             | >> Stellar Blast
+FD             | >> Wait for next turn, reset target
+F0 C5 CF C5    | >> Random spell: [Northern Cross] or [Freezing Dust] or [Northern Cross]
+F0 E1 10 E8    | >> Random spell: [Omega Javelin] or [Death] or [Kill]
+FE             | >> End of if statement, reset target and wait
+FC 14 00 00    | If... Variable $000 has set bit 0x01
+FB 05 36       | > Misc.: Self loses invincibility
+F0 12 16 97    | > Random spell: [Quake] or [Flare] or [Night]
+F0 1A 8D 21    | > Random spell: [Stop] or [Mind Blast] or [Slowga]
+FD             | > Wait for next turn, reset target
+F0 E0 C5 E0    | > Random spell: [Black Hole] or [Northern Cross] or [Black Hole]
+F0 16 35 23    | > Random spell: [Flare] or [Holy] or [Meteor]
+FD             | > Wait for next turn, reset target
+E1             | > Omega Javelin
+F0 34 14 A7    | > Random spell: [Tornado] or [Scourge] or [Flash]
+FE             | > End of if statement, reset target and wait
+FB 01 36       | Misc.: Self becomes invincible
+F0 FE 21 FE    | Random spell: [Nothing] or [Slowga] or [Nothing]
+FD             | Wait for next turn, reset target
+F0 1A 22 29    | Random spell: [Stop] or [Hastega] or [Shell]
+FD             | Wait for next turn, reset target
+F0 0F 30 8D    | Random spell: [Dispel] or [Curaga] or [Mind Blast]
+FD             | Wait for next turn, reset target
+F0 28 1C B1    | Random spell: [Protect] or [Regen] or [Blaster]
+FE             | End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 0C 02 04    | If... Variable $002 is less than 4
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 02 81       | >> Modify variable [$002 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 00 00    | If... Monsters <Self> are dead
+F7 05          | > Special event 0x05
+F3 15 00       | > Display message 21: Bro_ ther_
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 15 00 00    | If... Variable $000 has unset bit 0x01
+F8 01 81       | > Modify variable [$001 + 1]
+FC 0D 01 05    | > If... Variable $001 is 5 or more
+F0 16 23 17    | >> Random spell: [Flare] or [Meteor] or [Ultima]
+F8 01 00       | >> Modify variable [$001 = 0]
+FF             - End of script
+
+[script #272]  ; orig idx=272, "ArkAngel", offset 0xE97F70, special: Deal 1x Damage + Inflict Stop
+FC 15 00 02    | If... Variable $000 has unset bit 0x04
+F3 1B 00       | > Display message 27: You shall be overwhelmed_  _by the arrogance that disfigures...
+F9 01 00 02    | > Modify var. bits [$000: Set 0x04]
+FE             | > End of if statement, reset target and wait
+FC 0B 1F 00    | If... Personal timer above 31
+FB 00 00       | > Misc.: Reset personal timer
+F2 00 10 00    | > Formation change to 16
+FE             | > End of if statement, reset target and wait
+FC 0D 01 05    | If... Variable $001 is 5 or more
+F0 EE 21 EE    | > Random spell: [Fight] or [Slowga] or [Fight]
+F0 30 B0 34    | > Random spell: [Curaga] or [Arrogance Incarnate] or [Tornado]
+FD             | > Wait for next turn, reset target
+F0 28 EE 2C    | > Random spell: [Protect] or [Fight] or [Confuse]
+F0 EE 29 1C    | > Random spell: [Fight] or [Shell] or [Regen]
+FD             | > Wait for next turn, reset target
+F0 B0 35 2A    | > Random spell: [Arrogance Incarnate] or [Holy] or [Cura]
+F0 19 EE 2A    | > Random spell: [Haste] or [Fight] or [Cura]
+FD             | > Wait for next turn, reset target
+F0 EE 32 EE    | > Random spell: [Fight] or [Blink] or [Fight]
+F0 2A EE 30    | > Random spell: [Cura] or [Fight] or [Curaga]
+FE             | > End of if statement, reset target and wait
+F0 EE 35 EE    | Random spell: [Fight] or [Holy] or [Fight]
+F0 EE EE 30    | Random spell: [Fight] or [Fight] or [Curaga]
+FD             | Wait for next turn, reset target
+F0 28 EE EE    | Random spell: [Protect] or [Fight] or [Fight]
+F0 EE 29 1C    | Random spell: [Fight] or [Shell] or [Regen]
+FD             | Wait for next turn, reset target
+F0 EE 35 2A    | Random spell: [Fight] or [Holy] or [Cura]
+F0 19 EE 21    | Random spell: [Haste] or [Fight] or [Slowga]
+FD             | Wait for next turn, reset target
+F0 EF 32 EE    | Random spell: [Special: Shield Strike] or [Blink] or [Fight]
+F0 2A EE EE    | Random spell: [Cura] or [Fight] or [Fight]
+FE             | End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 0C 01 07    | If... Variable $001 is less than 7
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 01 81       | >> Modify variable [$001 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 FE EE 18    | > Random spell: [Nothing] or [Fight] or [Slow]
+FF             - End of script
+
+[script #273]  ; orig idx=273, "ArkAngel", offset 0xE98100, special: Rage
+FC 15 00 05    | If... Variable $000 has unset bit 0x20
+F3 1D 00       | > Display message 29: You shall be twisted_  _by the envy that drives you_
+F9 01 00 05    | > Modify var. bits [$000: Set 0x20]
+FE             | > End of if statement, reset target and wait
+FC 0B 1F 00    | If... Personal timer above 31
+FB 00 00       | > Misc.: Reset personal timer
+F2 00 11 00    | > Formation change to 17
+FE             | > End of if statement, reset target and wait
+FC 0D 01 05    | If... Variable $001 is 5 or more
+F0 EE C8 C8    | > Random spell: [Fight] or [Havoc Spiral] or [Havoc Spiral]
+F0 A8 EE 76    | > Random spell: [Lullaby] or [Fight] or [Wombat]
+FD             | > Wait for next turn, reset target
+F0 6E EF C7    | > Random spell: [Shamshir] or [Special: Charm] or [Love Token]
+F0 EE 75 EE    | > Random spell: [Fight] or [Falcon] or [Fight]
+FD             | > Wait for next turn, reset target
+F0 C8 77 EE    | > Random spell: [Havoc Spiral] or [Meerkat] or [Fight]
+F0 EE 7C EE    | > Random spell: [Fight] or [Snow Bunny] or [Fight]
+FD             | > Wait for next turn, reset target
+F0 CE C7 CE    | > Random spell: [Entice] or [Love Token] or [Entice]
+F0 79 EE EF    | > Random spell: [Wild Pig] or [Fight] or [Special: Charm]
+FE             | > End of if statement, reset target and wait
+EE             | Fight
+F0 A8 EE 76    | Random spell: [Lullaby] or [Fight] or [Wombat]
+FD             | Wait for next turn, reset target
+F0 6E EE C7    | Random spell: [Shamshir] or [Fight] or [Love Token]
+F0 EE 75 EE    | Random spell: [Fight] or [Falcon] or [Fight]
+FD             | Wait for next turn, reset target
+F0 EE EE 77    | Random spell: [Fight] or [Fight] or [Meerkat]
+F0 EE EE 7C    | Random spell: [Fight] or [Fight] or [Snow Bunny]
+FD             | Wait for next turn, reset target
+F0 A8 A8 CE    | Random spell: [Lullaby] or [Lullaby] or [Entice]
+F0 EE 79 C8    | Random spell: [Fight] or [Wild Pig] or [Havoc Spiral]
+FE             | End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 0C 01 07    | If... Variable $001 is less than 7
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 01 81       | >> Modify variable [$001 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FF             - End of script
+
+[script #274]  ; orig idx=274, "ArkAngel", offset 0xE97ED0, special: Instant Death
+FC 15 00 01    | If... Variable $000 has unset bit 0x02
+F3 1A 00       | > Display message 26: You shall be defeated_  _by the apathy that plagues you_
+F9 01 00 01    | > Modify var. bits [$000: Set 0x02]
+FE             | > End of if statement, reset target and wait
+FC 0B 1F 00    | If... Personal timer above 31
+FB 00 00       | > Misc.: Reset personal timer
+F2 00 0D 00    | > Formation change to 13
+FE             | > End of if statement, reset target and wait
+FC 0D 01 05    | If... Variable $001 is 5 or more
+F0 EE 51 EE    | > Random spell: [Fight] or [Flame Scroll] or [Fight]
+F0 67 EE 52    | > Random spell: [Leaf Swirl] or [Fight] or [Water Scroll]
+FD             | > Wait for next turn, reset target
+F0 6B EE EF    | > Random spell: [Wildfire] or [Fight] or [Special: Suffocate]
+F0 DB EE 7B    | > Random spell: [Cross Reaver] or [Fight] or [Poison Frog]
+FD             | > Wait for next turn, reset target
+F0 65 53 EE    | > Random spell: [Wind Slash] or [Thunder Scroll] or [Fight]
+F6 01 41 42    | > Throw item: [Shuriken] or [Fuma Shuriken]
+FD             | > Wait for next turn, reset target
+F0 EF EE 6A    | > Random spell: [Special: Suffocate] or [Fight] or [Antlion]
+F0 DB EE 65    | > Random spell: [Cross Reaver] or [Fight] or [Wind Slash]
+FE             | > End of if statement, reset target and wait
+F0 EE 51 EE    | Random spell: [Fight] or [Flame Scroll] or [Fight]
+F0 EE EE 52    | Random spell: [Fight] or [Fight] or [Water Scroll]
+FD             | Wait for next turn, reset target
+F0 53 EE EF    | Random spell: [Thunder Scroll] or [Fight] or [Special: Suffocate]
+F0 EE EE EF    | Random spell: [Fight] or [Fight] or [Special: Suffocate]
+FD             | Wait for next turn, reset target
+F0 EE 52 EE    | Random spell: [Fight] or [Water Scroll] or [Fight]
+F6 01 41 41    | Throw item: [Shuriken]
+FD             | Wait for next turn, reset target
+F0 EF EE EE    | Random spell: [Special: Suffocate] or [Fight] or [Fight]
+F0 51 EE DB    | Random spell: [Flame Scroll] or [Fight] or [Cross Reaver]
+FE             | End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 0C 01 07    | If... Variable $001 is less than 7
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 01 81       | >> Modify variable [$001 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 FE EE EE    | > Random spell: [Nothing] or [Fight] or [Fight]
+FF             - End of script
+
+[script #275]  ; orig idx=275, "ArkAngel", offset 0xE98030, special: Deal 1x Damage + MP Absorb
+FC 15 00 04    | If... Variable $000 has unset bit 0x10
+F3 1C 00       | > Display message 28: You shall be consumed_  _by the cowardice that binds you_
+F9 01 00 04    | > Modify var. bits [$000: Set 0x10]
+FE             | > End of if statement, reset target and wait
+FC 0B 1F 00    | If... Personal timer above 31
+FB 00 00       | > Misc.: Reset personal timer
+F2 00 0E 00    | > Formation change to 14
+FE             | > End of if statement, reset target and wait
+FC 0D 01 05    | If... Variable $001 is 5 or more
+F0 16 16 EE    | > Random spell: [Flare] or [Flare] or [Fight]
+F0 D0 14 13    | > Random spell: [Amon Drive] or [Scourge] or [Flood]
+FD             | > Wait for next turn, reset target
+F0 09 10 EE    | > Random spell: [Break] or [Death] or [Fight]
+F0 8D C6 1E    | > Random spell: [Mind Blast] or [Flare Star] or [Gravity]
+FD             | > Wait for next turn, reset target
+F0 23 EF C5    | > Random spell: [Meteor] or [Special: Soul Enslavement] or [Northern Cross]
+F0 E8 EE 20    | > Random spell: [Kill] or [Fight] or [Comet]
+FD             | > Wait for next turn, reset target
+F0 04 B1 D0    | > Random spell: [Drain] or [Blaster] or [Amon Drive]
+F0 8F 11 EF    | > Random spell: [Aeroga] or [Rasp] or [Special: Soul Enslavement]
+FE             | > End of if statement, reset target and wait
+F0 16 16 EE    | Random spell: [Flare] or [Flare] or [Fight]
+F0 14 EE 13    | Random spell: [Scourge] or [Fight] or [Flood]
+FD             | Wait for next turn, reset target
+F0 09 10 EE    | Random spell: [Break] or [Death] or [Fight]
+F0 12 12 1E    | Random spell: [Quake] or [Quake] or [Gravity]
+FD             | Wait for next turn, reset target
+F0 16 EF C5    | Random spell: [Flare] or [Special: Soul Enslavement] or [Northern Cross]
+F0 10 EE D0    | Random spell: [Death] or [Fight] or [Amon Drive]
+FD             | Wait for next turn, reset target
+F0 04 04 EE    | Random spell: [Drain] or [Drain] or [Fight]
+F0 8F 11 EF    | Random spell: [Aeroga] or [Rasp] or [Special: Soul Enslavement]
+FE             | End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 0C 01 07    | If... Variable $001 is less than 7
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 01 81       | >> Modify variable [$001 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 FE EF EE    | > Random spell: [Nothing] or [Special: Soul Enslavement] or [Fight]
+FF             - End of script
+
+[script #276]  ; orig idx=276, "ArkAngel", offset 0xE97E50, special: Deal 1x Damage + Inflict Silence
+FC 15 00 00    | If... Variable $000 has unset bit 0x01
+F3 19 00       | > Display message 25: You shall be burned_  _by the rage that controls you_
+F9 01 00 00    | > Modify var. bits [$000: Set 0x01]
+FE             | > End of if statement, reset target and wait
+FC 0B 1F 00    | If... Personal timer above 31
+FB 00 00       | > Misc.: Reset personal timer
+F2 00 0F 00    | > Formation change to 15
+FE             | > End of if statement, reset target and wait
+FC 0D 01 05    | If... Variable $001 is 5 or more
+F0 EE 59 5B    | > Random spell: [Fight] or [Tachi: Dragon] or [Tachi: Moon]
+FD             | > Wait for next turn, reset target
+F0 EE EF ED    | > Random spell: [Fight] or [Special: Blade Bash] or [Dragonfall]
+FD             | > Wait for next turn, reset target
+F0 EF 55 57    | > Random spell: [Special: Blade Bash] or [Tachi: Fang] or [Tachi: Tiger]
+FD             | > Wait for next turn, reset target
+F0 ED EE 5C    | > Random spell: [Dragonfall] or [Fight] or [Tachi: Flower]
+FE             | > End of if statement, reset target and wait
+F0 EE 59 5A    | Random spell: [Fight] or [Tachi: Dragon] or [Tachi: Snow]
+FD             | Wait for next turn, reset target
+F0 58 EE EF    | Random spell: [Tachi: Dance] or [Fight] or [Special: Blade Bash]
+FD             | Wait for next turn, reset target
+F0 EE 55 57    | Random spell: [Fight] or [Tachi: Fang] or [Tachi: Tiger]
+FD             | Wait for next turn, reset target
+F0 EF EE ED    | Random spell: [Special: Blade Bash] or [Fight] or [Dragonfall]
+FE             | End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 0C 01 07    | If... Variable $001 is less than 7
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 01 81       | >> Modify variable [$001 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 FE EE EF    | > Random spell: [Nothing] or [Fight] or [Special: Blade Bash]
+FF             - End of script
+
+[script #277]  ; orig idx=277, "Sephirot", offset 0xE97780, special: 100% Deal 1x Damage + MP Absorb
+FC 0D 03 01    | If... Variable $003 is 1 or more
+F0 20 12 13    | > Random spell: [Comet] or [Quake] or [Flood]
+16             | > Flare
+FD             | > Wait for next turn, reset target
+EF             | > Special: Magic Buster
+F0 EE 8D 71    | > Random spell: [Fight] or [Mind Blast] or [Shadow Flare]
+FD             | > Wait for next turn, reset target
+C6             | > Flare Star
+F8 03 00       | > Modify variable [$003 = 0]
+F5 08 04 00    | > Adjust enemies: Monsters <Self> => Hide, don't touch HP
+F2 00 07 00    | > Formation change to 7
+F5 09 02 01    | > Adjust enemies: Monsters <0> => Unhide, don't touch HP
+FE             | > End of if statement, reset target and wait
+FC 0D 03 00    | If... Variable $003 is 0 or more
+F0 A0 8D A0    | > Random spell: [Quasar] or [Mind Blast] or [Quasar]
+F8 03 00       | > Modify variable [$003 = 0]
+F5 08 04 00    | > Adjust enemies: Monsters <Self> => Hide, don't touch HP
+F2 00 07 00    | > Formation change to 7
+F5 09 02 01    | > Adjust enemies: Monsters <0> => Unhide, don't touch HP
+FE             | > End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 0C 01 05    | If... Variable $001 is less than 5
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 01 81       | >> Modify variable [$001 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 01 02 0C    | If... Hit by command [Magic] or [Blue]
+F0 FE 09 16    | > Random spell: [Nothing] or [Break] or [Flare]
+F8 00 81       | > Modify variable [$000 + 1]
+FC 0D 00 04    | > If... Variable $000 is 4 or more
+F8 00 00       | >> Modify variable [$000 = 0]
+F8 03 00       | >> Modify variable [$003 = 0]
+F5 08 04 00    | >> Adjust enemies: Monsters <Self> => Hide, don't touch HP
+F2 00 07 00    | >> Formation change to 7
+F5 09 02 01    | >> Adjust enemies: Monsters <0> => Unhide, don't touch HP
+FE             | >> End of if statement, reset target and wait
+FC 01 17 19    | If... Hit by command [XMagic] or [Summon]
+F0 FE 09 16    | > Random spell: [Nothing] or [Break] or [Flare]
+F8 00 81       | > Modify variable [$000 + 1]
+FC 0D 00 04    | > If... Variable $000 is 4 or more
+F8 00 00       | >> Modify variable [$000 = 0]
+F8 03 00       | >> Modify variable [$003 = 0]
+F5 08 04 00    | >> Adjust enemies: Monsters <Self> => Hide, don't touch HP
+F2 00 07 00    | >> Formation change to 7
+F5 09 02 01    | >> Adjust enemies: Monsters <0> => Unhide, don't touch HP
+FE             | >> End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 8D 23 8D    | > Random spell: [Mind Blast] or [Meteor] or [Mind Blast]
+F8 00 81       | > Modify variable [$000 + 1]
+FC 0D 00 04    | > If... Variable $000 is 4 or more
+F8 00 00       | >> Modify variable [$000 = 0]
+F8 03 00       | >> Modify variable [$003 = 0]
+F5 08 04 00    | >> Adjust enemies: Monsters <Self> => Hide, don't touch HP
+F2 00 07 00    | >> Formation change to 7
+F5 09 02 01    | >> Adjust enemies: Monsters <0> => Unhide, don't touch HP
+FF             - End of script
+
+[script #278]  ; orig idx=278, "Orbital", offset 0xE97B80, special: Deal 3.5x Damage
+FC 12 04 00    | If... Monsters <2> are dead
+FC 0B 32 00    | > If... Personal timer above 50
+F5 0B 00 04    | >> Adjust enemies: Monsters <2> => Unhide, refill HP
+FE             | >> End of if statement, reset target and wait
+FC 11 04 00    | If... Monsters <2> are alive
+F0 FE 22 1C    | > Random spell: [Nothing] or [Hastega] or [Regen]
+FD             | > Wait for next turn, reset target
+F0 FE 28 29    | > Random spell: [Nothing] or [Protect] or [Shell]
+FD             | > Wait for next turn, reset target
+F0 30 32 EF    | > Random spell: [Curaga] or [Blink] or [Special: Electrocharge]
+FF             @ End of action script, begin counter-attack script
+FC 12 00 00    | If... Monsters <Self> are dead
+F5 00 00 04    | > Adjust enemies: Monsters <2> => Unhide, refill HP
+F5 09 03 04    | > Adjust enemies: Monsters <2> => Hide, refill MP
+FB 00 00       | > Misc.: Reset personal timer
+FF             - End of script
+
+[script #279]  ; orig idx=279, "Orbital", offset 0xE97BC0, special: Deal 3.5x Damage
+FC 12 08 00    | If... Monsters <3> are dead
+FC 0B 1E 00    | > If... Personal timer above 30
+F5 0B 00 08    | >> Adjust enemies: Monsters <3> => Unhide, refill HP
+FE             | >> End of if statement, reset target and wait
+FC 11 08 00    | If... Monsters <3> are alive
+F0 EE EE EF    | > Random spell: [Fight] or [Fight] or [Special: Electrocharge]
+FF             @ End of action script, begin counter-attack script
+FC 12 00 00    | If... Monsters <Self> are dead
+F5 00 00 08    | > Adjust enemies: Monsters <3> => Unhide, refill HP
+F5 09 03 08    | > Adjust enemies: Monsters <3> => Hide, refill MP
+FB 00 00       | > Misc.: Reset personal timer
+FF             - End of script
+
+[script #280]  ; orig idx=280, "Kuja", offset 0xE97C00, special: 100% Deal 1x Damage + MP Absorb
+FC 0D 03 04    | If... Variable $003 is 4 or more
+F0 16 16 23    | > Random spell: [Flare] or [Flare] or [Meteor]
+F0 EE EF EE    | > Random spell: [Fight] or [Special: Snatch Blow] or [Fight]
+FD             | > Wait for next turn, reset target
+C6             | > Flare Star
+FC 09 36 17    | > If... Self doesn't have status Rflect; targets them
+30             | >> Curaga
+31             | >> Reflect
+FD             | >> Wait for next turn, reset target
+F0 16 71 23    | >> Random spell: [Flare] or [Shadow Flare] or [Meteor]
+C7             | >> Love Token
+FD             | >> Wait for next turn, reset target
+D9             | >> Holy Star
+F0 EE EF EE    | >> Random spell: [Fight] or [Special: Snatch Blow] or [Fight]
+FD             | >> Wait for next turn, reset target
+17             | >> Ultima
+FE             | >> End of if statement, reset target and wait
+F0 16 35 35    | Random spell: [Flare] or [Holy] or [Holy]
+F0 EE EE 16    | Random spell: [Fight] or [Fight] or [Flare]
+FD             | Wait for next turn, reset target
+C6             | Flare Star
+FC 09 36 17    | If... Self doesn't have status Rflect; targets them
+30             | > Curaga
+31             | > Reflect
+FD             | > Wait for next turn, reset target
+1E             | > Gravity
+F0 16 71 16    | > Random spell: [Flare] or [Shadow Flare] or [Flare]
+FD             | > Wait for next turn, reset target
+F0 98 8F B1    | > Random spell: [Level 2 Holy] or [Aeroga] or [Blaster]
+F0 EE CE EE    | > Random spell: [Fight] or [Entice] or [Fight]
+FE             | > End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 0C 03 03    | If... Variable $003 is less than 3
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 03 81       | >> Modify variable [$003 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 0C 03 05    | If... Variable $003 is less than 5
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+9F             | >> Ancient Prayer
+F8 03 81       | >> Modify variable [$003 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 02 42 42    | If... Hit by spell [Perfect Ultima] or [Perfect Ultima]
+F0 FE FE C6    | > Random spell: [Nothing] or [Nothing] or [Flare Star]
+FE             | > End of if statement, reset target and wait
+FC 02 43 43    | If... Hit by spell [Mega Flare] or [Mega Flare]
+F0 FE FE D9    | > Random spell: [Nothing] or [Nothing] or [Holy Star]
+FE             | > End of if statement, reset target and wait
+FC 01 02 17    | If... Hit by command [Magic] or [XMagic]
+F0 FE 11 FE    | > Random spell: [Nothing] or [Rasp] or [Nothing]
+FE             | > End of if statement, reset target and wait
+FC 01 0C 0D    | If... Hit by command [Blue] or [Sketch]
+F0 FE FE 11    | > Random spell: [Nothing] or [Nothing] or [Rasp]
+FE             | > End of if statement, reset target and wait
+FC 01 0A 07    | If... Hit by command [Blitz] or [Iaido]
+F0 EF FE EF    | > Random spell: [Special: Snatch Blow] or [Nothing] or [Special: Snatch Blow]
+FE             | > End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+F0 FE EE EE    | > Random spell: [Nothing] or [Fight] or [Fight]
+FF             - End of script
+
+[script #281]  ; orig idx=281, "Seymour", offset 0xE97CC0, special: Deal 1x Damage + Inflict Zombie
+FC 0D 03 04    | If... Variable $003 is 4 or more
+F0 16 23 E8    | > Random spell: [Flare] or [Meteor] or [Kill]
+F0 EE EF 1C    | > Random spell: [Fight] or [Special: Lance of Atrophy] or [Regen]
+FD             | > Wait for next turn, reset target
+F0 4B 48 4F    | > Random spell: [Angel Feathers] or [Space Barrier] or [Queen's Aegis]
+FD             | > Wait for next turn, reset target
+F0 0F 18 19    | > Random spell: [Dispel] or [Slow] or [Haste]
+F0 EE C5 A4    | > Random spell: [Fight] or [Northern Cross] or [Thunder Call]
+FD             | > Wait for next turn, reset target
+F0 3D 41 43    | > Random spell: [Tidal Wave] or [Zantetsuken] or [Mega Flare]
+F0 FE FE 30    | > Random spell: [Nothing] or [Nothing] or [Curaga]
+FD             | > Wait for next turn, reset target
+17             | > Ultima
+FD             | > Wait for next turn, reset target
+C1             | > Barrier Change
+FE             | > End of if statement, reset target and wait
+FC 0D 03 03    | If... Variable $003 is 3 or more
+F0 14 35 16    | > Random spell: [Scourge] or [Holy] or [Flare]
+F0 EE EF EE    | > Random spell: [Fight] or [Special: Lance of Atrophy] or [Fight]
+FD             | > Wait for next turn, reset target
+F0 3A 44 3F    | > Random spell: [Earth's Fury] or [Dark Messenger] or [Radiant Breath]
+FD             | > Wait for next turn, reset target
+F0 0F 13 23    | > Random spell: [Dispel] or [Flood] or [Meteor]
+F0 EE C5 34    | > Random spell: [Fight] or [Northern Cross] or [Tornado]
+FD             | > Wait for next turn, reset target
+F0 47 40 39    | > Random spell: [Holy Aura] or [Tri-Disaster] or [Silent Voice]
+F0 EE EF 10    | > Random spell: [Fight] or [Special: Lance of Atrophy] or [Death]
+FD             | > Wait for next turn, reset target
+C1             | > Barrier Change
+FE             | > End of if statement, reset target and wait
+F0 0C 0D 0E    | Random spell: [Firaga] or [Blizzaga] or [Thundaga]
+F0 EE EF EE    | Random spell: [Fight] or [Special: Lance of Atrophy] or [Fight]
+FD             | Wait for next turn, reset target
+F0 38 37 36    | Random spell: [Diamond Dust] or [Hellfire] or [Judgment Bolt]
+FD             | Wait for next turn, reset target
+F0 0F 09 10    | Random spell: [Dispel] or [Break] or [Death]
+B2             | Whirlwind
+FD             | Wait for next turn, reset target
+F0 3C 3B 3E    | Random spell: [Chaos Wave] or [Demon Eye] or [Cat Rain]
+F0 EE EF EE    | Random spell: [Fight] or [Special: Lance of Atrophy] or [Fight]
+FD             | Wait for next turn, reset target
+C1             | Barrier Change
+FE             | End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 0C 03 04    | If... Variable $003 is less than 4
+FC 12 00 00    | > If... Monsters <Self> are dead
+F5 00 00 00    | >> Adjust enemies: Monsters <Self> => Unhide, refill HP
+F8 03 81       | >> Modify variable [$003 + 1]
+FE             | >> End of if statement, reset target and wait
+FC 12 01 00    | If... Monsters <0> are dead
+F3 16 00       | > Display message 22: Rest in peace, in eternal darkness!
+FA 0C 01 00    | > Use Animation 
+F5 0B 03 00    | > Adjust enemies: Monsters <Self> => Hide, refill MP
+F2 00 16 80    | > Formation change to 22
+F3 17 00       | > Display message 23: Feel my pain! Come, Anima!
+F5 08 00 01    | > Adjust enemies: Monsters <0> => Unhide, refill HP
+FE             | > End of if statement, reset target and wait
+FC 02 25 25    | If... Hit by spell [Libra] or [Libra]
+F0 FE FE FE    | > Use spell: [Nothing]
+FE             | > End of if statement, reset target and wait
+FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+F0 FE EE EF    | > Random spell: [Nothing] or [Fight] or [Special: Lance of Atrophy]
+FE             | > End of if statement, reset target and wait
+FC 1A 30 01    | If... Monster in slot 0 has Fire weakness; targets them
+FC 04 01 00    | > If... Hit by element(s) [Fire]
+F0 FE FE FE    | >> Use spell: [Nothing]
+FE             | >> End of if statement, reset target and wait
+FC 1A 30 02    | If... Monster in slot 0 has Ice weakness; targets them
+FC 04 02 00    | > If... Hit by element(s) [Ice]
+F0 FE FE FE    | >> Use spell: [Nothing]
+FE             | >> End of if statement, reset target and wait
+FC 1A 30 04    | If... Monster in slot 0 has Lightning weakness; targets them
+FC 04 04 00    | > If... Hit by element(s) [Lightning]
+F0 FE FE FE    | >> Use spell: [Nothing]
+FE             | >> End of if statement, reset target and wait
+FC 1A 30 08    | If... Monster in slot 0 has Dark weakness; targets them
+FC 04 08 00    | > If... Hit by element(s) [Dark]
+F0 FE FE FE    | >> Use spell: [Nothing]
+FE             | >> End of if statement, reset target and wait
+FC 1A 30 10    | If... Monster in slot 0 has Wind weakness; targets them
+FC 04 10 00    | > If... Hit by element(s) [Wind]
+F0 FE FE FE    | >> Use spell: [Nothing]
+FE             | >> End of if statement, reset target and wait
+FC 1A 30 20    | If... Monster in slot 0 has Holy weakness; targets them
+FC 04 20 00    | > If... Hit by element(s) [Holy]
+F0 FE FE FE    | >> Use spell: [Nothing]
+FE             | >> End of if statement, reset target and wait
+FC 1A 30 40    | If... Monster in slot 0 has Earth weakness; targets them
+FC 04 40 00    | > If... Hit by element(s) [Earth]
+F0 FE FE FE    | >> Use spell: [Nothing]
+FE             | >> End of if statement, reset target and wait
+FC 1A 30 80    | If... Monster in slot 0 has Water weakness; targets them
+FC 04 80 00    | > If... Hit by element(s) [Water]
+F0 FE FE FE    | >> Use spell: [Nothing]
+FE             | >> End of if statement, reset target and wait
+FC 05 00 00    | If... HP is decreased
+B1             | > Blaster
+FE             | > End of if statement, reset target and wait
+FF             - End of script
+
+[script #282]  ; orig idx=282, "Anima", offset 0xE97DF0, special: 100% Deal 1x Damage + Inflict Condemned
+F0 10 EF E8    | Random spell: [Death] or [Special: Pain] or [Kill]
+FD             | Wait for next turn, reset target
+F0 14 0B EF    | Random spell: [Scourge] or [Bio] or [Special: Pain]
+FD             | Wait for next turn, reset target
+F0 8C 94 EF    | Random spell: [Death Roulette] or [Level ? Death] or [Special: Pain]
+FD             | Wait for next turn, reset target
+F0 E8 20 14    | Random spell: [Kill] or [Comet] or [Scourge]
+FD             | Wait for next turn, reset target
+E9             | C. Dimension
+FE             | End of if statement, reset target and wait
+FF             @ End of action script, begin counter-attack script
+FC 07 36 00    | If... Self MP is below 0 [0%]; targets them
+F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
+FE             | > End of if statement, reset target and wait
+FC 12 00 00    | If... Monsters <Self> are dead
+F5 00 00 01    | > Adjust enemies: Monsters <0> => Unhide, refill HP
+F5 09 03 01    | > Adjust enemies: Monsters <0> => Hide, refill MP
+F5 08 00 01    | > Adjust enemies: Monsters <0> => Unhide, refill HP
+F3 18 00       | > Display message 24: Anima can not be defeated_ _unless drained of magic!
+FE             | > End of if statement, reset target and wait
+FC 0D 01 03    | If... Variable $001 is 3 or more
+FC 05 00 00    | > If... HP is decreased
+F1 45          | >> Set target: Last attacking party member/monster
+71             | >> Shadow Flare
+F8 01 00       | >> Modify variable [$001 = 0]
+FE             | >> End of if statement, reset target and wait
+FC 02 11 8D    | If... Hit by spell [Rasp] or [Mind Blast]
+F8 01 81       | > Modify variable [$001 + 1]
+FE             | > End of if statement, reset target and wait
+FF             - End of script
