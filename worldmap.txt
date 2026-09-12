@@ -1,9 +1,9 @@
 Map Zone WoB 1x1 Dragon Neck Coliseum
 * Grassland Formation Pack #9 ('Kohlingen (WoB) Grassland/Prairie')
-   #94 [2x Bld.Fang]
-   #97 [2x Bld.Fang, 2x Rudra]
+   #94 [2x Bld Fang]
+   #97 [2x Bld Fang, 2x Rudra]
    #99 [2x MtrDrive]
-   #97 [2x Bld.Fang, 2x Rudra]
+   #97 [2x Bld Fang, 2x Rudra]
 * Forest Formation Pack #11 ('Kohlingen (WoB) Forest')
    #95 [3x Rudra, MtrDrive]
    #96 [2x BrnCandy, 2x MtrDrive]
@@ -11,21 +11,21 @@ Map Zone WoB 1x1 Dragon Neck Coliseum
    #98 [3x BrnCandy, 2x MtrDrive]
 * Desert Formation Pack #12 ('Kohlingen (WoB) Desert')
    #93 [DrgnFosl]
-   #10 [2x DesertSa]
-   #12 [2x Alacran, DesertSa]
+   #10 [2x DsrtSacr]
+   #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 1x2 Dragon Neck Coliseum
 * Grassland Formation Pack #9 ('Kohlingen (WoB) Grassland/Prairie')
-   #94 [2x Bld.Fang]
-   #97 [2x Bld.Fang, 2x Rudra]
+   #94 [2x Bld Fang]
+   #97 [2x Bld Fang, 2x Rudra]
    #99 [2x MtrDrive]
-   #97 [2x Bld.Fang, 2x Rudra]
+   #97 [2x Bld Fang, 2x Rudra]
 * Forest Formation Pack #11 ('Kohlingen (WoB) Forest')
    #95 [3x Rudra, MtrDrive]
    #96 [2x BrnCandy, 2x MtrDrive]
@@ -33,13 +33,13 @@ Map Zone WoB 1x2 Dragon Neck Coliseum
    #98 [3x BrnCandy, 2x MtrDrive]
 * Desert Formation Pack #12 ('Kohlingen (WoB) Desert')
    #93 [DrgnFosl]
-   #10 [2x DesertSa]
-   #12 [2x Alacran, DesertSa]
+   #10 [2x DsrtSacr]
+   #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 1x3 Narshe North
@@ -88,98 +88,98 @@ Map Zone WoB 1x4 Narshe Northeast
 -----------
 Map Zone WoB 1x5 Beach Area
 * Grassland Formation Pack #6 ('Isolated House (WoB) Grassland/Prairie')
-   #56 [2x Hedgehog, 3x ChipRabb]
-   #55 [Aepyorni, 2x ChipRabb]
-   #53 [Aepyorni, 2x Hedgehog]
-   #53 [Aepyorni, 2x Hedgehog]
+   #56 [2x Hedgehog, 3x Chprabbt]
+   #55 [Aepyorns, 2x Chprabbt]
+   #53 [Aepyorns, 2x Hedgehog]
+   #53 [Aepyorns, 2x Hedgehog]
 * Forest Formation Pack #7 ('Doma Castle (WoB) Forest')
    #50 [2x StrayCat, 2x NetlHopr]
-   #52 [5x ChipRabb]
-   #54 [2x Aepyorni, StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #52 [5x Chprabbt]
+   #54 [2x Aepyorns, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #6 ('Isolated House (WoB) Grassland/Prairie')
-   #56 [2x Hedgehog, 3x ChipRabb]
-   #55 [Aepyorni, 2x ChipRabb]
-   #53 [Aepyorni, 2x Hedgehog]
-   #53 [Aepyorni, 2x Hedgehog]
+   #56 [2x Hedgehog, 3x Chprabbt]
+   #55 [Aepyorns, 2x Chprabbt]
+   #53 [Aepyorns, 2x Hedgehog]
+   #53 [Aepyorns, 2x Hedgehog]
 -----------
 Map Zone WoB 1x6 Isolated House North
 * Grassland Formation Pack #6 ('Isolated House (WoB) Grassland/Prairie')
-   #56 [2x Hedgehog, 3x ChipRabb]
-   #55 [Aepyorni, 2x ChipRabb]
-   #53 [Aepyorni, 2x Hedgehog]
-   #53 [Aepyorni, 2x Hedgehog]
+   #56 [2x Hedgehog, 3x Chprabbt]
+   #55 [Aepyorns, 2x Chprabbt]
+   #53 [Aepyorns, 2x Hedgehog]
+   #53 [Aepyorns, 2x Hedgehog]
 * Forest Formation Pack #7 ('Doma Castle (WoB) Forest')
    #50 [2x StrayCat, 2x NetlHopr]
-   #52 [5x ChipRabb]
-   #54 [2x Aepyorni, StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #52 [5x Chprabbt]
+   #54 [2x Aepyorns, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
 * Desert Formation Pack #1 ('Narshe (WoB) Desert')
-   #10 [2x DesertSa]
+   #10 [2x DsrtSacr]
    #11 [3x Alacran]
-   #12 [2x Alacran, DesertSa]
-   #9 [3x Alacran, DesertSa]
+   #12 [2x Alacran, DsrtSacr]
+   #9 [3x Alacran, DsrtSacr]
 * Wasteland Formation Pack #6 ('Isolated House (WoB) Grassland/Prairie')
-   #56 [2x Hedgehog, 3x ChipRabb]
-   #55 [Aepyorni, 2x ChipRabb]
-   #53 [Aepyorni, 2x Hedgehog]
-   #53 [Aepyorni, 2x Hedgehog]
+   #56 [2x Hedgehog, 3x Chprabbt]
+   #55 [Aepyorns, 2x Chprabbt]
+   #53 [Aepyorns, 2x Hedgehog]
+   #53 [Aepyorns, 2x Hedgehog]
 -----------
 Map Zone WoB 1x7 Ocean
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoB 1x8 Ocean
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoB 2x1 Kohlingen
 * Grassland Formation Pack #9 ('Kohlingen (WoB) Grassland/Prairie')
-   #94 [2x Bld.Fang]
-   #97 [2x Bld.Fang, 2x Rudra]
+   #94 [2x Bld Fang]
+   #97 [2x Bld Fang, 2x Rudra]
    #99 [2x MtrDrive]
-   #97 [2x Bld.Fang, 2x Rudra]
+   #97 [2x Bld Fang, 2x Rudra]
 * Forest Formation Pack #11 ('Kohlingen (WoB) Forest')
    #95 [3x Rudra, MtrDrive]
    #96 [2x BrnCandy, 2x MtrDrive]
@@ -187,21 +187,21 @@ Map Zone WoB 2x1 Kohlingen
    #98 [3x BrnCandy, 2x MtrDrive]
 * Desert Formation Pack #12 ('Kohlingen (WoB) Desert')
    #93 [DrgnFosl]
-   #10 [2x DesertSa]
-   #12 [2x Alacran, DesertSa]
+   #10 [2x DsrtSacr]
+   #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 2x2 Kohlingen West
 * Grassland Formation Pack #9 ('Kohlingen (WoB) Grassland/Prairie')
-   #94 [2x Bld.Fang]
-   #97 [2x Bld.Fang, 2x Rudra]
+   #94 [2x Bld Fang]
+   #97 [2x Bld Fang, 2x Rudra]
    #99 [2x MtrDrive]
-   #97 [2x Bld.Fang, 2x Rudra]
+   #97 [2x Bld Fang, 2x Rudra]
 * Forest Formation Pack #11 ('Kohlingen (WoB) Forest')
    #95 [3x Rudra, MtrDrive]
    #96 [2x BrnCandy, 2x MtrDrive]
@@ -209,124 +209,124 @@ Map Zone WoB 2x2 Kohlingen West
    #98 [3x BrnCandy, 2x MtrDrive]
 * Desert Formation Pack #12 ('Kohlingen (WoB) Desert')
    #93 [DrgnFosl]
-   #10 [2x DesertSa]
-   #12 [2x Alacran, DesertSa]
+   #10 [2x DsrtSacr]
+   #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 2x3 Narshe South
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #2 ('Narshe (WoB) Forest')
-   #7 [2x LeafBunn]
+   #7 [2x LeafBuny]
    #8 [2x NutEater]
-   #432 [2x Mandrago, LeafBunn]
+   #432 [2x Mandragr, LeafBuny]
    #8 [2x NutEater]
 * Desert Formation Pack #1 ('Narshe (WoB) Desert')
-   #10 [2x DesertSa]
+   #10 [2x DsrtSacr]
    #11 [3x Alacran]
-   #12 [2x Alacran, DesertSa]
-   #9 [3x Alacran, DesertSa]
+   #12 [2x Alacran, DsrtSacr]
+   #9 [3x Alacran, DsrtSacr]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoB 2x4 Nikeah
 * Grassland Formation Pack #5 ('Returner's Hideout Grassland/Prairie')
-   #23 [2x Cockatri]
-   #40 [Cockatri, 2x Goblin]
-   #43 [2x Mu, Cockatri, Goblin]
-   #21 [2x Mu, Cockatri]
+   #23 [2x Cocktrce]
+   #40 [Cocktrce, 2x Goblin]
+   #43 [2x Mu, Cocktrce, Goblin]
+   #21 [2x Mu, Cocktrce]
 * Forest Formation Pack #5 ('Returner's Hideout Grassland/Prairie')
-   #23 [2x Cockatri]
-   #40 [Cockatri, 2x Goblin]
-   #43 [2x Mu, Cockatri, Goblin]
-   #21 [2x Mu, Cockatri]
+   #23 [2x Cocktrce]
+   #40 [Cocktrce, 2x Goblin]
+   #43 [2x Mu, Cocktrce, Goblin]
+   #21 [2x Mu, Cocktrce]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #5 ('Returner's Hideout Grassland/Prairie')
-   #23 [2x Cockatri]
-   #40 [Cockatri, 2x Goblin]
-   #43 [2x Mu, Cockatri, Goblin]
-   #21 [2x Mu, Cockatri]
+   #23 [2x Cocktrce]
+   #40 [Cocktrce, 2x Goblin]
+   #43 [2x Mu, Cocktrce, Goblin]
+   #21 [2x Mu, Cocktrce]
 -----------
 Map Zone WoB 2x5 Nikeah East
 * Grassland Formation Pack #5 ('Returner's Hideout Grassland/Prairie')
-   #23 [2x Cockatri]
-   #40 [Cockatri, 2x Goblin]
-   #43 [2x Mu, Cockatri, Goblin]
-   #21 [2x Mu, Cockatri]
+   #23 [2x Cocktrce]
+   #40 [Cocktrce, 2x Goblin]
+   #43 [2x Mu, Cocktrce, Goblin]
+   #21 [2x Mu, Cocktrce]
 * Forest Formation Pack #5 ('Returner's Hideout Grassland/Prairie')
-   #23 [2x Cockatri]
-   #40 [Cockatri, 2x Goblin]
-   #43 [2x Mu, Cockatri, Goblin]
-   #21 [2x Mu, Cockatri]
+   #23 [2x Cocktrce]
+   #40 [Cocktrce, 2x Goblin]
+   #43 [2x Mu, Cocktrce, Goblin]
+   #21 [2x Mu, Cocktrce]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #5 ('Returner's Hideout Grassland/Prairie')
-   #23 [2x Cockatri]
-   #40 [Cockatri, 2x Goblin]
-   #43 [2x Mu, Cockatri, Goblin]
-   #21 [2x Mu, Cockatri]
+   #23 [2x Cocktrce]
+   #40 [Cocktrce, 2x Goblin]
+   #43 [2x Mu, Cocktrce, Goblin]
+   #21 [2x Mu, Cocktrce]
 -----------
 Map Zone WoB 2x6 Isolated House
 * Grassland Formation Pack #6 ('Isolated House (WoB) Grassland/Prairie')
-   #56 [2x Hedgehog, 3x ChipRabb]
-   #55 [Aepyorni, 2x ChipRabb]
-   #53 [Aepyorni, 2x Hedgehog]
-   #53 [Aepyorni, 2x Hedgehog]
+   #56 [2x Hedgehog, 3x Chprabbt]
+   #55 [Aepyorns, 2x Chprabbt]
+   #53 [Aepyorns, 2x Hedgehog]
+   #53 [Aepyorns, 2x Hedgehog]
 * Forest Formation Pack #7 ('Doma Castle (WoB) Forest')
    #50 [2x StrayCat, 2x NetlHopr]
-   #52 [5x ChipRabb]
-   #54 [2x Aepyorni, StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #52 [5x Chprabbt]
+   #54 [2x Aepyorns, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
 * Desert Formation Pack #1 ('Narshe (WoB) Desert')
-   #10 [2x DesertSa]
+   #10 [2x DsrtSacr]
    #11 [3x Alacran]
-   #12 [2x Alacran, DesertSa]
-   #9 [3x Alacran, DesertSa]
+   #12 [2x Alacran, DsrtSacr]
+   #9 [3x Alacran, DsrtSacr]
 * Wasteland Formation Pack #6 ('Isolated House (WoB) Grassland/Prairie')
-   #56 [2x Hedgehog, 3x ChipRabb]
-   #55 [Aepyorni, 2x ChipRabb]
-   #53 [Aepyorni, 2x Hedgehog]
-   #53 [Aepyorni, 2x Hedgehog]
+   #56 [2x Hedgehog, 3x Chprabbt]
+   #55 [Aepyorns, 2x Chprabbt]
+   #53 [Aepyorns, 2x Hedgehog]
+   #53 [Aepyorns, 2x Hedgehog]
 -----------
 Map Zone WoB 2x7 Isolated House Far East
 * Grassland Formation Pack #6 ('Isolated House (WoB) Grassland/Prairie')
-   #56 [2x Hedgehog, 3x ChipRabb]
-   #55 [Aepyorni, 2x ChipRabb]
-   #53 [Aepyorni, 2x Hedgehog]
-   #53 [Aepyorni, 2x Hedgehog]
+   #56 [2x Hedgehog, 3x Chprabbt]
+   #55 [Aepyorns, 2x Chprabbt]
+   #53 [Aepyorns, 2x Hedgehog]
+   #53 [Aepyorns, 2x Hedgehog]
 * Forest Formation Pack #7 ('Doma Castle (WoB) Forest')
    #50 [2x StrayCat, 2x NetlHopr]
-   #52 [5x ChipRabb]
-   #54 [2x Aepyorni, StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #52 [5x Chprabbt]
+   #54 [2x Aepyorns, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
 * Desert Formation Pack #1 ('Narshe (WoB) Desert')
-   #10 [2x DesertSa]
+   #10 [2x DsrtSacr]
    #11 [3x Alacran]
-   #12 [2x Alacran, DesertSa]
-   #9 [3x Alacran, DesertSa]
+   #12 [2x Alacran, DsrtSacr]
+   #9 [3x Alacran, DsrtSacr]
 * Wasteland Formation Pack #6 ('Isolated House (WoB) Grassland/Prairie')
-   #56 [2x Hedgehog, 3x ChipRabb]
-   #55 [Aepyorni, 2x ChipRabb]
-   #53 [Aepyorni, 2x Hedgehog]
-   #53 [Aepyorni, 2x Hedgehog]
+   #56 [2x Hedgehog, 3x Chprabbt]
+   #55 [Aepyorns, 2x Chprabbt]
+   #53 [Aepyorns, 2x Hedgehog]
+   #53 [Aepyorns, 2x Hedgehog]
 -----------
 Map Zone WoB 2x8 Triangle Island
 * Grassland Formation Pack #124 ('Triangle Island (WoB) Grassland/Prairie')
@@ -363,144 +363,144 @@ Map Zone WoB 3x1 Zozo
    #98 [3x BrnCandy, 2x MtrDrive]
 * Desert Formation Pack #12 ('Kohlingen (WoB) Desert')
    #93 [DrgnFosl]
-   #10 [2x DesertSa]
-   #12 [2x Alacran, DesertSa]
+   #10 [2x DsrtSacr]
+   #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 3x2 Figaro Castle West
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #2 ('Narshe (WoB) Forest')
-   #7 [2x LeafBunn]
+   #7 [2x LeafBuny]
    #8 [2x NutEater]
-   #432 [2x Mandrago, LeafBunn]
+   #432 [2x Mandragr, LeafBuny]
    #8 [2x NutEater]
 * Desert Formation Pack #1 ('Narshe (WoB) Desert')
-   #10 [2x DesertSa]
+   #10 [2x DsrtSacr]
    #11 [3x Alacran]
-   #12 [2x Alacran, DesertSa]
-   #9 [3x Alacran, DesertSa]
+   #12 [2x Alacran, DsrtSacr]
+   #9 [3x Alacran, DsrtSacr]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoB 3x3 Figaro Castle East
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #2 ('Narshe (WoB) Forest')
-   #7 [2x LeafBunn]
+   #7 [2x LeafBuny]
    #8 [2x NutEater]
-   #432 [2x Mandrago, LeafBunn]
+   #432 [2x Mandragr, LeafBuny]
    #8 [2x NutEater]
 * Desert Formation Pack #1 ('Narshe (WoB) Desert')
-   #10 [2x DesertSa]
+   #10 [2x DsrtSacr]
    #11 [3x Alacran]
-   #12 [2x Alacran, DesertSa]
-   #9 [3x Alacran, DesertSa]
+   #12 [2x Alacran, DsrtSacr]
+   #9 [3x Alacran, DsrtSacr]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoB 3x4 Returner's Hideout
 * Grassland Formation Pack #5 ('Returner's Hideout Grassland/Prairie')
-   #23 [2x Cockatri]
-   #40 [Cockatri, 2x Goblin]
-   #43 [2x Mu, Cockatri, Goblin]
-   #21 [2x Mu, Cockatri]
+   #23 [2x Cocktrce]
+   #40 [Cocktrce, 2x Goblin]
+   #43 [2x Mu, Cocktrce, Goblin]
+   #21 [2x Mu, Cocktrce]
 * Forest Formation Pack #5 ('Returner's Hideout Grassland/Prairie')
-   #23 [2x Cockatri]
-   #40 [Cockatri, 2x Goblin]
-   #43 [2x Mu, Cockatri, Goblin]
-   #21 [2x Mu, Cockatri]
+   #23 [2x Cocktrce]
+   #40 [Cocktrce, 2x Goblin]
+   #43 [2x Mu, Cocktrce, Goblin]
+   #21 [2x Mu, Cocktrce]
 * Desert Formation Pack #1 ('Narshe (WoB) Desert')
-   #10 [2x DesertSa]
+   #10 [2x DsrtSacr]
    #11 [3x Alacran]
-   #12 [2x Alacran, DesertSa]
-   #9 [3x Alacran, DesertSa]
+   #12 [2x Alacran, DsrtSacr]
+   #9 [3x Alacran, DsrtSacr]
 * Wasteland Formation Pack #5 ('Returner's Hideout Grassland/Prairie')
-   #23 [2x Cockatri]
-   #40 [Cockatri, 2x Goblin]
-   #43 [2x Mu, Cockatri, Goblin]
-   #21 [2x Mu, Cockatri]
+   #23 [2x Cocktrce]
+   #40 [Cocktrce, 2x Goblin]
+   #43 [2x Mu, Cocktrce, Goblin]
+   #21 [2x Mu, Cocktrce]
 -----------
 Map Zone WoB 3x5 Doma Castle
 * Grassland Formation Pack #8 ('Doma Castle (WoB) Grassland/Prairie')
    #49 [3x StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
    #51 [3x NetlHopr]
    #51 [3x NetlHopr]
 * Forest Formation Pack #7 ('Doma Castle (WoB) Forest')
    #50 [2x StrayCat, 2x NetlHopr]
-   #52 [5x ChipRabb]
-   #54 [2x Aepyorni, StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #52 [5x Chprabbt]
+   #54 [2x Aepyorns, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
 * Desert Formation Pack #1 ('Narshe (WoB) Desert')
-   #10 [2x DesertSa]
+   #10 [2x DsrtSacr]
    #11 [3x Alacran]
-   #12 [2x Alacran, DesertSa]
-   #9 [3x Alacran, DesertSa]
+   #12 [2x Alacran, DsrtSacr]
+   #9 [3x Alacran, DsrtSacr]
 * Wasteland Formation Pack #8 ('Doma Castle (WoB) Grassland/Prairie')
    #49 [3x StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
    #51 [3x NetlHopr]
    #51 [3x NetlHopr]
 -----------
 Map Zone WoB 3x6 Doma Castleï½žPhantom Forest
 * Grassland Formation Pack #8 ('Doma Castle (WoB) Grassland/Prairie')
    #49 [3x StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
    #51 [3x NetlHopr]
    #51 [3x NetlHopr]
 * Forest Formation Pack #7 ('Doma Castle (WoB) Forest')
    #50 [2x StrayCat, 2x NetlHopr]
-   #52 [5x ChipRabb]
-   #54 [2x Aepyorni, StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #52 [5x Chprabbt]
+   #54 [2x Aepyorns, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
 * Desert Formation Pack #1 ('Narshe (WoB) Desert')
-   #10 [2x DesertSa]
+   #10 [2x DsrtSacr]
    #11 [3x Alacran]
-   #12 [2x Alacran, DesertSa]
-   #9 [3x Alacran, DesertSa]
+   #12 [2x Alacran, DsrtSacr]
+   #9 [3x Alacran, DsrtSacr]
 * Wasteland Formation Pack #8 ('Doma Castle (WoB) Grassland/Prairie')
    #49 [3x StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
    #51 [3x NetlHopr]
    #51 [3x NetlHopr]
 -----------
 Map Zone WoB 3x7 Beach Area
 * Grassland Formation Pack #8 ('Doma Castle (WoB) Grassland/Prairie')
    #49 [3x StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
    #51 [3x NetlHopr]
    #51 [3x NetlHopr]
 * Forest Formation Pack #7 ('Doma Castle (WoB) Forest')
    #50 [2x StrayCat, 2x NetlHopr]
-   #52 [5x ChipRabb]
-   #54 [2x Aepyorni, StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #52 [5x Chprabbt]
+   #54 [2x Aepyorns, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
 * Desert Formation Pack #1 ('Narshe (WoB) Desert')
-   #10 [2x DesertSa]
+   #10 [2x DsrtSacr]
    #11 [3x Alacran]
-   #12 [2x Alacran, DesertSa]
-   #9 [3x Alacran, DesertSa]
+   #12 [2x Alacran, DsrtSacr]
+   #9 [3x Alacran, DsrtSacr]
 * Wasteland Formation Pack #8 ('Doma Castle (WoB) Grassland/Prairie')
    #49 [3x StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
    #51 [3x NetlHopr]
    #51 [3x NetlHopr]
 -----------
@@ -539,13 +539,13 @@ Map Zone WoB 4x1 Jidoor Northwest
    #98 [3x BrnCandy, 2x MtrDrive]
 * Desert Formation Pack #12 ('Kohlingen (WoB) Desert')
    #93 [DrgnFosl]
-   #10 [2x DesertSa]
-   #12 [2x Alacran, DesertSa]
+   #10 [2x DsrtSacr]
+   #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 4x2 Jidoor North
@@ -561,70 +561,70 @@ Map Zone WoB 4x2 Jidoor North
    #98 [3x BrnCandy, 2x MtrDrive]
 * Desert Formation Pack #12 ('Kohlingen (WoB) Desert')
    #93 [DrgnFosl]
-   #10 [2x DesertSa]
-   #12 [2x Alacran, DesertSa]
+   #10 [2x DsrtSacr]
+   #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 4x3 South Figaro
 * Grassland Formation Pack #3 ('South Figaro (WoB) Grassland/Prairie')
-   #40 [Cockatri, 2x Goblin]
+   #40 [Cocktrce, 2x Goblin]
    #19 [Belmodar]
-   #21 [2x Mu, Cockatri]
-   #23 [2x Cockatri]
+   #21 [2x Mu, Cocktrce]
+   #23 [2x Cocktrce]
 * Forest Formation Pack #4 ('South Figaro (WoB) Forest')
    #20 [2x Mu, Belmodar]
-   #22 [2x Mu, Cockatri, Belmodar]
+   #22 [2x Mu, Cocktrce, Belmodar]
    #42 [2x Mu, Goblin]
-   #43 [2x Mu, Cockatri, Goblin]
+   #43 [2x Mu, Cocktrce, Goblin]
 * Desert Formation Pack #1 ('Narshe (WoB) Desert')
-   #10 [2x DesertSa]
+   #10 [2x DsrtSacr]
    #11 [3x Alacran]
-   #12 [2x Alacran, DesertSa]
-   #9 [3x Alacran, DesertSa]
+   #12 [2x Alacran, DsrtSacr]
+   #9 [3x Alacran, DsrtSacr]
 * Wasteland Formation Pack #3 ('South Figaro (WoB) Grassland/Prairie')
-   #40 [Cockatri, 2x Goblin]
+   #40 [Cocktrce, 2x Goblin]
    #19 [Belmodar]
-   #21 [2x Mu, Cockatri]
-   #23 [2x Cockatri]
+   #21 [2x Mu, Cocktrce]
+   #23 [2x Cocktrce]
 -----------
 Map Zone WoB 4x4 Near Mt. Koltz
 * Grassland Formation Pack #3 ('South Figaro (WoB) Grassland/Prairie')
-   #40 [Cockatri, 2x Goblin]
+   #40 [Cocktrce, 2x Goblin]
    #19 [Belmodar]
-   #21 [2x Mu, Cockatri]
-   #23 [2x Cockatri]
+   #21 [2x Mu, Cocktrce]
+   #23 [2x Cocktrce]
 * Forest Formation Pack #4 ('South Figaro (WoB) Forest')
    #20 [2x Mu, Belmodar]
-   #22 [2x Mu, Cockatri, Belmodar]
+   #22 [2x Mu, Cocktrce, Belmodar]
    #42 [2x Mu, Goblin]
-   #43 [2x Mu, Cockatri, Goblin]
+   #43 [2x Mu, Cocktrce, Goblin]
 * Desert Formation Pack #1 ('Narshe (WoB) Desert')
-   #10 [2x DesertSa]
+   #10 [2x DsrtSacr]
    #11 [3x Alacran]
-   #12 [2x Alacran, DesertSa]
-   #9 [3x Alacran, DesertSa]
+   #12 [2x Alacran, DsrtSacr]
+   #9 [3x Alacran, DsrtSacr]
 * Wasteland Formation Pack #3 ('South Figaro (WoB) Grassland/Prairie')
-   #40 [Cockatri, 2x Goblin]
+   #40 [Cocktrce, 2x Goblin]
    #19 [Belmodar]
-   #21 [2x Mu, Cockatri]
-   #23 [2x Cockatri]
+   #21 [2x Mu, Cocktrce]
+   #23 [2x Cocktrce]
 -----------
 Map Zone WoB 4x5 Beach Area
 * Grassland Formation Pack #8 ('Doma Castle (WoB) Grassland/Prairie')
    #49 [3x StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
    #51 [3x NetlHopr]
    #51 [3x NetlHopr]
 * Forest Formation Pack #7 ('Doma Castle (WoB) Forest')
    #50 [2x StrayCat, 2x NetlHopr]
-   #52 [5x ChipRabb]
-   #54 [2x Aepyorni, StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #52 [5x Chprabbt]
+   #54 [2x Aepyorns, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
 * Desert Formation Pack #26 ('Vector (WoB) Desert')
    #139 [2x DrgnFosl]
    #140 [DrgnFosl, 3x Bug]
@@ -632,14 +632,14 @@ Map Zone WoB 4x5 Beach Area
    #142 [6x Bug]
 * Wasteland Formation Pack #8 ('Doma Castle (WoB) Grassland/Prairie')
    #49 [3x StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
    #51 [3x NetlHopr]
    #51 [3x NetlHopr]
 -----------
 Map Zone WoB 4x6 Veldt West
 * Grassland Formation Pack #8 ('Doma Castle (WoB) Grassland/Prairie')
    #49 [3x StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
    #51 [3x NetlHopr]
    #51 [3x NetlHopr]
 * Forest Formation Pack #27 ('Veldt West Forest')
@@ -654,7 +654,7 @@ Map Zone WoB 4x6 Veldt West
    #142 [6x Bug]
 * Wasteland Formation Pack #8 ('Doma Castle (WoB) Grassland/Prairie')
    #49 [3x StrayCat]
-   #57 [2x NetlHopr, Aepyorni, StrayCat]
+   #57 [2x NetlHopr, Aepyorns, StrayCat]
    #51 [3x NetlHopr]
    #51 [3x NetlHopr]
 -----------
@@ -715,13 +715,13 @@ Map Zone WoB 5x1 Jidoor
    #98 [3x BrnCandy, 2x MtrDrive]
 * Desert Formation Pack #12 ('Kohlingen (WoB) Desert')
    #93 [DrgnFosl]
-   #10 [2x DesertSa]
-   #12 [2x Alacran, DesertSa]
+   #10 [2x DsrtSacr]
+   #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 5x2 Opera House
@@ -737,36 +737,36 @@ Map Zone WoB 5x2 Opera House
    #98 [3x BrnCandy, 2x MtrDrive]
 * Desert Formation Pack #12 ('Kohlingen (WoB) Desert')
    #93 [DrgnFosl]
-   #10 [2x DesertSa]
-   #12 [2x Alacran, DesertSa]
+   #10 [2x DsrtSacr]
+   #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld.Fang]
+   #94 [2x Bld Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 5x3 Ocean
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoB 5x4 Tzen
 * Grassland Formation Pack #14 ('Vector (WoB) Grassland/Prairie')
@@ -775,10 +775,10 @@ Map Zone WoB 5x4 Tzen
    #146 [Korpokkr, 2x Graswyrm]
    #146 [Korpokkr, 2x Graswyrm]
 * Forest Formation Pack #17 ('Vector (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #149 [5x LitworCh]
-   #149 [5x LitworCh]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #149 [5x LitwrChk]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -797,10 +797,10 @@ Map Zone WoB 5x5 Tzen Southeast
    #146 [Korpokkr, 2x Graswyrm]
    #146 [Korpokkr, 2x Graswyrm]
 * Forest Formation Pack #17 ('Vector (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #149 [5x LitworCh]
-   #149 [5x LitworCh]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #149 [5x LitwrChk]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -880,47 +880,47 @@ Map Zone WoB 5x8 Crescent Island
 -----------
 Map Zone WoB 6x1 Ocean
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoB 6x2 Ocean
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoB 6x3 Vector West
 * Grassland Formation Pack #14 ('Vector (WoB) Grassland/Prairie')
@@ -929,10 +929,10 @@ Map Zone WoB 6x3 Vector West
    #146 [Korpokkr, 2x Graswyrm]
    #146 [Korpokkr, 2x Graswyrm]
 * Forest Formation Pack #17 ('Vector (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #149 [5x LitworCh]
-   #149 [5x LitworCh]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #149 [5x LitwrChk]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -951,10 +951,10 @@ Map Zone WoB 6x4 Vector
    #146 [Korpokkr, 2x Graswyrm]
    #146 [Korpokkr, 2x Graswyrm]
 * Forest Formation Pack #17 ('Vector (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #149 [5x LitworCh]
-   #149 [5x LitworCh]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #149 [5x LitwrChk]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -971,12 +971,12 @@ Map Zone WoB 6x5 Vector East
    #147 [Don, Joker]
    #144 [Don, 2x Wyvern]
    #148 [3x Joker]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Forest Formation Pack #18 ('Maranda (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
    #141 [3x Korpokkr]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -993,12 +993,12 @@ Map Zone WoB 6x6 Imperial Base North
    #147 [Don, Joker]
    #144 [Don, 2x Wyvern]
    #148 [3x Joker]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Forest Formation Pack #18 ('Maranda (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
    #141 [3x Korpokkr]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -1012,69 +1012,69 @@ Map Zone WoB 6x6 Imperial Base North
 -----------
 Map Zone WoB 6x7 Ocean
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoB 6x8 Ocean
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoB 7x1 Ocean
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoB 7x2 Maranda Northwest
 * Grassland Formation Pack #14 ('Vector (WoB) Grassland/Prairie')
@@ -1083,10 +1083,10 @@ Map Zone WoB 7x2 Maranda Northwest
    #146 [Korpokkr, 2x Graswyrm]
    #146 [Korpokkr, 2x Graswyrm]
 * Forest Formation Pack #17 ('Vector (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #149 [5x LitworCh]
-   #149 [5x LitworCh]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #149 [5x LitwrChk]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -1105,10 +1105,10 @@ Map Zone WoB 7x3 Maranda North
    #146 [Korpokkr, 2x Graswyrm]
    #146 [Korpokkr, 2x Graswyrm]
 * Forest Formation Pack #17 ('Vector (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #149 [5x LitworCh]
-   #149 [5x LitworCh]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #149 [5x LitwrChk]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -1127,10 +1127,10 @@ Map Zone WoB 7x4 Vector South
    #146 [Korpokkr, 2x Graswyrm]
    #146 [Korpokkr, 2x Graswyrm]
 * Forest Formation Pack #17 ('Vector (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #149 [5x LitworCh]
-   #149 [5x LitworCh]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #149 [5x LitwrChk]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -1147,12 +1147,12 @@ Map Zone WoB 7x5 Albrook
    #147 [Don, Joker]
    #144 [Don, 2x Wyvern]
    #148 [3x Joker]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Forest Formation Pack #18 ('Maranda (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
    #141 [3x Korpokkr]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -1169,12 +1169,12 @@ Map Zone WoB 7x6 Imperial Base
    #147 [Don, Joker]
    #144 [Don, 2x Wyvern]
    #148 [3x Joker]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Forest Formation Pack #18 ('Maranda (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
    #141 [3x Korpokkr]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -1191,12 +1191,12 @@ Map Zone WoB 7x7 Ocean
    #147 [Don, Joker]
    #144 [Don, 2x Wyvern]
    #148 [3x Joker]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Forest Formation Pack #18 ('Maranda (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
    #141 [3x Korpokkr]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -1210,59 +1210,59 @@ Map Zone WoB 7x7 Ocean
 -----------
 Map Zone WoB 7x8 Ocean
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoB 8x1 Ocean
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoB 8x2 Maranda West
 * Grassland Formation Pack #15 ('Vector (WoB) Grassland/Prairie')
    #147 [Don, Joker]
    #144 [Don, 2x Wyvern]
    #148 [3x Joker]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Forest Formation Pack #18 ('Maranda (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
    #141 [3x Korpokkr]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -1279,12 +1279,12 @@ Map Zone WoB 8x3 Maranda
    #147 [Don, Joker]
    #144 [Don, 2x Wyvern]
    #148 [3x Joker]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Forest Formation Pack #18 ('Maranda (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
    #141 [3x Korpokkr]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -1303,10 +1303,10 @@ Map Zone WoB 8x4 Ocean
    #146 [Korpokkr, 2x Graswyrm]
    #146 [Korpokkr, 2x Graswyrm]
 * Forest Formation Pack #17 ('Vector (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #149 [5x LitworCh]
-   #149 [5x LitworCh]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #149 [5x LitwrChk]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -1323,12 +1323,12 @@ Map Zone WoB 8x5 Ocean
    #147 [Don, Joker]
    #144 [Don, 2x Wyvern]
    #148 [3x Joker]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Forest Formation Pack #18 ('Maranda (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
    #141 [3x Korpokkr]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -1345,12 +1345,12 @@ Map Zone WoB 8x6 Imperial Base South
    #147 [Don, Joker]
    #144 [Don, 2x Wyvern]
    #148 [3x Joker]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Forest Formation Pack #18 ('Maranda (WoB) Forest')
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
-   #145 [Wyvern, 2x LitworCh, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
+   #145 [Wyvern, 2x LitwrChk, Korpokkr]
    #141 [3x Korpokkr]
-   #149 [5x LitworCh]
+   #149 [5x LitwrChk]
 * Desert Formation Pack #20 ('Albrook (WoB) Desert')
    #140 [DrgnFosl, 3x Bug]
    #140 [DrgnFosl, 3x Bug]
@@ -1364,59 +1364,59 @@ Map Zone WoB 8x6 Imperial Base South
 -----------
 Map Zone WoB 8x7 Ocean
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoB 8x8 Ocean
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoR 1x1 Dragon Neck Coliseum
 * Grassland Formation Pack #45 ('Kohlingen (WoR) Grassland/Prairie')
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
 * Forest Formation Pack #46 ('Kohlingen (WoR) Forest')
-   #238 [3x YellowMo, Slug]
+   #238 [3x YllwMsse, Slug]
    #240 [3x Zeveak]
-   #242 [3x YellowMo]
-   #238 [3x YellowMo, Slug]
+   #242 [3x YllwMsse]
+   #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
    #222 [2x SandFish, Revnant]
    #223 [Revnant, SandFish, Hundlegs]
@@ -1424,21 +1424,21 @@ Map Zone WoR 1x1 Dragon Neck Coliseum
    #298 [3x Revnant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
 -----------
 Map Zone WoR 1x2 Dragon Neck Coliseum
 * Grassland Formation Pack #45 ('Kohlingen (WoR) Grassland/Prairie')
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
 * Forest Formation Pack #46 ('Kohlingen (WoR) Forest')
-   #238 [3x YellowMo, Slug]
+   #238 [3x YllwMsse, Slug]
    #240 [3x Zeveak]
-   #242 [3x YellowMo]
-   #238 [3x YellowMo, Slug]
+   #242 [3x YllwMsse]
+   #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
    #222 [2x SandFish, Revnant]
    #223 [Revnant, SandFish, Hundlegs]
@@ -1446,21 +1446,21 @@ Map Zone WoR 1x2 Dragon Neck Coliseum
    #298 [3x Revnant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
 -----------
 Map Zone WoR 1x3 Kohlingen Northeast Peninsula
 * Grassland Formation Pack #45 ('Kohlingen (WoR) Grassland/Prairie')
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
 * Forest Formation Pack #46 ('Kohlingen (WoR) Forest')
-   #238 [3x YellowMo, Slug]
+   #238 [3x YllwMsse, Slug]
    #240 [3x Zeveak]
-   #242 [3x YellowMo]
-   #238 [3x YellowMo, Slug]
+   #242 [3x YllwMsse]
+   #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
    #222 [2x SandFish, Revnant]
    #223 [Revnant, SandFish, Hundlegs]
@@ -1468,9 +1468,9 @@ Map Zone WoR 1x3 Kohlingen Northeast Peninsula
    #298 [3x Revnant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
 -----------
 Map Zone WoR 1x4 Narshe North
 * Grassland Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
@@ -1479,9 +1479,9 @@ Map Zone WoR 1x4 Narshe North
    #325 [2x GtMantis]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
    #326 [2x Basilisk, LeapFrog]
@@ -1501,9 +1501,9 @@ Map Zone WoR 1x5 Duncan's House
    #325 [2x GtMantis]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
    #326 [2x Basilisk, LeapFrog]
@@ -1523,9 +1523,9 @@ Map Zone WoR 1x6 Ocean
    #328 [2x Sprinter, 2x Lycaon]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #52 ('Isolated House (WoR) Grassland/Prairie')
    #328 [2x Sprinter, 2x Lycaon]
@@ -1545,9 +1545,9 @@ Map Zone WoR 1x7 Ocean
    #325 [2x GtMantis]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
    #326 [2x Basilisk, LeapFrog]
@@ -1567,9 +1567,9 @@ Map Zone WoR 1x8 Ocean
    #325 [2x GtMantis]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
    #326 [2x Basilisk, LeapFrog]
@@ -1585,14 +1585,14 @@ Map Zone WoR 1x8 Ocean
 Map Zone WoR 2x1 Kohlingen West Islands
 * Grassland Formation Pack #45 ('Kohlingen (WoR) Grassland/Prairie')
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
 * Forest Formation Pack #46 ('Kohlingen (WoR) Forest')
-   #238 [3x YellowMo, Slug]
+   #238 [3x YllwMsse, Slug]
    #240 [3x Zeveak]
-   #242 [3x YellowMo]
-   #238 [3x YellowMo, Slug]
+   #242 [3x YllwMsse]
+   #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
    #222 [2x SandFish, Revnant]
    #223 [Revnant, SandFish, Hundlegs]
@@ -1600,21 +1600,21 @@ Map Zone WoR 2x1 Kohlingen West Islands
    #298 [3x Revnant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
 -----------
 Map Zone WoR 2x2 Kohlingen
 * Grassland Formation Pack #45 ('Kohlingen (WoR) Grassland/Prairie')
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
 * Forest Formation Pack #46 ('Kohlingen (WoR) Forest')
-   #238 [3x YellowMo, Slug]
+   #238 [3x YllwMsse, Slug]
    #240 [3x Zeveak]
-   #242 [3x YellowMo]
-   #238 [3x YellowMo, Slug]
+   #242 [3x YllwMsse]
+   #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
    #222 [2x SandFish, Revnant]
    #223 [Revnant, SandFish, Hundlegs]
@@ -1622,21 +1622,21 @@ Map Zone WoR 2x2 Kohlingen
    #298 [3x Revnant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
 -----------
 Map Zone WoR 2x3 Kohlingen East Islands
 * Grassland Formation Pack #45 ('Kohlingen (WoR) Grassland/Prairie')
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
 * Forest Formation Pack #46 ('Kohlingen (WoR) Forest')
-   #238 [3x YellowMo, Slug]
+   #238 [3x YllwMsse, Slug]
    #240 [3x Zeveak]
-   #242 [3x YellowMo]
-   #238 [3x YellowMo, Slug]
+   #242 [3x YllwMsse]
+   #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
    #222 [2x SandFish, Revnant]
    #223 [Revnant, SandFish, Hundlegs]
@@ -1644,9 +1644,9 @@ Map Zone WoR 2x3 Kohlingen East Islands
    #298 [3x Revnant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
 -----------
 Map Zone WoR 2x4 Narshe
 * Grassland Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
@@ -1655,9 +1655,9 @@ Map Zone WoR 2x4 Narshe
    #325 [2x GtMantis]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
    #326 [2x Basilisk, LeapFrog]
@@ -1677,9 +1677,9 @@ Map Zone WoR 2x5 Narshe East
    #325 [2x GtMantis]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
    #326 [2x Basilisk, LeapFrog]
@@ -1699,9 +1699,9 @@ Map Zone WoR 2x6 Isolated House
    #368 [2x Outsider]
    #366 [2x Ochiudo]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #239 ('Doma Area (WoR) Grassland/Prairie')
    #366 [2x Ochiudo]
@@ -1709,10 +1709,10 @@ Map Zone WoR 2x6 Isolated House
    #368 [2x Outsider]
    #366 [2x Ochiudo]
 * Wasteland Formation Pack #240 ('Doma Area (WoR) Wasteland')
-   #369 [Fortis, DthMachi, DuelArmr]
-   #370 [Fortis, 2x Tonberri, DthMachi]
+   #369 [Fortis, DthMachn, DuelArmr]
+   #370 [Fortis, 2x Tonberis, DthMachn]
    #372 [3x Fortis]
-   #371 [DthMachi, 2x DuelArmr]
+   #371 [DthMachn, 2x DuelArmr]
 -----------
 Map Zone WoR 2x7 Dinosaur Island
 * Grassland Formation Pack #52 ('Isolated House (WoR) Grassland/Prairie')
@@ -1721,9 +1721,9 @@ Map Zone WoR 2x7 Dinosaur Island
    #328 [2x Sprinter, 2x Lycaon]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #52 ('Isolated House (WoR) Grassland/Prairie')
    #328 [2x Sprinter, 2x Lycaon]
@@ -1761,14 +1761,14 @@ Map Zone WoR 2x8 Triangle Island
 Map Zone WoR 3x1 Kohlingen Southeas
 * Grassland Formation Pack #45 ('Kohlingen (WoR) Grassland/Prairie')
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
 * Forest Formation Pack #46 ('Kohlingen (WoR) Forest')
-   #238 [3x YellowMo, Slug]
+   #238 [3x YllwMsse, Slug]
    #240 [3x Zeveak]
-   #242 [3x YellowMo]
-   #238 [3x YellowMo, Slug]
+   #242 [3x YllwMsse]
+   #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
    #222 [2x SandFish, Revnant]
    #223 [Revnant, SandFish, Hundlegs]
@@ -1776,21 +1776,21 @@ Map Zone WoR 3x1 Kohlingen Southeas
    #298 [3x Revnant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
 -----------
 Map Zone WoR 3x2 Kohlingen Southern Islands
 * Grassland Formation Pack #45 ('Kohlingen (WoR) Grassland/Prairie')
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
    #236 [3x Slug]
-   #243 [Bogy, YellowMo]
+   #243 [Bogy, YllwMsse]
 * Forest Formation Pack #46 ('Kohlingen (WoR) Forest')
-   #238 [3x YellowMo, Slug]
+   #238 [3x YllwMsse, Slug]
    #240 [3x Zeveak]
-   #242 [3x YellowMo]
-   #238 [3x YellowMo, Slug]
+   #242 [3x YllwMsse]
+   #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
    #222 [2x SandFish, Revnant]
    #223 [Revnant, SandFish, Hundlegs]
@@ -1798,53 +1798,53 @@ Map Zone WoR 3x2 Kohlingen Southern Islands
    #298 [3x Revnant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
    #239 [2x Bogy]
-   #241 [2x Zeveak, BkLizard, 3x YellowMo]
+   #241 [2x Zeveak, BkLizard, 3x YllwMsse]
 -----------
 Map Zone WoR 3x3 Figaro Islands
 * Grassland Formation Pack #41 ('Figaro Castle (WoR) Grassland/Prairie')
-   #134 [3x DsrtRabb]
-   #134 [3x DsrtRabb]
-   #134 [3x DsrtRabb]
-   #134 [3x DsrtRabb]
+   #134 [3x DsrtRbbt]
+   #134 [3x DsrtRbbt]
+   #134 [3x DsrtRbbt]
+   #134 [3x DsrtRbbt]
 * Forest Formation Pack #42 ('Figaro Castle (WoR) Forest')
    #224 [Oceanus]
-   #225 [Oceanus, 3x DsrtRabb]
+   #225 [Oceanus, 3x DsrtRbbt]
    #224 [Oceanus]
-   #225 [Oceanus, 3x DsrtRabb]
+   #225 [Oceanus, 3x DsrtRbbt]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
    #222 [2x SandFish, Revnant]
    #223 [Revnant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
    #298 [3x Revnant]
 * Wasteland Formation Pack #43 ('Figaro Castle (WoR) Wasteland')
-   #220 [2x DsrtRabb, 2x Hundlegs]
-   #220 [2x DsrtRabb, 2x Hundlegs]
-   #220 [2x DsrtRabb, 2x Hundlegs]
-   #220 [2x DsrtRabb, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
 -----------
 Map Zone WoR 3x4 Figaro Islands
 * Grassland Formation Pack #41 ('Figaro Castle (WoR) Grassland/Prairie')
-   #134 [3x DsrtRabb]
-   #134 [3x DsrtRabb]
-   #134 [3x DsrtRabb]
-   #134 [3x DsrtRabb]
+   #134 [3x DsrtRbbt]
+   #134 [3x DsrtRbbt]
+   #134 [3x DsrtRbbt]
+   #134 [3x DsrtRbbt]
 * Forest Formation Pack #42 ('Figaro Castle (WoR) Forest')
    #224 [Oceanus]
-   #225 [Oceanus, 3x DsrtRabb]
+   #225 [Oceanus, 3x DsrtRbbt]
    #224 [Oceanus]
-   #225 [Oceanus, 3x DsrtRabb]
+   #225 [Oceanus, 3x DsrtRbbt]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
    #222 [2x SandFish, Revnant]
    #223 [Revnant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
    #298 [3x Revnant]
 * Wasteland Formation Pack #43 ('Figaro Castle (WoR) Wasteland')
-   #220 [2x DsrtRabb, 2x Hundlegs]
-   #220 [2x DsrtRabb, 2x Hundlegs]
-   #220 [2x DsrtRabb, 2x Hundlegs]
-   #220 [2x DsrtRabb, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
 -----------
 Map Zone WoR 3x5 Nikeah
 * Grassland Formation Pack #37 ('Serpent Trench (WoR) Grassland/Prairie/Forest')
@@ -1858,12 +1858,12 @@ Map Zone WoR 3x5 Nikeah
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #39 ('Serpent Trench (WoR) Wasteland')
-   #219 [2x PurpBava, Gatling, Lizard]
+   #219 [2x PrplBvrs, Gatling, Lizard]
    #218 [2x VampThrn, Gatling]
    #215 [2x VampThrn, Lizard]
    #215 [2x VampThrn, Lizard]
@@ -1875,20 +1875,20 @@ Map Zone WoR 3x6 Doma Castle
    #368 [2x Outsider]
    #366 [2x Ochiudo]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #240 ('Doma Area (WoR) Wasteland')
-   #369 [Fortis, DthMachi, DuelArmr]
-   #370 [Fortis, 2x Tonberri, DthMachi]
+   #369 [Fortis, DthMachn, DuelArmr]
+   #370 [Fortis, 2x Tonberis, DthMachn]
    #372 [3x Fortis]
-   #371 [DthMachi, 2x DuelArmr]
+   #371 [DthMachn, 2x DuelArmr]
 * Wasteland Formation Pack #240 ('Doma Area (WoR) Wasteland')
-   #369 [Fortis, DthMachi, DuelArmr]
-   #370 [Fortis, 2x Tonberri, DthMachi]
+   #369 [Fortis, DthMachn, DuelArmr]
+   #370 [Fortis, 2x Tonberis, DthMachn]
    #372 [3x Fortis]
-   #371 [DthMachi, 2x DuelArmr]
+   #371 [DthMachn, 2x DuelArmr]
 -----------
 Map Zone WoR 3x7 Veldt
 * Grassland Formation Pack #255 ('Veldt')
@@ -1980,47 +1980,47 @@ Map Zone WoR 4x2 Zozo North
 -----------
 Map Zone WoR 4x3 Figaro Islands
 * Grassland Formation Pack #41 ('Figaro Castle (WoR) Grassland/Prairie')
-   #134 [3x DsrtRabb]
-   #134 [3x DsrtRabb]
-   #134 [3x DsrtRabb]
-   #134 [3x DsrtRabb]
+   #134 [3x DsrtRbbt]
+   #134 [3x DsrtRbbt]
+   #134 [3x DsrtRbbt]
+   #134 [3x DsrtRbbt]
 * Forest Formation Pack #42 ('Figaro Castle (WoR) Forest')
    #224 [Oceanus]
-   #225 [Oceanus, 3x DsrtRabb]
+   #225 [Oceanus, 3x DsrtRbbt]
    #224 [Oceanus]
-   #225 [Oceanus, 3x DsrtRabb]
+   #225 [Oceanus, 3x DsrtRbbt]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
    #222 [2x SandFish, Revnant]
    #223 [Revnant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
    #298 [3x Revnant]
 * Wasteland Formation Pack #43 ('Figaro Castle (WoR) Wasteland')
-   #220 [2x DsrtRabb, 2x Hundlegs]
-   #220 [2x DsrtRabb, 2x Hundlegs]
-   #220 [2x DsrtRabb, 2x Hundlegs]
-   #220 [2x DsrtRabb, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
 -----------
 Map Zone WoR 4x4 Figaro Islands
 * Grassland Formation Pack #41 ('Figaro Castle (WoR) Grassland/Prairie')
-   #134 [3x DsrtRabb]
-   #134 [3x DsrtRabb]
-   #134 [3x DsrtRabb]
-   #134 [3x DsrtRabb]
+   #134 [3x DsrtRbbt]
+   #134 [3x DsrtRbbt]
+   #134 [3x DsrtRbbt]
+   #134 [3x DsrtRbbt]
 * Forest Formation Pack #42 ('Figaro Castle (WoR) Forest')
    #224 [Oceanus]
-   #225 [Oceanus, 3x DsrtRabb]
+   #225 [Oceanus, 3x DsrtRbbt]
    #224 [Oceanus]
-   #225 [Oceanus, 3x DsrtRabb]
+   #225 [Oceanus, 3x DsrtRbbt]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
    #222 [2x SandFish, Revnant]
    #223 [Revnant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
    #298 [3x Revnant]
 * Wasteland Formation Pack #43 ('Figaro Castle (WoR) Wasteland')
-   #220 [2x DsrtRabb, 2x Hundlegs]
-   #220 [2x DsrtRabb, 2x Hundlegs]
-   #220 [2x DsrtRabb, 2x Hundlegs]
-   #220 [2x DsrtRabb, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
+   #220 [2x DsrtRbbt, 2x Hundlegs]
 -----------
 Map Zone WoR 4x5 Serpent Trench
 * Grassland Formation Pack #37 ('Serpent Trench (WoR) Grassland/Prairie/Forest')
@@ -2034,12 +2034,12 @@ Map Zone WoR 4x5 Serpent Trench
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #39 ('Serpent Trench (WoR) Wasteland')
-   #219 [2x PurpBava, Gatling, Lizard]
+   #219 [2x PrplBvrs, Gatling, Lizard]
    #218 [2x VampThrn, Gatling]
    #215 [2x VampThrn, Lizard]
    #215 [2x VampThrn, Lizard]
@@ -2056,12 +2056,12 @@ Map Zone WoR 4x6 Serpent Trench
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #39 ('Serpent Trench (WoR) Wasteland')
-   #219 [2x PurpBava, Gatling, Lizard]
+   #219 [2x PrplBvrs, Gatling, Lizard]
    #218 [2x VampThrn, Gatling]
    #215 [2x VampThrn, Lizard]
    #215 [2x VampThrn, Lizard]
@@ -2161,9 +2161,9 @@ Map Zone WoR 5x3 Ocean
    #325 [2x GtMantis]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
    #326 [2x Basilisk, LeapFrog]
@@ -2189,9 +2189,9 @@ Map Zone WoR 5x4 Phoenix's Cave
    #189 [Malboro]
 * Desert Formation Pack #36 ('Albrook (WoR) Desert')
    #194 [2x Peeper, ErthGurd]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #33 ('Albrook West (WoR) Wasteland')
    #203 [2x LunarWlf, DiveEagl]
    #201 [2x PoisnLch, 2x Gigntoad]
@@ -2210,14 +2210,14 @@ Map Zone WoR 5x5 Serpent Trench
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #38 ('Serpent Trench (WoR) Wasteland')
-   #214 [2x PurpBava, Gatling]
+   #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
-   #214 [2x PurpBava, Gatling]
+   #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
 -----------
 Map Zone WoR 5x6 Serpent Trench
@@ -2232,14 +2232,14 @@ Map Zone WoR 5x6 Serpent Trench
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #38 ('Serpent Trench (WoR) Wasteland')
-   #214 [2x PurpBava, Gatling]
+   #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
-   #214 [2x PurpBava, Gatling]
+   #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
 -----------
 Map Zone WoR 5x7 Ocean
@@ -2249,9 +2249,9 @@ Map Zone WoR 5x7 Ocean
    #325 [2x GtMantis]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
    #326 [2x Basilisk, LeapFrog]
@@ -2276,14 +2276,14 @@ Map Zone WoR 5x8 Mobliz
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #38 ('Serpent Trench (WoR) Wasteland')
-   #214 [2x PurpBava, Gatling]
+   #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
-   #214 [2x PurpBava, Gatling]
+   #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
 -----------
 Map Zone WoR 6x1 Opera House Northwest
@@ -2365,9 +2365,9 @@ Map Zone WoR 6x4 Tzen West
    #189 [Malboro]
 * Desert Formation Pack #36 ('Albrook (WoR) Desert')
    #194 [2x Peeper, ErthGurd]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #33 ('Albrook West (WoR) Wasteland')
    #203 [2x LunarWlf, DiveEagl]
    #201 [2x PoisnLch, 2x Gigntoad]
@@ -2387,9 +2387,9 @@ Map Zone WoR 6x5 Tzen
    #189 [Malboro]
 * Desert Formation Pack #36 ('Albrook (WoR) Desert')
    #194 [2x Peeper, ErthGurd]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #34 ('Albrook (WoR) Wasteland')
    #202 [2x DiveEagl, LunarWlf]
    #204 [3x PoisnLch, DiveEagl]
@@ -2408,14 +2408,14 @@ Map Zone WoR 6x6 Serpent Trench
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #38 ('Serpent Trench (WoR) Wasteland')
-   #214 [2x PurpBava, Gatling]
+   #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
-   #214 [2x PurpBava, Gatling]
+   #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
 -----------
 Map Zone WoR 6x7 Serpent Trench
@@ -2430,14 +2430,14 @@ Map Zone WoR 6x7 Serpent Trench
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #38 ('Serpent Trench (WoR) Wasteland')
-   #214 [2x PurpBava, Gatling]
+   #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
-   #214 [2x PurpBava, Gatling]
+   #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
 -----------
 Map Zone WoR 6x8 Serpent Trench
@@ -2452,14 +2452,14 @@ Map Zone WoR 6x8 Serpent Trench
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #133 [SandFish, BlkDragn]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #133 [SandFish, Blk Drgn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #38 ('Serpent Trench (WoR) Wasteland')
-   #214 [2x PurpBava, Gatling]
+   #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
-   #214 [2x PurpBava, Gatling]
+   #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
 -----------
 Map Zone WoR 7x1 Ocean
@@ -2469,9 +2469,9 @@ Map Zone WoR 7x1 Ocean
    #325 [2x GtMantis]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
    #326 [2x Basilisk, LeapFrog]
@@ -2541,9 +2541,9 @@ Map Zone WoR 7x4 Albrook West
    #189 [Malboro]
 * Desert Formation Pack #36 ('Albrook (WoR) Desert')
    #194 [2x Peeper, ErthGurd]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #33 ('Albrook West (WoR) Wasteland')
    #203 [2x LunarWlf, DiveEagl]
    #201 [2x PoisnLch, 2x Gigntoad]
@@ -2563,9 +2563,9 @@ Map Zone WoR 7x5 Albrook
    #189 [Malboro]
 * Desert Formation Pack #36 ('Albrook (WoR) Desert')
    #194 [2x Peeper, ErthGurd]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #34 ('Albrook (WoR) Wasteland')
    #202 [2x DiveEagl, LunarWlf]
    #204 [3x PoisnLch, DiveEagl]
@@ -2574,42 +2574,42 @@ Map Zone WoR 7x5 Albrook
 -----------
 Map Zone WoR 7x6 Albrook Northeast Islands
 * Grassland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Forest Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Desert Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 * Wasteland Formation Pack #0 ('00')
-   #6 [2x NutEater, LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
-   #7 [2x LeafBunn]
-   #432 [2x Mandrago, LeafBunn]
+   #6 [2x NutEater, LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
+   #7 [2x LeafBuny]
+   #432 [2x Mandragr, LeafBuny]
 -----------
 Map Zone WoR 7x7 Ocean
 * Grassland Formation Pack #55 ('Triangle Island (WoR)')
    #331 [2x Puck, MedsaChk]
    #332 [2x RuneClaw]
    #599 [2x RuneClaw, Purusa]
-   #598 [Emeraldi]
+   #598 [Emrlditn]
 * Forest Formation Pack #242 ('Crescent/Thamasan Island (WoR) Forest')
    #393 [2x Purusa]
    #333 [3x MedsaChk, Purusa]
    #393 [2x Purusa]
-   #252 [Emeraldi]
+   #252 [Emrlditn]
 * Desert Formation Pack #55 ('Triangle Island (WoR)')
    #331 [2x Puck, MedsaChk]
    #332 [2x RuneClaw]
    #599 [2x RuneClaw, Purusa]
-   #598 [Emeraldi]
+   #598 [Emrlditn]
 * Wasteland Formation Pack #56 ('Triangle Island (WoR)')
    #331 [2x Puck, MedsaChk]
    #333 [3x MedsaChk, Purusa]
@@ -2621,17 +2621,17 @@ Map Zone WoR 7x8 Ebot's Rock North Half
    #331 [2x Puck, MedsaChk]
    #332 [2x RuneClaw]
    #599 [2x RuneClaw, Purusa]
-   #598 [Emeraldi]
+   #598 [Emrlditn]
 * Forest Formation Pack #242 ('Crescent/Thamasan Island (WoR) Forest')
    #393 [2x Purusa]
    #333 [3x MedsaChk, Purusa]
    #393 [2x Purusa]
-   #252 [Emeraldi]
+   #252 [Emrlditn]
 * Desert Formation Pack #55 ('Triangle Island (WoR)')
    #331 [2x Puck, MedsaChk]
    #332 [2x RuneClaw]
    #599 [2x RuneClaw, Purusa]
-   #598 [Emeraldi]
+   #598 [Emrlditn]
 * Wasteland Formation Pack #56 ('Triangle Island (WoR)')
    #331 [2x Puck, MedsaChk]
    #333 [3x MedsaChk, Purusa]
@@ -2645,9 +2645,9 @@ Map Zone WoR 8x1 Ocean
    #325 [2x GtMantis]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
    #326 [2x Basilisk, LeapFrog]
@@ -2667,9 +2667,9 @@ Map Zone WoR 8x2 Ocean
    #325 [2x GtMantis]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
    #326 [2x Basilisk, LeapFrog]
@@ -2695,9 +2695,9 @@ Map Zone WoR 8x3 Solitary Island
    #194 [2x Peeper, ErthGurd]
 * Desert Formation Pack #30 ('Solitary Island Desert')
    #194 [2x Peeper, ErthGurd]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #29 ('Solitary Island')
    #192 [2x Peeper]
    #194 [2x Peeper, ErthGurd]
@@ -2711,9 +2711,9 @@ Map Zone WoR 8x4 Albrook Southeast Islands
    #325 [2x GtMantis]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
    #326 [2x Basilisk, LeapFrog]
@@ -2739,9 +2739,9 @@ Map Zone WoR 8x5 Albrook South Islands
    #189 [Malboro]
 * Desert Formation Pack #36 ('Albrook (WoR) Desert')
    #194 [2x Peeper, ErthGurd]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [BlkDragn]
+   #195 [Blk Drgn]
 * Wasteland Formation Pack #34 ('Albrook (WoR) Wasteland')
    #202 [2x DiveEagl, LunarWlf]
    #204 [3x PoisnLch, DiveEagl]
@@ -2755,9 +2755,9 @@ Map Zone WoR 8x6 Ocean
    #325 [2x GtMantis]
    #323 [Sprinter, GtMantis, 2x Lycaon]
 * Forest Formation Pack #54 ('Dinosaur Forest')
-   #321 [Tyranosa]
-   #320 [2x Tyranosa]
-   #321 [Tyranosa]
+   #321 [Tyranosr]
+   #320 [2x Tyranosr]
+   #321 [Tyranosr]
    #322 [Brachios]
 * Desert Formation Pack #51 ('Narshe (WoR) Grassland/Prairie')
    #326 [2x Basilisk, LeapFrog]
@@ -2775,17 +2775,17 @@ Map Zone WoR 8x7 Ocean
    #331 [2x Puck, MedsaChk]
    #332 [2x RuneClaw]
    #599 [2x RuneClaw, Purusa]
-   #598 [Emeraldi]
+   #598 [Emrlditn]
 * Forest Formation Pack #242 ('Crescent/Thamasan Island (WoR) Forest')
    #393 [2x Purusa]
    #333 [3x MedsaChk, Purusa]
    #393 [2x Purusa]
-   #252 [Emeraldi]
+   #252 [Emrlditn]
 * Desert Formation Pack #55 ('Triangle Island (WoR)')
    #331 [2x Puck, MedsaChk]
    #332 [2x RuneClaw]
    #599 [2x RuneClaw, Purusa]
-   #598 [Emeraldi]
+   #598 [Emrlditn]
 * Wasteland Formation Pack #56 ('Triangle Island (WoR)')
    #331 [2x Puck, MedsaChk]
    #333 [3x MedsaChk, Purusa]
@@ -2797,17 +2797,17 @@ Map Zone WoR 8x8 Thamasa
    #331 [2x Puck, MedsaChk]
    #332 [2x RuneClaw]
    #599 [2x RuneClaw, Purusa]
-   #598 [Emeraldi]
+   #598 [Emrlditn]
 * Forest Formation Pack #242 ('Crescent/Thamasan Island (WoR) Forest')
    #393 [2x Purusa]
    #333 [3x MedsaChk, Purusa]
    #393 [2x Purusa]
-   #252 [Emeraldi]
+   #252 [Emrlditn]
 * Desert Formation Pack #55 ('Triangle Island (WoR)')
    #331 [2x Puck, MedsaChk]
    #332 [2x RuneClaw]
    #599 [2x RuneClaw, Purusa]
-   #598 [Emeraldi]
+   #598 [Emrlditn]
 * Wasteland Formation Pack #56 ('Triangle Island (WoR)')
    #331 [2x Puck, MedsaChk]
    #333 [3x MedsaChk, Purusa]
