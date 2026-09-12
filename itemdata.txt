@@ -1978,7 +1978,7 @@
   * Affects status: Zombie
   * Purchase price: 280
 
-[0x0FC] Smoke Bomb (sometimes proxy for Imp's Feelings)
+[0x0FC] Smoke Bomb (sometimes proxy for Imp's Token)
   * Item power: 0
   * Item type flags: Use in Battle
   * Target info: can't switch sides, select all or select both groups, select single group, allow multi-target
@@ -2158,7 +2158,7 @@
   * Nulls element: Dark
   * Purchase price: 2
 
-[0x115] Imp's Feelings usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
+[0x115] Imp's Token usable by: Te, Lo, Cy, Sh, Ed, Sa, Ce, St, Re, Se, Mo, Ga, Go, Um
   * Defense: 9 Defense, 10 Magic Defense
   * Affects evasion: 5 Evade, 15 Magic Evade
   * Granted stats: +2 Strength, +2 Speed, +2 Magic
