@@ -87,7 +87,7 @@ FE             | > End of if statement, reset target and wait
 FC 01 19 17    | If... Hit by command [Summon] or [XMagic]
 F0 EF FE FE    | > Random spell: [Special: Binding Cold] or [Nothing] or [Nothing]
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 FE FE E2    | > Random spell: [Nothing] or [Nothing] or [Nightglow]
 FE             | > End of if statement, reset target and wait
 FC 05 00 00    | If... HP is decreased
@@ -135,7 +135,7 @@ FC 0D 02 04    | > If... Variable $002 is 4 or more
 EF             | >> Special: Black Fang
 F8 02 00       | >> Modify variable [$002 = 0]
 FE             | >> End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 04 FE 04    | > Random spell: [Drain] or [Nothing] or [Drain]
 F8 02 81       | > Modify variable [$002 + 1]
 FC 0D 02 04    | > If... Variable $002 is 4 or more
@@ -1152,7 +1152,7 @@ FE             | > End of if statement, reset target and wait
 FC 02 25 25    | If... Hit by spell [Libra] or [Libra]
 F0 FE FE FE    | > Use spell: [Nothing]
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 FE EE EF    | > Random spell: [Nothing] or [Fight] or [Special: Lance of Atrophy]
 FE             | > End of if statement, reset target and wait
 FC 1A 30 01    | If... Monster in slot 0 has Fire weakness; targets them

@@ -26,7 +26,7 @@ F0 EE 67 67    | Random spell: [Fight] or [Leaf Swirl] or [Leaf Swirl]
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F1 36          | > Set target: Self
 F0 EF FE FE    | > Random spell: [Special: Concealment Art] or [Nothing] or [Nothing]
 FF             - End of script
@@ -254,7 +254,7 @@ EE             | Fight
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 FE EF FE    | > Random spell: [Nothing] or [Special: Bite] or [Nothing]
 FF             - End of script
 
@@ -332,7 +332,7 @@ FC 01 19 19    | If... Hit by command [Summon] or [Summon]
 F0 10 10 FE    | > Random spell: [Death] or [Death] or [Nothing]
 FE             | > End of if statement, reset target and wait
 FC 13 01 01    | If... Number of living monsters is 1 or less
-FC 01 00 02    | > If... Hit by command [Attack] or [Magic]
+FC 01 00 02    | > If... Hit by command [Fight] or [Magic]
 F0 EF FE EF    | >> Random spell: [Special: Knockdown] or [Nothing] or [Special: Knockdown]
 FF             - End of script
 
@@ -345,7 +345,7 @@ F0 FE FE C2    | Random spell: [Nothing] or [Nothing] or [Escape]
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 EF EF FE    | > Random spell: [Special: Tail Strike] or [Special: Tail Strike] or [Nothing]
 FF             - End of script
 
@@ -369,7 +369,7 @@ FF             - End of script
 [script #35]   ; orig idx=35, "DrgnFosl", offset 0x5F5BB1, special: Inflict Zombie
 F0 EE 69 EF    | Random spell: [Fight] or [Sandstorm] or [Special: Bone]
 FF             @ End of action script, begin counter-attack script
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 69 FE FE    | > Random spell: [Sandstorm] or [Nothing] or [Nothing]
 FF             - End of script
 
@@ -439,7 +439,7 @@ FE             | End of if statement, reset target and wait
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 EE EF FE    | > Random spell: [Fight] or [Special: Bone Powder] or [Nothing]
 FE             | > End of if statement, reset target and wait
 FC 05 00 00    | If... HP is decreased
@@ -520,7 +520,7 @@ F0 EE EE FE    | Random spell: [Fight] or [Fight] or [Nothing]
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 EF EF FE    | > Random spell: [Special: Sickle] or [Special: Sickle] or [Nothing]
 FF             - End of script
 
@@ -679,7 +679,7 @@ FC 01 05 06    | If... Hit by command [Steal] or [Mug]
 F1 45          | > Set target: Last attacking party member/monster
 EF             | > Special: Silver Lance
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 C9 C9 FE    | > Random spell: [Reverse Polarity] or [Reverse Polarity] or [Nothing]
 FF             - End of script
 
@@ -701,7 +701,7 @@ F0 EE EE EF    | Random spell: [Fight] or [Fight] or [Special: Program 55]
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 A2 FE FE    | > Random spell: [Self-Destruct] or [Nothing] or [Nothing]
 FF             - End of script
 
@@ -817,7 +817,7 @@ F0 EE EE EB    | Random spell: [Fight] or [Fight] or [Life Shaver]
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 FC 13 01 01    | > If... Number of living monsters is 1 or less
 F0 EF EF FE    | >> Random spell: [Special: Glare] or [Special: Glare] or [Nothing]
 FF             - End of script
@@ -918,7 +918,7 @@ F0 EE FE EE    | Random spell: [Fight] or [Nothing] or [Fight]
 FD             | Wait for next turn, reset target
 F0 6B 10 6B    | Random spell: [Wildfire] or [Death] or [Wildfire]
 FF             @ End of action script, begin counter-attack script
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 EF             | > Special: Magic Absorb
 FE             | > End of if statement, reset target and wait
 FC 02 27 2C    | If... Hit by spell [Silence] or [Confuse]
@@ -1005,7 +1005,7 @@ FC 12 00 00    | If... Monsters <Self> are dead
 F5 0B 01 00    | > Adjust enemies: Monsters <Self> => Killed
 FE             | > End of if statement, reset target and wait
 FC 19 04 00    | If... Monster in slot #2
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 00 81       | >> Modify variable [$000 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 00 03    | >>> If... Variable $000 is 3 or more
@@ -1014,7 +1014,7 @@ FA 03 04 00    | >>>> Use Animation
 F8 24 C1       | >>>> Modify variable [$036 - 1]
 FE             | >>>> End of if statement, reset target and wait
 FC 19 08 00    | If... Monster in slot #3
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 01 81       | >> Modify variable [$001 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 01 03    | >>> If... Variable $001 is 3 or more
@@ -1023,7 +1023,7 @@ FA 03 08 00    | >>>> Use Animation
 F8 24 C1       | >>>> Modify variable [$036 - 1]
 FE             | >>>> End of if statement, reset target and wait
 FC 19 10 00    | If... Monster in slot #4
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 02 81       | >> Modify variable [$002 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 02 03    | >>> If... Variable $002 is 3 or more
@@ -1102,7 +1102,7 @@ F0 EE EE EF    | Random spell: [Fight] or [Fight] or [Special: Soul Eater]
 FD             | Wait for next turn, reset target
 F0 04 15 AA    | Random spell: [Drain] or [Aspir] or [Everyone's Grudge]
 FF             @ End of action script, begin counter-attack script
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 FE FE EF    | > Random spell: [Nothing] or [Nothing] or [Special: Soul Eater]
 FE             | > End of if statement, reset target and wait
 FF             - End of script
@@ -1226,7 +1226,7 @@ EE             | Fight
 FD             | Wait for next turn, reset target
 F0 EE EE FE    | Random spell: [Fight] or [Fight] or [Nothing]
 FF             @ End of action script, begin counter-attack script
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 EF FE FE    | > Random spell: [Special: Swing] or [Nothing] or [Nothing]
 FF             - End of script
 
@@ -1245,7 +1245,7 @@ FF             @ End of action script, begin counter-attack script
 FC 01 08 02    | If... Hit by command [Throw] or [Magic]
 F6 01 26 41    | > Throw item: [Kodachi] or [Shuriken]
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F1 36          | > Set target: Self
 F0 EF FE FE    | > Random spell: [Special: Disappear] or [Nothing] or [Nothing]
 FF             - End of script
@@ -1371,7 +1371,7 @@ EE             | Fight
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 EF FE FE    | > Random spell: [Special: Pounce] or [Nothing] or [Nothing]
 FF             - End of script
 
@@ -1454,7 +1454,7 @@ EE             | Fight
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 EF EF FE    | > Random spell: [Special: Gore] or [Special: Gore] or [Nothing]
 FF             - End of script
 
@@ -1656,7 +1656,7 @@ F0 EF EF FE    | Random spell: [Special: Mad Signal] or [Special: Mad Signal] or
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 EE             | > Fight
 FF             - End of script
 
@@ -1847,7 +1847,7 @@ F0 B5 EE EF    | Random spell: [Magitek Laser] or [Fight] or [Special: Diamond C
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 CD D7 EF    | > Random spell: [Launcher] or [Shrapnel] or [Special: Diamond Claw]
 FF             - End of script
 
@@ -1930,7 +1930,7 @@ F0 EE EE 04    | Random spell: [Fight] or [Fight] or [Drain]
 FD             | Wait for next turn, reset target
 F0 EE 04 04    | Random spell: [Fight] or [Drain] or [Drain]
 FF             @ End of action script, begin counter-attack script
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 EF             | > Special: Blood Suck
 EF             | > Special: Blood Suck
 FF             - End of script
@@ -2054,7 +2054,7 @@ F6 01 03 04    | Throw item: [Air Knife] or [Thief's Knife]
 FD             | Wait for next turn, reset target
 F6 01 04 05    | Throw item: [Thief's Knife] or [Assassin's Dagger]
 FF             @ End of action script, begin counter-attack script
-FC 01 00 02    | If... Hit by command [Attack] or [Magic]
+FC 01 00 02    | If... Hit by command [Fight] or [Magic]
 F0 EF EF FE    | > Random spell: [Special: Lift Up] or [Special: Lift Up] or [Nothing]
 FF             - End of script
 
@@ -2094,7 +2094,7 @@ F0 EE EF EF    | Random spell: [Fight] or [Special: Rust] or [Special: Rust]
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 B9 B9 FE    | > Random spell: [1,000,000 Volts] or [1,000,000 Volts] or [Nothing]
 FF             - End of script
 
@@ -2232,7 +2232,7 @@ F0 EF EF FE    | Random spell: [Special: Suicide] or [Special: Suicide] or [Noth
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F6 01 41 41    | > Throw item: [Shuriken]
 FE             | > End of if statement, reset target and wait
 FC 05 00 00    | If... HP is decreased
@@ -2268,7 +2268,7 @@ F0 EE EF EF    | Random spell: [Fight] or [Special: Touchstone] or [Special: Tou
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 04 FE FE    | > Random spell: [Drain] or [Nothing] or [Nothing]
 FF             - End of script
 
@@ -2300,7 +2300,7 @@ F0 EE EE EF    | Random spell: [Fight] or [Fight] or [Special: Carrot]
 FD             | Wait for next turn, reset target
 EF             | Special: Carrot
 FF             @ End of action script, begin counter-attack script
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F1 44          | > Set target: Random party member
 F0 24 2A 2E    | > Random spell: [Cure] or [Cura] or [Esuna]
 FF             - End of script
@@ -2480,7 +2480,7 @@ F0 EF EE EE    | Random spell: [Special: Backstab] or [Fight] or [Fight]
 FD             | Wait for next turn, reset target
 F0 0E 0E EE    | Random spell: [Thundaga] or [Thundaga] or [Fight]
 FF             @ End of action script, begin counter-attack script
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 EF EF FE    | > Random spell: [Special: Backstab] or [Special: Backstab] or [Nothing]
 FF             - End of script
 
@@ -2519,7 +2519,7 @@ F0 EE 0B FE    | Random spell: [Fight] or [Bio] or [Nothing]
 FD             | Wait for next turn, reset target
 F0 EE FE 10    | Random spell: [Fight] or [Nothing] or [Death]
 FF             @ End of action script, begin counter-attack script
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F1 36          | > Set target: Self
 EF             | > Special: Decoration
 F1 45          | > Set target: Last attacking party member/monster
@@ -2547,7 +2547,7 @@ F0 EF FE EE    | Random spell: [Special: Figaro Booze] or [Nothing] or [Fight]
 FD             | Wait for next turn, reset target
 F0 EE EE 28    | Random spell: [Fight] or [Fight] or [Protect]
 FF             @ End of action script, begin counter-attack script
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 04 FE 04    | > Random spell: [Drain] or [Nothing] or [Drain]
 FF             - End of script
 
@@ -2639,7 +2639,7 @@ F0 8E B9 E4    | Random spell: [Aqua Breath] or [1,000,000 Volts] or [Updraft]
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 EF EF FE    | > Random spell: [Special: Snake Tail] or [Special: Snake Tail] or [Nothing]
 FF             - End of script
 
@@ -2693,7 +2693,7 @@ FF             - End of script
 EE             | Fight
 FF             @ End of action script, begin counter-attack script
 FC 13 01 01    | If... Number of living monsters is 1 or less
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F0 EF FE FE    | >> Random spell: [Special: Stone Needle] or [Nothing] or [Nothing]
 FF             - End of script
 
@@ -2986,14 +2986,14 @@ F9 02 24 00    | Modify var. bits [$036: Unset 0x01]
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 EF FE FE    | > Random spell: [Special: Blue Capella] or [Nothing] or [Nothing]
 FF             - End of script
 
 [script #250]  ; orig idx=250, "Baalzphn", offset 0x5F6EA2, special: Inflict Berserk
 F0 EF FE FE    | Random spell: [Special: Madness] or [Nothing] or [Nothing]
 FF             @ End of action script, begin counter-attack script
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 EE             | > Fight
 FF             - End of script
 
@@ -3026,7 +3026,7 @@ F0 10 B5 FE    | Random spell: [Death] or [Magitek Laser] or [Nothing]
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 FE             | > End of if statement, reset target and wait
 FC 05 00 00    | If... HP is decreased
 F0 B1 FE FE    | > Random spell: [Blaster] or [Nothing] or [Nothing]
@@ -3134,7 +3134,7 @@ FC 12 00 00    | If... Monsters <Self> are dead
 F5 0B 01 00    | > Adjust enemies: Monsters <Self> => Killed
 FE             | > End of if statement, reset target and wait
 FC 19 04 00    | If... Monster in slot #2
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 00 81       | >> Modify variable [$000 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 00 03    | >>> If... Variable $000 is 3 or more
@@ -3143,7 +3143,7 @@ FA 03 04 00    | >>>> Use Animation
 F8 24 C1       | >>>> Modify variable [$036 - 1]
 FE             | >>>> End of if statement, reset target and wait
 FC 19 08 00    | If... Monster in slot #3
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 01 81       | >> Modify variable [$001 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 01 03    | >>> If... Variable $001 is 3 or more
@@ -3152,7 +3152,7 @@ FA 03 08 00    | >>>> Use Animation
 F8 24 C1       | >>>> Modify variable [$036 - 1]
 FE             | >>>> End of if statement, reset target and wait
 FC 19 10 00    | If... Monster in slot #4
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 02 81       | >> Modify variable [$002 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 02 03    | >>> If... Variable $002 is 3 or more
@@ -3161,7 +3161,7 @@ FA 03 10 00    | >>>> Use Animation
 F8 24 C1       | >>>> Modify variable [$036 - 1]
 FE             | >>>> End of if statement, reset target and wait
 FC 19 01 00    | If... Monster in slot #0
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 00 81       | >> Modify variable [$000 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 00 03    | >>> If... Variable $000 is 3 or more
@@ -3170,7 +3170,7 @@ FA 03 01 00    | >>>> Use Animation
 F8 24 C1       | >>>> Modify variable [$036 - 1]
 FE             | >>>> End of if statement, reset target and wait
 FC 19 02 00    | If... Monster in slot #1
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 01 81       | >> Modify variable [$001 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 01 03    | >>> If... Variable $001 is 3 or more
@@ -3179,7 +3179,7 @@ FA 03 02 00    | >>>> Use Animation
 F8 24 C1       | >>>> Modify variable [$036 - 1]
 FE             | >>>> End of if statement, reset target and wait
 FC 19 20 00    | If... Monster in slot #5
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 02 81       | >> Modify variable [$002 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 02 03    | >>> If... Variable $002 is 3 or more
@@ -3241,7 +3241,7 @@ F0 EF EF FE    | Random spell: [Special: Metal Punch] or [Special: Metal Punch] 
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 B5 B5 FE    | > Random spell: [Magitek Laser] or [Magitek Laser] or [Nothing]
 FE             | > End of if statement, reset target and wait
 FC 01 02 02    | If... Hit by command [Magic] or [Magic]
@@ -3309,7 +3309,7 @@ F0 EF D7 FE    | Random spell: [Special: Twin Drills] or [Shrapnel] or [Nothing]
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 CC FE FE    | > Random spell: [Southern Cross] or [Nothing] or [Nothing]
 FE             | > End of if statement, reset target and wait
 FC 01 02 02    | If... Hit by command [Magic] or [Magic]
@@ -3699,12 +3699,12 @@ F3 30 00       | > Display message 48: You will go no farther!
 F9 01 00 00    | > Modify var. bits [$000: Set 0x01]
 FE             | > End of if statement, reset target and wait
 FF             @ End of action script, begin counter-attack script
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 FC 0D 01 02    | > If... Variable $001 is 2 or more
 F8 01 00       | >> Modify variable [$001 = 0]
 F3 2F 00       | >> Display message 47: No effect!
 FE             | >> End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F8 01 81       | > Modify variable [$001 + 1]
 F3 2E 00       | > Display message 46: No effect!
 EE             | > Fight
@@ -4027,7 +4027,7 @@ F0 EE B3 0C    | Random spell: [Fight] or [Fireball] or [Firaga]
 FD             | Wait for next turn, reset target
 F0 EE EE 06    | Random spell: [Fight] or [Fight] or [Fira]
 FF             @ End of action script, begin counter-attack script
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 EE FE FE    | > Random spell: [Fight] or [Nothing] or [Nothing]
 F8 00 81       | > Modify variable [$000 + 1]
 FF             - End of script
@@ -4097,12 +4097,12 @@ FC 01 17 13    | If... Hit by command [DblCst] or [Dance]
 F0 FE FE 16    | > Random spell: [Nothing] or [Nothing] or [Flare]
 F8 01 81       | > Modify variable [$001 + 1]
 FE             | > End of if statement, reset target and wait
-FC 01 00 07    | If... Hit by command [Attack] or [Iaido]
+FC 01 00 07    | If... Hit by command [Fight] or [Iaido]
 F0 EE FE EE    | > Random spell: [Fight] or [Nothing] or [Fight]
 F8 01 81       | > Modify variable [$001 + 1]
 FE             | > End of if statement, reset target and wait
 FC 01 08 16    | If... Hit by command [Throw] or [Jump]
-F4 16 16 00    | > Random command: [Jump] or [Jump] or [Attack]
+F4 16 16 00    | > Random command: [Jump] or [Jump] or [Fight]
 F8 01 81       | > Modify variable [$001 + 1]
 FE             | > End of if statement, reset target and wait
 FC 01 0A 0A    | If... Hit by command [Blitz] or [Blitz]
@@ -5168,7 +5168,7 @@ F8 03 00       | >> Modify variable [$003 = 0]
 FA 01 01 00    | >> Use Animation 
 F8 01 C1       | >> Modify variable [$001 - 1]
 FE             | >> End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F8 03 81       | > Modify variable [$003 + 1]
 FE             | > End of if statement, reset target and wait
 FC 14 00 03    | If... Variable $000 has set bit 0x08
@@ -5345,7 +5345,7 @@ FE             | End of if statement, reset target and wait
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 06    | If... Hit by command [Attack] or [Mug]
+FC 01 00 06    | If... Hit by command [Fight] or [Mug]
 C7             | > Love Token
 FE             | > End of if statement, reset target and wait
 FF             - End of script
@@ -5412,7 +5412,7 @@ FC 12 00 00    | If... Monsters <Self> are dead
 F5 0B 01 00    | > Adjust enemies: Monsters <Self> => Killed
 FE             | > End of if statement, reset target and wait
 FC 19 04 00    | If... Monster in slot #2
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 00 81       | >> Modify variable [$000 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 00 03    | >>> If... Variable $000 is 3 or more
@@ -5421,7 +5421,7 @@ FA 03 04 00    | >>>> Use Animation
 F8 24 C1       | >>>> Modify variable [$036 - 1]
 FE             | >>>> End of if statement, reset target and wait
 FC 19 08 00    | If... Monster in slot #3
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 01 81       | >> Modify variable [$001 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 01 03    | >>> If... Variable $001 is 3 or more
@@ -5430,7 +5430,7 @@ FA 03 08 00    | >>>> Use Animation
 F8 24 C1       | >>>> Modify variable [$036 - 1]
 FE             | >>>> End of if statement, reset target and wait
 FC 19 10 00    | If... Monster in slot #4
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 02 81       | >> Modify variable [$002 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 02 03    | >>> If... Variable $002 is 3 or more
@@ -5799,7 +5799,7 @@ F2 00 BE 82    | > Formation change to 702
 F5 08 00 01    | > Adjust enemies: Monsters <0> => Unhide, refill HP
 F3 C1 00       | > Display message 193: You've broken_ the seal of ice_ Now the time for battle has ...
 FE             | > End of if statement, reset target and wait
-FC 01 00 06    | If... Hit by command [Attack] or [Mug]
+FC 01 00 06    | If... Hit by command [Fight] or [Mug]
 EF             | > Special: Freeze Barrier
 FE             | > End of if statement, reset target and wait
 FC 01 07 09    | If... Hit by command [Iaido] or [Tools]
@@ -6743,7 +6743,7 @@ F0 B5 B5 EF    | Random spell: [Magitek Laser] or [Magitek Laser] or [Special: P
 FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 CD A7 FE    | > Random spell: [Launcher] or [Flash] or [Nothing]
 FF             - End of script
 
@@ -6974,7 +6974,7 @@ FF             @ End of action script, begin counter-attack script
 FC 01 02 02    | If... Hit by command [Magic] or [Magic]
 F0 FE FE D5    | > Random spell: [Nothing] or [Nothing] or [Engulf]
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F0 FE FE CF    | > Random spell: [Nothing] or [Nothing] or [Freezing Dust]
 FE             | > End of if statement, reset target and wait
 FF             - End of script
@@ -7546,7 +7546,7 @@ FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
 FE             | > End of if statement, reset target and wait
-FC 01 00 06    | If... Hit by command [Attack] or [Mug]
+FC 01 00 06    | If... Hit by command [Fight] or [Mug]
 F1 45          | > Set target: Last attacking party member/monster
 0D             | > Blizzaga
 FE             | > End of if statement, reset target and wait
@@ -8264,7 +8264,7 @@ FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
 FE             | > End of if statement, reset target and wait
-FC 01 00 00    | If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | If... Hit by command [Fight] or [Fight]
 F8 03 81       | > Modify variable [$003 + 1]
 F0 EE FE EE    | > Random spell: [Fight] or [Nothing] or [Fight]
 FE             | > End of if statement, reset target and wait
@@ -8780,7 +8780,7 @@ FC 12 00 00    | If... Monsters <Self> are dead
 F5 0B 01 00    | > Adjust enemies: Monsters <Self> => Killed
 FE             | > End of if statement, reset target and wait
 FC 19 04 00    | If... Monster in slot #2
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 00 81       | >> Modify variable [$000 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 00 03    | >>> If... Variable $000 is 3 or more
@@ -8789,7 +8789,7 @@ FA 03 04 00    | >>>> Use Animation
 F8 24 C1       | >>>> Modify variable [$036 - 1]
 FE             | >>>> End of if statement, reset target and wait
 FC 19 08 00    | If... Monster in slot #3
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 01 81       | >> Modify variable [$001 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 01 03    | >>> If... Variable $001 is 3 or more
@@ -8798,7 +8798,7 @@ FA 03 08 00    | >>>> Use Animation
 F8 24 C1       | >>>> Modify variable [$036 - 1]
 FE             | >>>> End of if statement, reset target and wait
 FC 19 10 00    | If... Monster in slot #4
-FC 01 00 00    | > If... Hit by command [Attack] or [Attack]
+FC 01 00 00    | > If... Hit by command [Fight] or [Fight]
 F8 02 81       | >> Modify variable [$002 + 1]
 FC 0D 24 02    | >> If... Variable $036 is 2 or more
 FC 0D 02 03    | >>> If... Variable $002 is 3 or more
@@ -8882,7 +8882,7 @@ F0 EE EF FE    | Random spell: [Fight] or [Special: Leaf Dagger] or [Nothing]
 FD             | Wait for next turn, reset target
 F0 EF EE FE    | Random spell: [Special: Leaf Dagger] or [Fight] or [Nothing]
 FF             @ End of action script, begin counter-attack script
-FC 01 00 02    | If... Hit by command [Attack] or [Magic]
+FC 01 00 02    | If... Hit by command [Fight] or [Magic]
 F0 66 FE FE    | > Random spell: [Sunbath] or [Nothing] or [Nothing]
 FC 10 00 00    | > If... Only one monster type alive
 F0 FE 67 FE    | >> Random spell: [Nothing] or [Leaf Swirl] or [Nothing]
@@ -10258,7 +10258,7 @@ FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
 FE             | > End of if statement, reset target and wait
-FC 01 00 06    | If... Hit by command [Attack] or [Mug]
+FC 01 00 06    | If... Hit by command [Fight] or [Mug]
 F1 45          | > Set target: Last attacking party member/monster
 1A             | > Stop
 FE             | > End of if statement, reset target and wait
@@ -10777,7 +10777,7 @@ F8 02 00       | >>> Modify variable [$002 = 0]
 F9 01 00 00    | >>> Modify var. bits [$000: Set 0x01]
 F9 02 01 00    | >>> Modify var. bits [$001: Unset 0x01]
 FE             | >>> End of if statement, reset target and wait
-FC 01 00 07    | If... Hit by command [Attack] or [Iaido]
+FC 01 00 07    | If... Hit by command [Fight] or [Iaido]
 F1 45          | > Set target: Last attacking party member/monster
 EF             | > Special: Blaze Spike
 FE             | > End of if statement, reset target and wait
@@ -10818,7 +10818,7 @@ FF             @ End of action script, begin counter-attack script
 FC 12 00 00    | If... Monsters <Self> are dead
 F5 0C 01 FF    | > Adjust enemies: Monsters <ALL> => Boss Death
 FE             | > End of if statement, reset target and wait
-FC 01 00 06    | If... Hit by command [Attack] or [Mug]
+FC 01 00 06    | If... Hit by command [Fight] or [Mug]
 F1 43          | > Set target: All party members
 12             | > Quake
 FE             | > End of if statement, reset target and wait
