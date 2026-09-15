@@ -447,7 +447,7 @@
 1BE Aeronite: Evil Eye             [Apply Slow] 
 1BF   Carrot: Malboro Slime        [100% Apply Reflect] 
 1C0   Apanda: Lunge                [Deal 2.5x Damage] 
-1C1 Astaroth: Darkness             [100% Deal 1x Damage + Inflict Blind] 
+1C1    Astos: Darkness             [100% Deal 1x Damage + Inflict Blind] 
 1C2 Myrmecol: Scream               [100% Deal 1x Damage + Inflict Stop] 
 1C3 Prosrpne: Falcon Cut           [Deal 2.5x Damage] 
 1C4 DonTnbry: Grudge Cleaver       [100% Deal 6x Damage] 
