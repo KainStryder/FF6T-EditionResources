@@ -1506,7 +1506,7 @@
   * Resists element: Dark
   * Purchase price: 2
 
-[0x0B6] Snow Scarf usable by: Mo, Ga, Um
+[0x0B6] Snow Muffler usable by: Mo, Ga, Um
   * Teaches Blizzaga (x1)
   * Defense: 67 Defense, 52 Magic Defense
   * Granted stats: +1 Strength, +2 Speed, +1 Stamina, +2 Magic
