@@ -4573,7 +4573,7 @@ FC 05 00 00    | If... HP is decreased
 F0 04 FE 35    | > Random spell: [Drain] or [Nothing] or [Holy]
 FF             - End of script
 
-[script #291]  ; orig idx=291, "Revnant", offset 0x5F98D0, special: Deal 1x Damage + Inflict Zombie
+[script #291]  ; orig idx=291, "Revenant", offset 0x5F98D0, special: Deal 1x Damage + Inflict Zombie
 F0 69 EE 6B    | Random spell: [Sandstorm] or [Fight] or [Wildfire]
 FD             | Wait for next turn, reset target
 F0 EE 0B EE    | Random spell: [Fight] or [Bio] or [Fight]

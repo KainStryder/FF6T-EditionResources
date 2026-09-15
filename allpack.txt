@@ -263,10 +263,10 @@ Formation Pack #43 - Figaro Castle (WoR) Wasteland
    #220 [2x DsrtRbbt, 2x Hundlegs]
 -----------
 Formation Pack #44 - Figaro Castle (WoR) Desert
-   #222 [2x SandFish, Revnant]
-   #223 [Revnant, SandFish, Hundlegs]
+   #222 [2x SandFish, Revenant]
+   #223 [Revenant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
-   #298 [3x Revnant]
+   #298 [3x Revenant]
 -----------
 Formation Pack #45 - Kohlingen (WoR) Grassland/Prairie
    #236 [3x Slug]

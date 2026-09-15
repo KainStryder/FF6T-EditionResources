@@ -1418,10 +1418,10 @@ Map Zone WoR 1x1 Dragon Neck Coliseum
    #242 [3x YllwMsse]
    #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
-   #222 [2x SandFish, Revnant]
-   #223 [Revnant, SandFish, Hundlegs]
+   #222 [2x SandFish, Revenant]
+   #223 [Revenant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
-   #298 [3x Revnant]
+   #298 [3x Revenant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
    #241 [2x Zeveak, BkLizard, 3x YllwMsse]
@@ -1440,10 +1440,10 @@ Map Zone WoR 1x2 Dragon Neck Coliseum
    #242 [3x YllwMsse]
    #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
-   #222 [2x SandFish, Revnant]
-   #223 [Revnant, SandFish, Hundlegs]
+   #222 [2x SandFish, Revenant]
+   #223 [Revenant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
-   #298 [3x Revnant]
+   #298 [3x Revenant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
    #241 [2x Zeveak, BkLizard, 3x YllwMsse]
@@ -1462,10 +1462,10 @@ Map Zone WoR 1x3 Kohlingen Northeast Peninsula
    #242 [3x YllwMsse]
    #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
-   #222 [2x SandFish, Revnant]
-   #223 [Revnant, SandFish, Hundlegs]
+   #222 [2x SandFish, Revenant]
+   #223 [Revenant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
-   #298 [3x Revnant]
+   #298 [3x Revenant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
    #241 [2x Zeveak, BkLizard, 3x YllwMsse]
@@ -1594,10 +1594,10 @@ Map Zone WoR 2x1 Kohlingen West Islands
    #242 [3x YllwMsse]
    #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
-   #222 [2x SandFish, Revnant]
-   #223 [Revnant, SandFish, Hundlegs]
+   #222 [2x SandFish, Revenant]
+   #223 [Revenant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
-   #298 [3x Revnant]
+   #298 [3x Revenant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
    #241 [2x Zeveak, BkLizard, 3x YllwMsse]
@@ -1616,10 +1616,10 @@ Map Zone WoR 2x2 Kohlingen
    #242 [3x YllwMsse]
    #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
-   #222 [2x SandFish, Revnant]
-   #223 [Revnant, SandFish, Hundlegs]
+   #222 [2x SandFish, Revenant]
+   #223 [Revenant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
-   #298 [3x Revnant]
+   #298 [3x Revenant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
    #241 [2x Zeveak, BkLizard, 3x YllwMsse]
@@ -1638,10 +1638,10 @@ Map Zone WoR 2x3 Kohlingen East Islands
    #242 [3x YllwMsse]
    #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
-   #222 [2x SandFish, Revnant]
-   #223 [Revnant, SandFish, Hundlegs]
+   #222 [2x SandFish, Revenant]
+   #223 [Revenant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
-   #298 [3x Revnant]
+   #298 [3x Revenant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
    #241 [2x Zeveak, BkLizard, 3x YllwMsse]
@@ -1770,10 +1770,10 @@ Map Zone WoR 3x1 Kohlingen Southeas
    #242 [3x YllwMsse]
    #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
-   #222 [2x SandFish, Revnant]
-   #223 [Revnant, SandFish, Hundlegs]
+   #222 [2x SandFish, Revenant]
+   #223 [Revenant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
-   #298 [3x Revnant]
+   #298 [3x Revenant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
    #241 [2x Zeveak, BkLizard, 3x YllwMsse]
@@ -1792,10 +1792,10 @@ Map Zone WoR 3x2 Kohlingen Southern Islands
    #242 [3x YllwMsse]
    #238 [3x YllwMsse, Slug]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
-   #222 [2x SandFish, Revnant]
-   #223 [Revnant, SandFish, Hundlegs]
+   #222 [2x SandFish, Revenant]
+   #223 [Revenant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
-   #298 [3x Revnant]
+   #298 [3x Revenant]
 * Wasteland Formation Pack #47 ('Kohlingen (WoR) Wasteland')
    #239 [2x Bogy]
    #241 [2x Zeveak, BkLizard, 3x YllwMsse]
@@ -1814,10 +1814,10 @@ Map Zone WoR 3x3 Figaro Islands
    #224 [Oceanus]
    #225 [Oceanus, 3x DsrtRbbt]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
-   #222 [2x SandFish, Revnant]
-   #223 [Revnant, SandFish, Hundlegs]
+   #222 [2x SandFish, Revenant]
+   #223 [Revenant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
-   #298 [3x Revnant]
+   #298 [3x Revenant]
 * Wasteland Formation Pack #43 ('Figaro Castle (WoR) Wasteland')
    #220 [2x DsrtRbbt, 2x Hundlegs]
    #220 [2x DsrtRbbt, 2x Hundlegs]
@@ -1836,10 +1836,10 @@ Map Zone WoR 3x4 Figaro Islands
    #224 [Oceanus]
    #225 [Oceanus, 3x DsrtRbbt]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
-   #222 [2x SandFish, Revnant]
-   #223 [Revnant, SandFish, Hundlegs]
+   #222 [2x SandFish, Revenant]
+   #223 [Revenant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
-   #298 [3x Revnant]
+   #298 [3x Revenant]
 * Wasteland Formation Pack #43 ('Figaro Castle (WoR) Wasteland')
    #220 [2x DsrtRbbt, 2x Hundlegs]
    #220 [2x DsrtRbbt, 2x Hundlegs]
@@ -1990,10 +1990,10 @@ Map Zone WoR 4x3 Figaro Islands
    #224 [Oceanus]
    #225 [Oceanus, 3x DsrtRbbt]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
-   #222 [2x SandFish, Revnant]
-   #223 [Revnant, SandFish, Hundlegs]
+   #222 [2x SandFish, Revenant]
+   #223 [Revenant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
-   #298 [3x Revnant]
+   #298 [3x Revenant]
 * Wasteland Formation Pack #43 ('Figaro Castle (WoR) Wasteland')
    #220 [2x DsrtRbbt, 2x Hundlegs]
    #220 [2x DsrtRbbt, 2x Hundlegs]
@@ -2012,10 +2012,10 @@ Map Zone WoR 4x4 Figaro Islands
    #224 [Oceanus]
    #225 [Oceanus, 3x DsrtRbbt]
 * Desert Formation Pack #44 ('Figaro Castle (WoR) Desert')
-   #222 [2x SandFish, Revnant]
-   #223 [Revnant, SandFish, Hundlegs]
+   #222 [2x SandFish, Revenant]
+   #223 [Revenant, SandFish, Hundlegs]
    #138 [3x Hundlegs]
-   #298 [3x Revnant]
+   #298 [3x Revenant]
 * Wasteland Formation Pack #43 ('Figaro Castle (WoR) Wasteland')
    #220 [2x DsrtRbbt, 2x Hundlegs]
    #220 [2x DsrtRbbt, 2x Hundlegs]

@@ -293,7 +293,7 @@ Chadarnk: Fight, Special
    Cindy: Fight, Special
    Sandy: Fight, Special
 Wrexsoul: Fight, Special
- Revnant: Fight, Special
+Revenant: Fight, Special
 Sam Soul: Fight, Special, Tachi: Dragon, Tachi: Snow
 RicardMg: Fight, Blizzara, Comet, Reflect
 GrtDemon: Fight, Special, Gravity, Drain

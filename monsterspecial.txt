@@ -289,7 +289,7 @@
 120    Cindy: Guillotine           [100% Deal 1x Damage + Inflict Silence] 
 121    Sandy: Penta Thrust         [100% Deal 1x Damage + Apply Slow] 
 122 Wrexsoul: Prophetic Strike     [Inflict Condemned] 
-123  Revnant: Zombie Breath        [Deal 1x Damage + Inflict Zombie] 
+123 Revenant: Zombie Breath        [Deal 1x Damage + Inflict Zombie] 
 124 Sam Soul: Moon Shadow          [Instant Death] 
 125 RicardMg: Dia                  [100% Deal 1x Damage + Inflict Disease] 
 126 GrtDemon: Blood Claw           [Deal 1x Damage + HP Absorb] 
