@@ -1,4 +1,4 @@
-When you case Confuse on an enemy, they will default to doing one of these actions each turn.
+When you cast Confuse on an enemy, they will default to doing one of these actions each turn.
 
 Please note not every enemy can be confused, but they have data for it regardless.
 
