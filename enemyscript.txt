@@ -1058,7 +1058,7 @@ F1 36          | Set target: Self
 F0 C2 FE FE    | Random spell: [Escape] or [Nothing] or [Nothing]
 FD             | Wait for next turn, reset target
 F1 44          | Set target: Random party member
-F6 00 EB EC    | Use item: [Ether] or [Dry Ether]
+F6 00 EB EC    | Use item: [Ether] or [Hi-Ether]
 F1 36          | Set target: Self
 F0 C2 FE FE    | Random spell: [Escape] or [Nothing] or [Nothing]
 FF             @ End of action script, begin counter-attack script
@@ -4335,7 +4335,7 @@ F3 EC 00       | > Display message 236: Magus Sisters: Delta Attack!!
 F9 02 01 02    | > Modify var. bits [$001: Unset 0x04]
 FE             | > End of if statement, reset target and wait
 FC 07 36 C8    | If... Self MP is below 200 [10%]; targets them
-F6 00 EC ED    | > Use item: [Dry Ether] or [Super Ether]
+F6 00 EC ED    | > Use item: [Hi-Ether] or [X-Ether]
 FE             | > End of if statement, reset target and wait
 FC 11 07 00    | If... Monsters <0, 1, 2> are alive
 FC 16 1E 00    | > If... Global timer above 30
@@ -4468,7 +4468,7 @@ F9 01 01 01    | > Modify var. bits [$001: Set 0x02]
 F9 01 01 03    | > Modify var. bits [$001: Set 0x08]
 FE             | > End of if statement, reset target and wait
 FC 07 36 C8    | If... Self MP is below 200 [10%]; targets them
-F6 00 EC ED    | > Use item: [Dry Ether] or [Super Ether]
+F6 00 EC ED    | > Use item: [Hi-Ether] or [X-Ether]
 FE             | > End of if statement, reset target and wait
 FC 11 07 00    | If... Monsters <0, 1, 2> are alive
 FC 16 1E 00    | > If... Global timer above 30
