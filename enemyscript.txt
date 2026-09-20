@@ -1350,7 +1350,7 @@ F0 EE EE E5    | Random spell: [Fight] or [Fight] or [Soul Extraction]
 FF             @ End of action script, begin counter-attack script
 FC 05 00 00    | If... HP is decreased
 F1 36          | > Set target: Self
-03             | > Poison
+0B             | > Bio
 FF             - End of script
 
 [script #112]  ; orig idx=112, "Mahadeva", offset 0x5F62AF, special: Deal 2x Damage
