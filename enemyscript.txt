@@ -867,7 +867,7 @@ FF             - End of script
 [script #77]   ; orig idx=77, "Kum Kum", offset 0x5FCF20, special: 100% Inflict Stone
 FC 08 36 0B    | If... Self has status Mute; targets them
 F1 36          | > Set target: Self
-F6 00 FB FB    | > Use item: [Echo Screen]
+F6 00 F8 F8    | > Use item: [Antidote]
 FE             | > End of if statement, reset target and wait
 F0 10 09 10    | Random spell: [Death] or [Break] or [Death]
 FD             | Wait for next turn, reset target
@@ -1043,12 +1043,12 @@ F1 36          | > Set target: Self
 F0 C2 FE FE    | > Random spell: [Escape] or [Nothing] or [Nothing]
 FE             | > End of if statement, reset target and wait
 FC 08 43 06    | If... Any party members has status Petrify; targets them
-F6 00 F4 F4    | > Use item: [Gold Needle]
+F6 00 FD FD    | > Use item: [Gold Needle]
 F1 36          | > Set target: Self
 F0 C2 FE FE    | > Random spell: [Escape] or [Nothing] or [Nothing]
 FE             | > End of if statement, reset target and wait
 F1 44          | Set target: Random party member
-F6 00 F5 EB    | Use item: [Panacea] or [Ether]
+F6 00 F5 EB    | Use item: [Remedy] or [Ether]
 F1 36          | Set target: Self
 F0 C2 FE FE    | Random spell: [Escape] or [Nothing] or [Nothing]
 FD             | Wait for next turn, reset target
@@ -2732,7 +2732,7 @@ FF             - End of script
 [script #236]  ; orig idx=236, "Jam", offset 0x5F6D59, special: Inflict Condemned
 FC 08 36 0B    | If... Self has status Mute; targets them
 F1 36          | > Set target: Self
-F6 00 FB FB    | > Use item: [Echo Screen]
+F6 00 F8 F8    | > Use item: [Antidote]
 FE             | > End of if statement, reset target and wait
 F0 27 05 27    | Random spell: [Silence] or [Sleep] or [Silence]
 FD             | Wait for next turn, reset target
