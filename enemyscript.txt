@@ -4584,7 +4584,7 @@ FC 05 00 00    | If... HP is decreased
 F0 EF FE EF    | > Random spell: [Special: Zombie Breath] or [Nothing] or [Special: Zombie Breath]
 FF             - End of script
 
-[script #292]  ; orig idx=292, "Sam Soul", offset 0x5F872A, special: Instant Death
+[script #292]  ; orig idx=292, "Sam.Soul", offset 0x5F872A, special: Instant Death
 FC 15 24 00    | If... Variable $036 has unset bit 0x01
 FC 16 28 00    | > If... Global timer above 40
 FA 0C 01 00    | >> Use Animation 

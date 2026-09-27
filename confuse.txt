@@ -294,7 +294,7 @@ Chadarnk: Fight, Special
    Sandy: Fight, Special
 Wrexsoul: Fight, Special
 Revenant: Fight, Special
-Sam Soul: Fight, Special, Tachi: Dragon, Tachi: Snow
+Sam.Soul: Fight, Special, Tachi: Dragon, Tachi: Snow
 RicardMg: Fight, Blizzara, Comet, Reflect
 GrtDemon: Fight, Special, Gravity, Drain
    Fiend: Fight, Special
