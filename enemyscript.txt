@@ -2611,7 +2611,7 @@ EE             | Fight
 FF             @ End of action script, begin counter-attack script
 FF             - End of script
 
-[script #226]  ; orig idx=226, "Chs Drgn", offset 0x5F8147, special: Instant Death
+[script #226]  ; orig idx=226, "Chs.Drgn", offset 0x5F8147, special: Instant Death
 D6             | Disaster
 FD             | Wait for next turn, reset target
 F0 FE FE EE    | Random spell: [Nothing] or [Nothing] or [Fight]

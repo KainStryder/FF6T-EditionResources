@@ -228,7 +228,7 @@ Punisher: Fight, Special
   Coeurl: Fight, Special, Thundaga, Blaster
 GrBhmoth: Fight, Special, Flood, Shadow Flare
 Scorpion: Fight, Special
-Chs Drgn: Fight, Special, Disaster, Break
+Chs.Drgn: Fight, Special, Disaster, Break
 Spitfire: Fight, Special, Magitek Laser, Flash
 VctChmra: Fight, 1,000,000 Volts, Aqua Breath, Reverse Polarity
   Wizard: Fight, Fire, Fira, Firaga

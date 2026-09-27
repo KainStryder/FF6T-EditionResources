@@ -1046,12 +1046,12 @@ Formation Pack #174 - Phoenix's Cave (WoR)
    #336 [2x FlameDog]
    #338 [2x Pineappl, 2x Covert]
    #339 [2x Pineappl, Garm]
-   #343 [Covert, Jam, Chs Drgn]
+   #343 [Covert, Jam, Chs.Drgn]
 -----------
 Formation Pack #175 - Phoenix's Cave (WoR)
    #337 [3x Pineappl, FlameDog]
    #340 [2x Jam, 3x RedMarsh]
-   #342 [Garm, 2x RedMarsh, Chs Drgn]
+   #342 [Garm, 2x RedMarsh, Chs.Drgn]
    #341 [Garm, 2x RedMarsh]
 -----------
 Formation Pack #176 - Phoenix's Cave? (WoR)
@@ -1063,8 +1063,8 @@ Formation Pack #176 - Phoenix's Cave? (WoR)
 Formation Pack #177 - Phoenix's Cave? (WoR)
    #340 [2x Jam, 3x RedMarsh]
    #341 [Garm, 2x RedMarsh]
-   #342 [Garm, 2x RedMarsh, Chs Drgn]
-   #343 [Covert, Jam, Chs Drgn]
+   #342 [Garm, 2x RedMarsh, Chs.Drgn]
+   #343 [Covert, Jam, Chs.Drgn]
 -----------
 Formation Pack #178 - Unused
    #0 [SlvrLobo]

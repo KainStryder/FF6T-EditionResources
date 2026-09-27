@@ -224,7 +224,7 @@
 0DF   Coeurl: Stone Breath         [Deal 1x Damage + Inflict Stone] 
 0E0 GrBhmoth: Hay Maker            [Deal 4x Damage] 
 0E1 Scorpion: Death Needle         [Inflict Condemned] 
-0E2 Chs Drgn: Ash Maker            [Instant Death] 
+0E2 Chs.Drgn: Ash Maker            [Instant Death] 
 0E3 Spitfire: Propeller            [Deal 1.5x Damage] 
 0E4 VctChmra: Snake Tail           [Deal 2x Damage] 
 0E5   Wizard: Mad Touch            [Inflict Muddle] 
