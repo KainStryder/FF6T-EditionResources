@@ -725,10 +725,10 @@ Formation Pack #120 - Vector Area (WoB)
    #148 [3x Joker]
 -----------
 Formation Pack #121 - Narshe Mines (WoB) (Guard Training Area)
-   #379 [2x Darksidr]
-   #379 [2x Darksidr]
-   #380 [Darksidr, 2x Spectre]
-   #380 [Darksidr, 2x Spectre]
+   #379 [2x Darkside]
+   #379 [2x Darkside]
+   #380 [Darkside, 2x Spectre]
+   #380 [Darkside, 2x Spectre]
 -----------
 Formation Pack #122 - South Figaro Cave (WoB) (Rescuing Celes)
    #375 [Cartagra, 2x WilloWsp]

@@ -94,7 +94,7 @@
 05D  Alacran: Paralyzing Thorn     [Inflict Stop] 
 05E     Fawn: Elven Dart           [Deal 2x Damage] 
 05F DkBhmoth: Wild Horn            [Deal 2x Damage] 
-060 Darksidr: Suction              [Deal 1x Damage + HP Absorb] 
+060 Darkside: Suction              [Deal 1x Damage + HP Absorb] 
 061  Malboro: Skewer               [Inflict Disease] 
 062 Demiurok: Digestive Fluid      [Apply Slow] 
 063 PoisnLch: Brain Drain          [100% Deal 1x Damage + Inflict Berserk] 

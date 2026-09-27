@@ -98,7 +98,7 @@ DsrtSacr: Fight, Special
  Alacran: Fight, Special
     Fawn: Fight, Special, Whirlwind, Cura
 DkBhmoth: Fight, Special, Shadow Flare, Mighty Guard
-Darksidr: Fight, Special, Thunder
+Darkside: Fight, Special, Thunder
  Malboro: Fight, Special, Bad Breath
 Demiurok: Fight, Special, Magnitude 8
 PoisnLch: Fight, Special, Poison

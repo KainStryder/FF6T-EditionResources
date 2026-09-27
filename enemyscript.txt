@@ -1169,7 +1169,7 @@ FE             | > End of if statement, reset target and wait
 FE             | End of if statement, reset target and wait
 FF             - End of script
 
-[script #96]   ; orig idx=96, "Darksidr", offset 0x5F6147, special: Deal 1x Damage + HP Absorb
+[script #96]   ; orig idx=96, "Darkside", offset 0x5F6147, special: Deal 1x Damage + HP Absorb
 F0 EE EE FE    | Random spell: [Fight] or [Fight] or [Nothing]
 FD             | Wait for next turn, reset target
 F0 EF EE EF    | Random spell: [Special: Suction] or [Fight] or [Special: Suction]
