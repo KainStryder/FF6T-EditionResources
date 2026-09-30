@@ -262,7 +262,7 @@ Tonberis: Fight, Special, Everyone's Grudge
 AnglrWhk: Fight, Special
 MegaArmr: Fight, Special, Magitek Laser
 DthWardn: Fight, Special
-DigArmor: Fight, Special
+TunlArmr: Fight, Special
 Promeths: Fight, Special, Southern Cross, Northern Cross
 PhntmTrn: Fight, Special
 KTonbery: Fight, Special
