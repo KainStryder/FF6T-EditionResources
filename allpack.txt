@@ -1522,7 +1522,7 @@ Formation Pack #253 - Matoya's Cave (WoR)
    #653 [U.Cherub, Coeurl, RuneClaw]
    #655 [2x SkullEtr]
 -----------
-Formation Pack #254 - Lost Road (WoR) - Alexandrr's Room/Previous Area
+Formation Pack #254 - Lost Road (WoR) - Alexandr's Room/Previous Area
    #448 [2x Alv, IrnGiant]
    #463 [Alv, IrnGiant]
    #731 [Lunatys, Alv, Apocryph]

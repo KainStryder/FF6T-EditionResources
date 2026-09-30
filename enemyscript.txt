@@ -5793,7 +5793,7 @@ FF             @ End of action script, begin counter-attack script
 FC 12 01 00    | If... Monsters <0> are dead
 FA 09 01 34    | > Use Animation 
 FA 0C 01 00    | > Use Animation 
-F3 C0 00       | > Display message 192: The ice surrounding Vlgrmndaanda begins to melt!
+F3 C0 00       | > Display message 192: The ice surrounding Valigarmanda begins to melt!
 F5 0B 03 00    | > Adjust enemies: Monsters <Self> => Hide, refill MP
 F2 00 BE 82    | > Formation change to 702
 F5 08 00 01    | > Adjust enemies: Monsters <0> => Unhide, refill HP
@@ -9945,7 +9945,7 @@ F0 6F 6F EE    | Random spell: [El Nino] or [El Nino] or [Fight]
 FD             | Wait for next turn, reset target
 21             | Slowga
 1A             | Stop
-F3 C9 00       | Display message 201: Leviathnn begins gathering water!
+F3 C9 00       | Display message 201: Leviathan begins gathering water!
 FD             | Wait for next turn, reset target
 3D             | Tidal Wave
 FC 06 36 DA    | If... Self HP is below 27904 [66%]; targets them
