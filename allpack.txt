@@ -53,10 +53,10 @@ Formation Pack #8 - Doma Castle (WoB) Grassland/Prairie
    #51 [3x NetlHopr]
 -----------
 Formation Pack #9 - Kohlingen (WoB) Grassland/Prairie
-   #94 [2x Bld Fang]
-   #97 [2x Bld Fang, 2x Rudra]
+   #94 [2x Bld.Fang]
+   #97 [2x Bld.Fang, 2x Rudra]
    #99 [2x MtrDrive]
-   #97 [2x Bld Fang, 2x Rudra]
+   #97 [2x Bld.Fang, 2x Rudra]
 -----------
 Formation Pack #10 - Jidoor (WoB) Grassland/Prairie
    #100 [2x Rudra, MtrDrive]
@@ -77,9 +77,9 @@ Formation Pack #12 - Kohlingen (WoB) Desert
    #93 [DrgnFosl]
 -----------
 Formation Pack #13 - Kohlingen (WoB) Grassland/Prairie
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #433 [Titania, Alchymia, Traveler] - Seems dummied
 -----------
 Formation Pack #14 - Vector (WoB) Grassland/Prairie
@@ -180,9 +180,9 @@ Formation Pack #29 - Solitary Island (WoR)
 -----------
 Formation Pack #30 - Solitary Island (WoR) Desert
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
 -----------
 Formation Pack #31 - Albrook (WoR) Grassland/Prairie
    #197 [2x Fafnir]
@@ -216,9 +216,9 @@ Formation Pack #35 - Albrook (WoR) Forest
 -----------
 Formation Pack #36 - Albrook (WoR) Desert
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
 -----------
 Formation Pack #37 - Serpent Trench (WoR) Grassland/Prairie/Forest
    #216 [2x VampThrn]
@@ -239,10 +239,10 @@ Formation Pack #39 - Serpent Trench (WoR) Wasteland
    #215 [2x VampThrn, Lizard]
 -----------
 Formation Pack #40 - Serpent Trench (WoR) Desert
-   #195 [Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #195 [Blk.Drgn]
 -----------
 Formation Pack #41 - Figaro Castle (WoR) Grassland/Prairie
    #134 [3x DsrtRbbt]

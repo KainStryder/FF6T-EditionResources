@@ -1,9 +1,9 @@
 Map Zone WoB 1x1 Dragon Neck Coliseum
 * Grassland Formation Pack #9 ('Kohlingen (WoB) Grassland/Prairie')
-   #94 [2x Bld Fang]
-   #97 [2x Bld Fang, 2x Rudra]
+   #94 [2x Bld.Fang]
+   #97 [2x Bld.Fang, 2x Rudra]
    #99 [2x MtrDrive]
-   #97 [2x Bld Fang, 2x Rudra]
+   #97 [2x Bld.Fang, 2x Rudra]
 * Forest Formation Pack #11 ('Kohlingen (WoB) Forest')
    #95 [3x Rudra, MtrDrive]
    #96 [2x BrnCandy, 2x MtrDrive]
@@ -15,17 +15,17 @@ Map Zone WoB 1x1 Dragon Neck Coliseum
    #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 1x2 Dragon Neck Coliseum
 * Grassland Formation Pack #9 ('Kohlingen (WoB) Grassland/Prairie')
-   #94 [2x Bld Fang]
-   #97 [2x Bld Fang, 2x Rudra]
+   #94 [2x Bld.Fang]
+   #97 [2x Bld.Fang, 2x Rudra]
    #99 [2x MtrDrive]
-   #97 [2x Bld Fang, 2x Rudra]
+   #97 [2x Bld.Fang, 2x Rudra]
 * Forest Formation Pack #11 ('Kohlingen (WoB) Forest')
    #95 [3x Rudra, MtrDrive]
    #96 [2x BrnCandy, 2x MtrDrive]
@@ -37,9 +37,9 @@ Map Zone WoB 1x2 Dragon Neck Coliseum
    #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 1x3 Narshe North
@@ -176,10 +176,10 @@ Map Zone WoB 1x8 Ocean
 -----------
 Map Zone WoB 2x1 Kohlingen
 * Grassland Formation Pack #9 ('Kohlingen (WoB) Grassland/Prairie')
-   #94 [2x Bld Fang]
-   #97 [2x Bld Fang, 2x Rudra]
+   #94 [2x Bld.Fang]
+   #97 [2x Bld.Fang, 2x Rudra]
    #99 [2x MtrDrive]
-   #97 [2x Bld Fang, 2x Rudra]
+   #97 [2x Bld.Fang, 2x Rudra]
 * Forest Formation Pack #11 ('Kohlingen (WoB) Forest')
    #95 [3x Rudra, MtrDrive]
    #96 [2x BrnCandy, 2x MtrDrive]
@@ -191,17 +191,17 @@ Map Zone WoB 2x1 Kohlingen
    #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 2x2 Kohlingen West
 * Grassland Formation Pack #9 ('Kohlingen (WoB) Grassland/Prairie')
-   #94 [2x Bld Fang]
-   #97 [2x Bld Fang, 2x Rudra]
+   #94 [2x Bld.Fang]
+   #97 [2x Bld.Fang, 2x Rudra]
    #99 [2x MtrDrive]
-   #97 [2x Bld Fang, 2x Rudra]
+   #97 [2x Bld.Fang, 2x Rudra]
 * Forest Formation Pack #11 ('Kohlingen (WoB) Forest')
    #95 [3x Rudra, MtrDrive]
    #96 [2x BrnCandy, 2x MtrDrive]
@@ -213,9 +213,9 @@ Map Zone WoB 2x2 Kohlingen West
    #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 2x3 Narshe South
@@ -367,9 +367,9 @@ Map Zone WoB 3x1 Zozo
    #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 3x2 Figaro Castle West
@@ -543,9 +543,9 @@ Map Zone WoB 4x1 Jidoor Northwest
    #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 4x2 Jidoor North
@@ -565,9 +565,9 @@ Map Zone WoB 4x2 Jidoor North
    #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 4x3 South Figaro
@@ -719,9 +719,9 @@ Map Zone WoB 5x1 Jidoor
    #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 5x2 Opera House
@@ -741,9 +741,9 @@ Map Zone WoB 5x2 Opera House
    #12 [2x Alacran, DsrtSacr]
    #93 [DrgnFosl]
 * Wasteland Formation Pack #13 ('Kohlingen (WoB)')
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #101 [4x BrnCandy]
-   #94 [2x Bld Fang]
+   #94 [2x Bld.Fang]
    #433 [Titania, Alchymia, Traveler]
 -----------
 Map Zone WoB 5x3 Ocean
@@ -1858,10 +1858,10 @@ Map Zone WoR 3x5 Nikeah
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #39 ('Serpent Trench (WoR) Wasteland')
    #219 [2x PrplBvrs, Gatling, Lizard]
    #218 [2x VampThrn, Gatling]
@@ -2034,10 +2034,10 @@ Map Zone WoR 4x5 Serpent Trench
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #39 ('Serpent Trench (WoR) Wasteland')
    #219 [2x PrplBvrs, Gatling, Lizard]
    #218 [2x VampThrn, Gatling]
@@ -2056,10 +2056,10 @@ Map Zone WoR 4x6 Serpent Trench
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #39 ('Serpent Trench (WoR) Wasteland')
    #219 [2x PrplBvrs, Gatling, Lizard]
    #218 [2x VampThrn, Gatling]
@@ -2189,9 +2189,9 @@ Map Zone WoR 5x4 Phoenix's Cave
    #189 [Malboro]
 * Desert Formation Pack #36 ('Albrook (WoR) Desert')
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #33 ('Albrook West (WoR) Wasteland')
    #203 [2x LunarWlf, DiveEagl]
    #201 [2x PoisnLch, 2x Gigntoad]
@@ -2210,10 +2210,10 @@ Map Zone WoR 5x5 Serpent Trench
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #38 ('Serpent Trench (WoR) Wasteland')
    #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
@@ -2232,10 +2232,10 @@ Map Zone WoR 5x6 Serpent Trench
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #38 ('Serpent Trench (WoR) Wasteland')
    #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
@@ -2276,10 +2276,10 @@ Map Zone WoR 5x8 Mobliz
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #38 ('Serpent Trench (WoR) Wasteland')
    #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
@@ -2365,9 +2365,9 @@ Map Zone WoR 6x4 Tzen West
    #189 [Malboro]
 * Desert Formation Pack #36 ('Albrook (WoR) Desert')
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #33 ('Albrook West (WoR) Wasteland')
    #203 [2x LunarWlf, DiveEagl]
    #201 [2x PoisnLch, 2x Gigntoad]
@@ -2387,9 +2387,9 @@ Map Zone WoR 6x5 Tzen
    #189 [Malboro]
 * Desert Formation Pack #36 ('Albrook (WoR) Desert')
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #34 ('Albrook (WoR) Wasteland')
    #202 [2x DiveEagl, LunarWlf]
    #204 [3x PoisnLch, DiveEagl]
@@ -2408,10 +2408,10 @@ Map Zone WoR 6x6 Serpent Trench
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #38 ('Serpent Trench (WoR) Wasteland')
    #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
@@ -2430,10 +2430,10 @@ Map Zone WoR 6x7 Serpent Trench
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #38 ('Serpent Trench (WoR) Wasteland')
    #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
@@ -2452,10 +2452,10 @@ Map Zone WoR 6x8 Serpent Trench
    #217 [VampThrn, 2x Alraune]
    #217 [VampThrn, 2x Alraune]
 * Desert Formation Pack #40 ('Serpent Trench (WoR) Desert')
-   #195 [Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #133 [SandFish, Blk Drgn]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #133 [SandFish, Blk.Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #38 ('Serpent Trench (WoR) Wasteland')
    #214 [2x PrplBvrs, Gatling]
    #217 [VampThrn, 2x Alraune]
@@ -2541,9 +2541,9 @@ Map Zone WoR 7x4 Albrook West
    #189 [Malboro]
 * Desert Formation Pack #36 ('Albrook (WoR) Desert')
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #33 ('Albrook West (WoR) Wasteland')
    #203 [2x LunarWlf, DiveEagl]
    #201 [2x PoisnLch, 2x Gigntoad]
@@ -2563,9 +2563,9 @@ Map Zone WoR 7x5 Albrook
    #189 [Malboro]
 * Desert Formation Pack #36 ('Albrook (WoR) Desert')
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #34 ('Albrook (WoR) Wasteland')
    #202 [2x DiveEagl, LunarWlf]
    #204 [3x PoisnLch, DiveEagl]
@@ -2695,9 +2695,9 @@ Map Zone WoR 8x3 Solitary Island
    #194 [2x Peeper, ErthGurd]
 * Desert Formation Pack #30 ('Solitary Island Desert')
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #29 ('Solitary Island')
    #192 [2x Peeper]
    #194 [2x Peeper, ErthGurd]
@@ -2739,9 +2739,9 @@ Map Zone WoR 8x5 Albrook South Islands
    #189 [Malboro]
 * Desert Formation Pack #36 ('Albrook (WoR) Desert')
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
    #194 [2x Peeper, ErthGurd]
-   #195 [Blk Drgn]
+   #195 [Blk.Drgn]
 * Wasteland Formation Pack #34 ('Albrook (WoR) Wasteland')
    #202 [2x DiveEagl, LunarWlf]
    #204 [3x PoisnLch, DiveEagl]

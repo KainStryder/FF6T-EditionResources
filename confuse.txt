@@ -122,7 +122,7 @@ VctrHond: Fight, Special
 Dstroidr: Fight, Special, Break
 Chprabbt: Fight, Special
 Wild Cat: Fight, Special
-Bld Fang: Fight, Special
+Bld.Fang: Fight, Special
 HntHound: Fight, Special
  Gorgias: Fight, Special
      Don: Fight, Special
@@ -215,7 +215,7 @@ LndGriln: Fight, Special
 GtMantis: Fight, Special, Wind Slash
    Bogey: Fight, Special
   Purusa: Fight, Special, Cave-In
-Blk Drgn: Fight, Sandstorm, Ghost
+Blk.Drgn: Fight, Sandstorm, Ghost
 Lmnscnce: Fight, Special, Meerkat
    Dante: Fight, Special, Level 4 Hold, Absolute Zero
 PlatDrgn: Fight, Special, Whirlwind
@@ -352,7 +352,7 @@ Long Arm: Fight, Special
  Machine: Fight, Special
    Magic: Fight, Special
    Power: Fight, Special
-   Mario: Fight, Special
+   Maria: Fight, Special
     Rest: Fight, Special
   Erebus: Fight, Special
      Nyx: Fight, Special

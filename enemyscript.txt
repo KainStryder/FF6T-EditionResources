@@ -1430,7 +1430,7 @@ F0 EE EE EF    | Random spell: [Fight] or [Fight] or [Special: Kitty Punch]
 FF             @ End of action script, begin counter-attack script
 FF             - End of script
 
-[script #120]  ; orig idx=120, "Bld Fang", offset 0x5F633A, special: Inflict Poison
+[script #120]  ; orig idx=120, "Bld.Fang", offset 0x5F633A, special: Inflict Poison
 FC 13 01 01    | If... Number of living monsters is 1 or less
 F0 EF EE EE    | > Random spell: [Special: Rabies] or [Fight] or [Fight]
 FE             | > End of if statement, reset target and wait
@@ -2464,7 +2464,7 @@ F0 EE EF EF    | Random spell: [Fight] or [Special: Bear Hug] or [Special: Bear 
 FF             @ End of action script, begin counter-attack script
 FF             - End of script
 
-[script #213]  ; orig idx=213, "Blk Drgn", offset 0x5F6B3E, special: Inflict Zombie
+[script #213]  ; orig idx=213, "Blk.Drgn", offset 0x5F6B3E, special: Inflict Zombie
 F0 EE EE 69    | Random spell: [Fight] or [Fight] or [Sandstorm]
 FD             | Wait for next turn, reset target
 F0 EE EF 69    | Random spell: [Fight] or [Special: Bone Powder] or [Sandstorm]
