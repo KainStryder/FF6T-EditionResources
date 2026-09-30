@@ -138,7 +138,7 @@ Old Drgn: Fight, Special, Firaga, Meteo
 Weredrgn: Fight, Special, Death
 Deathclw: Fight, Special, Death
 Sprinter: Fight, Special, Whirlwind
-LmaQueen: Fight, Special, 1000 Needles, Love Token
+B. Lamia: Fight, Special, 1000 Needles, Love Token
      Imp: Fight, Special, Aeroga
 Mandrake: Fight, Special, Bio, Bad Breath
  Dropper: Fight, Special, Confuse
